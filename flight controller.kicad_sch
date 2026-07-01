@@ -5733,7 +5733,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.12) (xy 189.23 71.12)
+			(xy 181.61 71.12) (xy 199.39 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5800,16 +5800,6 @@
 			(type default)
 		)
 		(uuid "7310c8e8-d5d2-4ccc-bb72-73450eebb651")
-	)
-	(wire
-		(pts
-			(xy 196.85 71.12) (xy 199.39 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76079f97-b51b-4c99-b0cd-407da41cfc6f")
 	)
 	(wire
 		(pts
@@ -8992,85 +8982,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "916dbfcf-9b5a-4570-9de1-4229ccdab6db")
-		(property "Reference" "R5"
-			(at 193.294 68.834 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 193.294 73.914 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 69.342 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60c09db6-9bf3-460a-8481-18dbe57c5f30")
-		)
-		(pin "2"
-			(uuid "6b49bc05-d3c2-4601-805a-96eb38c5fcbe")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "R5")
 					(unit 1)
 				)
 			)
