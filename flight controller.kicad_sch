@@ -8261,7 +8261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 116.84 0)
+		(at 203.2 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8270,9 +8270,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50a3a239-d111-4e06-8ddb-0786c34b622c")
-		(property "Reference" "#PWR024"
-			(at 208.28 123.19 0)
+		(uuid "4f0b3809-9731-4765-9c5a-e6f86e0e4fa4")
+		(property "Reference" "#PWR025"
+			(at 203.2 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,7 +8283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 121.92 0)
+			(at 203.2 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8293,7 +8293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 116.84 0)
+			(at 203.2 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8304,7 +8304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 116.84 0)
+			(at 203.2 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8315,7 +8315,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 116.84 0)
+			(at 203.2 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2299d4d8-d28f-4d45-bc5a-177f1abea2ba")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50a3a239-d111-4e06-8ddb-0786c34b622c")
+		(property "Reference" "#PWR024"
+			(at 207.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
