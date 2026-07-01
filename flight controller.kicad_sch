@@ -6760,6 +6760,16 @@
 		)
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
 	)
+	(label "i2c2 scl"
+		(at 175.26 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "929b5863-900c-436a-a063-7565c5787984")
+	)
 	(label "i2c1sda"
 		(at 175.26 111.76 0)
 		(effects
