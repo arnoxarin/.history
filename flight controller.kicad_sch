@@ -4985,7 +4985,7 @@
 		(dnp no)
 		(uuid "5ee6c1d7-082f-4d5a-be5a-94c8b4e08ebd")
 		(property "Reference" "C8"
-			(at 182.88 27.9399 0)
+			(at 180.086 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4996,7 +4996,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 182.88 30.4799 0)
+			(at 180.086 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
