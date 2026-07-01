@@ -5643,7 +5643,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 83.82 0)
+		(at 107.95 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5654,7 +5654,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cec23f3-cf22-464d-9251-d88573b3ef20")
 		(property "Reference" "C11"
-			(at 88.9 82.5499 0)
+			(at 111.76 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5665,7 +5665,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 88.9 85.0899 0)
+			(at 111.76 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5676,7 +5676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.0552 87.63 0)
+			(at 108.9152 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 83.82 0)
+			(at 107.95 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +5698,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 83.82 0)
+			(at 107.95 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6515,7 +6515,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 73.66 83.82 0)
+		(at 96.52 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6526,7 +6526,7 @@
 		(fields_autoplaced yes)
 		(uuid "c49f21cc-8f11-4675-9a15-8d04b22b4b39")
 		(property "Reference" "C10"
-			(at 77.47 82.5499 0)
+			(at 100.33 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6537,7 +6537,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 77.47 85.0899 0)
+			(at 100.33 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6548,7 +6548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.6252 87.63 0)
+			(at 97.4852 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6559,7 +6559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 83.82 0)
+			(at 96.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6570,7 +6570,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 73.66 83.82 0)
+			(at 96.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
