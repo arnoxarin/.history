@@ -5092,7 +5092,7 @@
 		(uuid "585d5a97-5814-43bc-9ec0-158b206a33e0")
 	)
 	(junction
-		(at 208.28 110.49)
+		(at 208.28 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cae1513-6f1d-4c4f-a2a7-a91c04c2d01e")
@@ -5171,7 +5171,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 114.3) (xy 208.28 110.49)
+			(xy 208.28 74.93) (xy 208.28 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5241,7 +5241,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 110.49) (xy 210.82 110.49)
+			(xy 208.28 71.12) (xy 210.82 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5291,7 +5291,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 111.76) (xy 205.74 110.49)
+			(xy 205.74 72.39) (xy 205.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5361,7 +5361,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 114.3) (xy 223.52 114.3)
+			(xy 218.44 74.93) (xy 223.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5511,7 +5511,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 114.3) (xy 223.52 113.03)
+			(xy 223.52 74.93) (xy 223.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5611,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 114.3) (xy 208.28 114.3)
+			(xy 210.82 74.93) (xy 208.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5811,7 +5811,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 110.49) (xy 223.52 110.49)
+			(xy 218.44 71.12) (xy 223.52 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5871,7 +5871,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 110.49) (xy 208.28 110.49)
+			(xy 205.74 71.12) (xy 208.28 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6151,7 +6151,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 110.49 270)
+		(at 214.63 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6162,7 +6162,7 @@
 		(fields_autoplaced yes)
 		(uuid "16052180-8cfa-4c29-b4a3-3469caa6d6c2")
 		(property "Reference" "R2"
-			(at 214.63 104.14 90)
+			(at 214.63 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6172,7 +6172,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 214.63 106.68 90)
+			(at 214.63 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6182,7 +6182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 108.712 90)
+			(at 214.63 69.342 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 110.49 0)
+			(at 214.63 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6204,7 +6204,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 110.49 0)
+			(at 214.63 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8392,7 +8392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 111.76 0)
+		(at 205.74 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8403,7 +8403,7 @@
 		(fields_autoplaced yes)
 		(uuid "92823a9c-fa55-4f32-9e4a-65b43ec04731")
 		(property "Reference" "#PWR017"
-			(at 205.74 118.11 0)
+			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +8414,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 116.84 0)
+			(at 205.74 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8424,7 +8424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 111.76 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8435,7 +8435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 111.76 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8446,7 +8446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 111.76 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8866,7 +8866,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 114.3 90)
+		(at 214.63 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8877,7 +8877,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7ae436d-7a7e-4c6d-b12d-2eb653bd789b")
 		(property "Reference" "R3"
-			(at 214.63 107.95 90)
+			(at 214.63 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8887,7 +8887,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 214.63 110.49 90)
+			(at 214.63 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8897,7 +8897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 116.078 90)
+			(at 214.63 76.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8908,7 +8908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 114.3 0)
+			(at 214.63 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8919,7 +8919,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 114.3 0)
+			(at 214.63 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9342,7 +9342,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 238.76 120.65 0)
+		(at 238.76 81.28 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9353,7 +9353,7 @@
 		(dnp no)
 		(uuid "cae331ed-4fc6-4560-8cae-55e2a85a7d72")
 		(property "Reference" "J1"
-			(at 238.76 97.79 0)
+			(at 238.76 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9363,7 +9363,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 238.76 100.33 0)
+			(at 238.76 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9373,7 +9373,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
-			(at 234.95 120.65 0)
+			(at 234.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9384,7 +9384,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 234.95 120.65 0)
+			(at 234.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9395,7 +9395,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 238.76 120.65 0)
+			(at 238.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
