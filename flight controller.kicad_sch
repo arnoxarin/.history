@@ -10407,10 +10407,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "849fcf9f-7c67-4935-b1c3-2f72a43c3e39")
 		(property "Reference" "R7"
-			(at 173.99 116.8399 0)
+			(at 173.228 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10421,7 +10420,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 173.99 119.3799 0)
+			(at 172.974 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
