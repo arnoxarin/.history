@@ -5479,6 +5479,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d740824-16ea-48ff-869f-8034859b1e4f")
+	)
+	(wire
+		(pts
 			(xy 85.09 45.72) (xy 80.01 45.72)
 		)
 		(stroke
@@ -6408,7 +6418,7 @@
 		(uuid "5977dafa-a42f-4083-af0b-1473839dbddb")
 	)
 	(label "swdclk"
-		(at 166.37 81.28 0)
+		(at 176.53 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
