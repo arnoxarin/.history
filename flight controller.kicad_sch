@@ -4947,7 +4947,7 @@
 		(dnp no)
 		(uuid "1713f670-69f1-4b0b-ae1e-854c15081f44")
 		(property "Reference" "R1"
-			(at 88.138 58.928 90)
+			(at 87.884 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
