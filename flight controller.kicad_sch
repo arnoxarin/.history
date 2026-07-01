@@ -6751,7 +6751,7 @@
 		(uuid "5977dafa-a42f-4083-af0b-1473839dbddb")
 	)
 	(label "i2c2 sda"
-		(at 175.26 118.11 0)
+		(at 173.99 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6771,7 +6771,7 @@
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
 	)
 	(label "i2c2 scl"
-		(at 175.26 115.57 0)
+		(at 173.99 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6781,7 +6781,7 @@
 		(uuid "929b5863-900c-436a-a063-7565c5787984")
 	)
 	(label "i2c1sda"
-		(at 175.26 111.76 0)
+		(at 173.99 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
