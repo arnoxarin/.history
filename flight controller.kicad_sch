@@ -4161,7 +4161,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 152.4) (xy 107.95 152.4)
+			(xy 108.9025 147.6375) (xy 108.9025 159.0675)
 		)
 		(stroke
 			(width 0)
@@ -4241,7 +4241,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 160.02) (xy 107.95 160.02)
+			(xy 101.2825 147.6375) (xy 101.2825 159.0675)
 		)
 		(stroke
 			(width 0)
@@ -5663,7 +5663,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 156.21 0)
+		(at 105.0925 159.0675 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5674,7 +5674,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cec23f3-cf22-464d-9251-d88573b3ef20")
 		(property "Reference" "C11"
-			(at 111.76 154.9399 0)
+			(at 106.3626 162.8775 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5685,7 +5685,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 111.76 157.4799 0)
+			(at 103.8226 162.8775 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5696,7 +5696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.9152 160.02 0)
+			(at 101.2825 160.0327 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,7 +5707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 156.21 0)
+			(at 105.0925 159.0675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +5718,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 156.21 0)
+			(at 105.0925 159.0675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +6535,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 156.21 0)
+		(at 105.0925 147.6375 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6546,7 +6546,7 @@
 		(fields_autoplaced yes)
 		(uuid "c49f21cc-8f11-4675-9a15-8d04b22b4b39")
 		(property "Reference" "C10"
-			(at 100.33 154.9399 0)
+			(at 106.3626 151.4475 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6557,7 +6557,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 100.33 157.4799 0)
+			(at 103.8226 151.4475 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6568,7 +6568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.4852 160.02 0)
+			(at 101.2825 148.6027 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 156.21 0)
+			(at 105.0925 147.6375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +6590,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 156.21 0)
+			(at 105.0925 147.6375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
