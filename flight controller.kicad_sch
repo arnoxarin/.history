@@ -5258,12 +5258,6 @@
 		(uuid "585d5a97-5814-43bc-9ec0-158b206a33e0")
 	)
 	(junction
-		(at 220.98 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bdce15e-4434-40d2-962c-3b257808353b")
-	)
-	(junction
 		(at 205.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5304,12 +5298,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2e25497-2357-47c9-9337-3ddde6dc62b4")
-	)
-	(junction
-		(at 220.98 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a40582d3-95dc-492e-aa6c-70d6eaa275e7")
 	)
 	(junction
 		(at 135.89 31.75)
@@ -5735,16 +5723,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 71.12) (xy 181.61 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "694bd1fa-70b5-4b8e-9728-24e620a3774d")
-	)
-	(wire
-		(pts
 			(xy 67.31 35.56) (xy 67.31 38.1)
 		)
 		(stroke
@@ -5802,16 +5780,6 @@
 			(type default)
 		)
 		(uuid "80a7fc11-4c44-46cc-848e-0da42581f4e0")
-	)
-	(wire
-		(pts
-			(xy 220.98 66.04) (xy 173.99 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81aadfa9-dfed-4e5a-b8ee-558ebd5e39b3")
 	)
 	(wire
 		(pts
@@ -8950,7 +8918,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 192.024 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
