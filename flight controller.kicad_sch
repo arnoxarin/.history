@@ -3888,7 +3888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 67.31 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 77.47 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
