@@ -5353,6 +5353,14 @@
 		(color 0 0 0 0)
 		(uuid "fb09d2aa-a508-42cc-8af4-dc1c6bb49564")
 	)
+	(no_connect
+		(at 220.98 53.34)
+		(uuid "0df582b9-1cf7-4a96-8272-0c71e8845d0f")
+	)
+	(no_connect
+		(at 220.98 55.88)
+		(uuid "729a29ba-63aa-430a-b557-371020cf32a6")
+	)
 	(wire
 		(pts
 			(xy 220.98 78.74) (xy 215.9 78.74)
