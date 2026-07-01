@@ -5378,7 +5378,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "16"
 			(at 105.41 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
