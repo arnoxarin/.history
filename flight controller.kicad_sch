@@ -6750,6 +6750,16 @@
 		)
 		(uuid "5977dafa-a42f-4083-af0b-1473839dbddb")
 	)
+	(label "i2c2 sda"
+		(at 175.26 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c39d0a0-2740-4924-a1f8-982e672fd095")
+	)
 	(label "swdclk"
 		(at 176.53 81.28 0)
 		(effects
