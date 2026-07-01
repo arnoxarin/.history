@@ -6273,6 +6273,16 @@
 		)
 		(uuid "fc1bcfd2-27c6-4916-8e42-212ddbfb2fe4")
 	)
+	(label "3.3v to mcu"
+		(at 213.36 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f26be86-86e5-4eda-9a0d-a188392a3036")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 144.78 180.34 0)
