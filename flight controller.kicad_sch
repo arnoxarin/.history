@@ -5449,6 +5449,12 @@
 		(uuid "0b3e5f91-c81e-4997-86ee-07a3d81b1a88")
 	)
 	(junction
+		(at 171.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "182857b6-d2b5-4865-ac38-9b2c1b857e79")
+	)
+	(junction
 		(at 114.3 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5581,6 +5587,18 @@
 		(uuid "af2d7e36-8d96-4559-8c84-3403875ebf30")
 	)
 	(junction
+		(at 177.8 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1f14842-e29a-480f-923f-bb912b84c37b")
+	)
+	(junction
+		(at 179.07 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5ba5633-8811-4ee7-906b-2f585b8d5f8c")
+	)
+	(junction
 		(at 97.79 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5658,7 +5676,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 111.76) (xy 184.15 111.76)
+			(xy 166.37 111.76) (xy 179.07 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5715,6 +5733,16 @@
 			(type default)
 		)
 		(uuid "0e650e6f-1994-4b4f-8be1-96d3235fc4b5")
+	)
+	(wire
+		(pts
+			(xy 171.45 114.3) (xy 187.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc0405b-daa8-4eee-be45-1628501b65d3")
 	)
 	(wire
 		(pts
@@ -6068,6 +6096,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 116.84) (xy 185.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57447381-c720-416d-99ab-4255c26006c3")
+	)
+	(wire
+		(pts
 			(xy 196.85 33.02) (xy 196.85 35.56)
 		)
 		(stroke
@@ -6348,7 +6386,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 116.84) (xy 185.42 116.84)
+			(xy 166.37 116.84) (xy 177.8 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6608,7 +6646,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 114.3) (xy 187.96 114.3)
+			(xy 166.37 114.3) (xy 171.45 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6825,6 +6863,16 @@
 			(type default)
 		)
 		(uuid "e97ce89f-2594-41a2-9e5a-9c04991de86a")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cdf16d-ac2e-49dd-bf54-a775a3876b02")
 	)
 	(wire
 		(pts
@@ -8613,7 +8661,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 107.95 0)
+		(at 179.07 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8624,7 +8672,7 @@
 		(fields_autoplaced yes)
 		(uuid "53e0de43-0608-4865-b90b-d52d104f512e")
 		(property "Reference" "R6"
-			(at 182.88 106.6799 0)
+			(at 181.61 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8635,7 +8683,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 182.88 109.2199 0)
+			(at 181.61 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8646,7 +8694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.562 107.95 90)
+			(at 177.292 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8657,7 +8705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 107.95 0)
+			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8668,7 +8716,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 107.95 0)
+			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9569,6 +9617,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 177.8 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6900cd1a-b71e-4caf-86b6-6b7b5cae14cf")
+		(property "Reference" "R8"
+			(at 180.34 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 180.34 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.022 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1eda58f-9ce6-4dfc-a8a6-62909a9bfeb1")
+		)
+		(pin "1"
+			(uuid "9666fba4-97c1-40e6-bfd0-9baacf7d92b2")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 193.04 60.96 180)
 		(unit 1)
 		(body_style 1)
@@ -10113,6 +10243,88 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "849fcf9f-7c67-4935-b1c3-2f72a43c3e39")
+		(property "Reference" "R7"
+			(at 173.99 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 173.99 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.672 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f5031c89-42c4-427b-85f0-72f912cc30cd")
+		)
+		(pin "1"
+			(uuid "69dd016b-13ad-4e68-989d-0a2ec99bf09c")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "R7")
 					(unit 1)
 				)
 			)
