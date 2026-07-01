@@ -6397,6 +6397,16 @@
 		)
 		(uuid "5977dafa-a42f-4083-af0b-1473839dbddb")
 	)
+	(label "swdclk"
+		(at 167.64 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 144.78 180.34 0)
