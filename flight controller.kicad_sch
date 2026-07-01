@@ -8831,7 +8831,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 181.61 109.2199 0)
+			(at 180.848 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
