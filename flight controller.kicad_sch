@@ -4575,7 +4575,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 187.96 29.21 0)
+		(at 187.96 25.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4586,29 +4586,27 @@
 		(fields_autoplaced yes)
 		(uuid "337e676c-8747-4db3-ad41-7abea7d7a428")
 		(property "Reference" "FB1"
-			(at 191.77 27.8891 0)
+			(at 187.9092 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 191.77 30.4291 0)
+			(at 187.9092 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 186.182 29.21 90)
+			(at 187.96 27.178 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 29.21 0)
+			(at 187.96 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +4628,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 187.96 29.21 0)
+			(at 187.96 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
