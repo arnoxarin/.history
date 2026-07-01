@@ -4490,7 +4490,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 60.96) (xy 120.65 60.96)
+			(xy 97.79 60.96) (xy 120.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4700,7 +4700,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 101.6 60.96)
+			(xy 97.79 69.85) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5017,6 +5017,16 @@
 			(type default)
 		)
 		(uuid "d55c974f-46f0-4ccf-848e-5eebbafd5f77")
+	)
+	(wire
+		(pts
+			(xy 97.79 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d564aa1c-d174-4554-aa33-4ba2f8db0445")
 	)
 	(wire
 		(pts
@@ -7689,7 +7699,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 82.55 180)
+		(at 111.76 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7699,7 +7709,7 @@
 		(dnp no)
 		(uuid "b1b528fe-5c33-4e4e-8fab-8894e03144ad")
 		(property "Reference" "C14"
-			(at 109.728 79.502 90)
+			(at 109.728 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7709,7 +7719,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 107.95 82.55 90)
+			(at 107.95 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7719,7 +7729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.7948 78.74 0)
+			(at 110.7948 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7730,7 +7740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 82.55 0)
+			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7741,7 +7751,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 82.55 0)
+			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
