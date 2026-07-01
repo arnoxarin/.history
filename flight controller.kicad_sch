@@ -6398,7 +6398,7 @@
 		(uuid "5977dafa-a42f-4083-af0b-1473839dbddb")
 	)
 	(label "swdclk"
-		(at 167.64 81.28 0)
+		(at 166.37 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
