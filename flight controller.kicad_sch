@@ -8230,7 +8230,7 @@
 		(dnp no)
 		(uuid "690f1993-ffd8-4800-9b4e-62b0cb065fdd")
 		(property "Reference" "R4"
-			(at 196.85 57.15 90)
+			(at 196.596 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8239,7 +8239,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 196.596 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
