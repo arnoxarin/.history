@@ -6810,7 +6810,7 @@
 		)
 		(uuid "0690e999-7f39-4009-a6c4-7d833412e405")
 	)
-	(label "i2c scl"
+	(label "i2c1 scl"
 		(at 173.99 109.22 0)
 		(effects
 			(font
