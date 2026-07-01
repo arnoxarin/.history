@@ -8479,7 +8479,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 93.98 80.01 180)
+		(at 91.44 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8489,7 +8489,7 @@
 		(dnp no)
 		(uuid "f863dc91-1d84-4c78-aa48-621e62f14ad2")
 		(property "Reference" "C13"
-			(at 91.948 76.962 90)
+			(at 89.408 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8499,7 +8499,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 90.17 80.01 90)
+			(at 87.63 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8509,7 +8509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.0148 76.2 0)
+			(at 90.4748 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,7 +8520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 80.01 0)
+			(at 91.44 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8531,7 +8531,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 93.98 80.01 0)
+			(at 91.44 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
