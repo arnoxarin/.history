@@ -8884,7 +8884,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 212.09 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
