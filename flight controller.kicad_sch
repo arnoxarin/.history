@@ -4490,6 +4490,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 60.96) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bd7ac2-1a0b-4e7a-8fd8-f861f8d82947")
+	)
+	(wire
+		(pts
 			(xy 85.09 45.72) (xy 80.01 45.72)
 		)
 		(stroke
@@ -4687,6 +4697,16 @@
 			(type default)
 		)
 		(uuid "6b354059-abf1-4274-9974-a502adf45654")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d397f1-39be-439d-82c5-5c9bf28869cf")
 	)
 	(wire
 		(pts
@@ -5347,7 +5367,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2135b329-ef6e-46ba-9dc4-930024fc2d7d")
 		(property "Reference" "Y1"
 			(at 105.41 60.96 0)
@@ -5360,7 +5379,7 @@
 			)
 		)
 		(property "Value" "Crystal_GND24"
-			(at 105.41 63.5 0)
+			(at 105.41 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
