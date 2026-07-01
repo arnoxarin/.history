@@ -8830,7 +8830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 180.848 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
