@@ -6002,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 102.87) (xy 204.47 105.41)
+			(xy 204.47 100.33) (xy 204.47 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8367,7 +8367,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50a3a239-d111-4e06-8ddb-0786c34b622c")
 		(property "Reference" "#PWR024"
 			(at 207.01 121.92 0)
@@ -8381,7 +8380,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 120.65 0)
+			(at 210.566 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10190,7 +10189,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "978215e9-86d2-45f3-aa11-19c233f17914")
 		(property "Reference" "#PWR023"
 			(at 201.93 124.46 0)
@@ -10204,7 +10202,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 201.93 115.57 0)
+			(at 197.612 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
