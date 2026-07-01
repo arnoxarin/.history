@@ -5325,6 +5325,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 114.3) (xy 223.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b515cf7-c2ed-48ed-99ad-e8e62750223d")
+	)
+	(wire
+		(pts
 			(xy 171.45 33.02) (xy 171.45 35.56)
 		)
 		(stroke
@@ -5462,6 +5472,16 @@
 			(type default)
 		)
 		(uuid "72d397f1-39be-439d-82c5-5c9bf28869cf")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 223.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afa14a4-07f6-44f5-be10-629992caef30")
 	)
 	(wire
 		(pts
@@ -8695,6 +8715,86 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ae436d-7a7e-4c6d-b12d-2eb653bd789b")
+		(property "Reference" "R3"
+			(at 214.63 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 214.63 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66873ba3-edb4-407d-afe0-76ad0de9295c")
+		)
+		(pin "2"
+			(uuid "aee177ed-25cc-4fea-bd59-9dbd201f50e2")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "R3")
 					(unit 1)
 				)
 			)
