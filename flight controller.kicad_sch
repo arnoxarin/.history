@@ -8820,7 +8820,7 @@
 		(dnp no)
 		(uuid "53e0de43-0608-4865-b90b-d52d104f512e")
 		(property "Reference" "R6"
-			(at 180.848 105.156 0)
+			(at 179.832 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12109,10 +12109,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5b08382-5b41-47ed-a458-d9103e4540a6")
 		(property "Reference" "R5"
-			(at 175.26 104.1399 0)
+			(at 168.656 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12123,7 +12122,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 175.26 106.6799 0)
+			(at 174.244 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
