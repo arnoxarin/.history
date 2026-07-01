@@ -4673,7 +4673,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "600R"
 			(at 187.9092 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
