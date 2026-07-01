@@ -6357,6 +6357,16 @@
 		)
 		(uuid "fc1bcfd2-27c6-4916-8e42-212ddbfb2fe4")
 	)
+	(label "usb d+"
+		(at 170.18 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0690e999-7f39-4009-a6c4-7d833412e405")
+	)
 	(label "3.3v to mcu"
 		(at 201.93 87.63 0)
 		(effects
