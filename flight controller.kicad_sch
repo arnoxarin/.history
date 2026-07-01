@@ -6710,6 +6710,16 @@
 		)
 		(uuid "0690e999-7f39-4009-a6c4-7d833412e405")
 	)
+	(label "i2c scl"
+		(at 173.99 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "270a8afa-674b-4fde-9012-089c9774b917")
+	)
 	(label "3.3v to mcu"
 		(at 201.93 87.63 0)
 		(effects
