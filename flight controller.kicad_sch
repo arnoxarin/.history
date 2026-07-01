@@ -4082,12 +4082,6 @@
 		(uuid "84d9dd3d-4eff-44b9-aa96-67b603d4e7e7")
 	)
 	(junction
-		(at 80.01 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95975ec4-4045-4f05-944b-bd8f25491269")
-	)
-	(junction
 		(at 73.66 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4137,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 96.52 55.88)
+			(xy 91.44 57.15) (xy 92.71 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4224,6 +4218,16 @@
 			(type default)
 		)
 		(uuid "200c57a6-7202-4cb2-a5e0-e6f45704683c")
+	)
+	(wire
+		(pts
+			(xy 80.01 57.15) (xy 80.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223811a5-217c-4b20-a338-3d9e72c9d1f1")
 	)
 	(wire
 		(pts
@@ -4374,6 +4378,16 @@
 			(type default)
 		)
 		(uuid "5b9ba039-d3b1-45d9-8d61-92b1e1fac5eb")
+	)
+	(wire
+		(pts
+			(xy 92.71 55.88) (xy 96.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64906dee-cd18-480c-a7f0-c815e924842b")
 	)
 	(wire
 		(pts
@@ -4657,7 +4671,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 55.88) (xy 83.82 55.88)
+			(xy 92.71 57.15) (xy 92.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d792c6e9-6886-4e05-8f70-5c0b54037966")
+	)
+	(wire
+		(pts
+			(xy 80.01 57.15) (xy 83.82 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4937,7 +4961,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 55.88 90)
+		(at 87.63 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4947,7 +4971,7 @@
 		(dnp no)
 		(uuid "1713f670-69f1-4b0b-ae1e-854c15081f44")
 		(property "Reference" "R1"
-			(at 88.138 58.928 90)
+			(at 88.138 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4956,8 +4980,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 87.63 52.07 90)
+		(property "Value" "10k"
+			(at 87.63 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4967,7 +4991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 57.658 90)
+			(at 87.63 58.928 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4978,7 +5002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 55.88 0)
+			(at 87.63 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4989,7 +5013,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 87.63 55.88 0)
+			(at 87.63 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
