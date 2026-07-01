@@ -5515,6 +5515,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 87.63) (xy 213.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d08d4c1-0bf1-4b51-9029-bb60ccec079f")
+	)
+	(wire
+		(pts
 			(xy 203.2 77.47) (xy 203.2 76.2)
 		)
 		(stroke
@@ -6274,7 +6284,7 @@
 		(uuid "fc1bcfd2-27c6-4916-8e42-212ddbfb2fe4")
 	)
 	(label "3.3v to mcu"
-		(at 213.36 83.82 0)
+		(at 201.93 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
