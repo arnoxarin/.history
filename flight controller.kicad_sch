@@ -5425,7 +5425,7 @@
 			)
 		)
 		(property "Value" "16MHz"
-			(at 98.044 72.898 0)
+			(at 105.156 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8515,7 +8515,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 82.55 180)
+		(at 97.79 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8525,7 +8525,7 @@
 		(dnp no)
 		(uuid "f863dc91-1d84-4c78-aa48-621e62f14ad2")
 		(property "Reference" "C13"
-			(at 89.408 79.502 90)
+			(at 95.758 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8535,7 +8535,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 87.63 82.55 90)
+			(at 93.98 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8545,7 +8545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.4748 78.74 0)
+			(at 96.8248 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8556,7 +8556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 82.55 0)
+			(at 97.79 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8567,7 +8567,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 82.55 0)
+			(at 97.79 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
