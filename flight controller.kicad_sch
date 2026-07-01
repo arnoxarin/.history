@@ -6361,10 +6361,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a93ddcd-cf80-423f-b088-4b047421d445")
 		(property "Reference" "D1"
-			(at 216.8525 77.47 0)
+			(at 218.186 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6374,7 +6373,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 216.8525 80.01 0)
+			(at 217.17 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
