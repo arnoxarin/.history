@@ -4331,6 +4331,12 @@
 		(uuid "216a0e4a-c764-4773-84ae-6995227021c7")
 	)
 	(junction
+		(at 111.76 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b0981ba-3c9f-41cd-b710-58af1e60d5a4")
+	)
+	(junction
 		(at 151.13 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4443,12 +4449,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb09d2aa-a508-42cc-8af4-dc1c6bb49564")
-	)
-	(junction
-		(at 111.76 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff859633-47db-4df4-a6f4-e8a9bbb4093a")
 	)
 	(wire
 		(pts
@@ -4832,16 +4832,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 82.55) (xy 111.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93340f59-e3c0-4e67-8379-13f30260ab2b")
-	)
-	(wire
-		(pts
 			(xy 63.5 27.94) (xy 73.66 27.94)
 		)
 		(stroke
@@ -4982,7 +4972,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 69.85) (xy 111.76 73.66)
+			(xy 111.76 69.85) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7761,7 +7751,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 77.47 180)
+		(at 111.76 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7771,7 +7761,7 @@
 		(dnp no)
 		(uuid "b1b528fe-5c33-4e4e-8fab-8894e03144ad")
 		(property "Reference" "C14"
-			(at 109.728 74.422 90)
+			(at 109.728 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7781,7 +7771,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 107.95 77.47 90)
+			(at 107.95 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7791,7 +7781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.7948 73.66 0)
+			(at 110.7948 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7802,7 +7792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 77.47 0)
+			(at 111.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7813,7 +7803,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 77.47 0)
+			(at 111.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
