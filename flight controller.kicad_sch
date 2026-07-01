@@ -6387,6 +6387,16 @@
 		)
 		(uuid "5159a7c3-75d9-41f7-b6ef-985488dfccbc")
 	)
+	(label "swdio"
+		(at 167.64 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5977dafa-a42f-4083-af0b-1473839dbddb")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 144.78 180.34 0)
