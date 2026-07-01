@@ -6161,7 +6161,7 @@
 		(dnp no)
 		(uuid "16052180-8cfa-4c29-b4a3-3469caa6d6c2")
 		(property "Reference" "R2"
-			(at 212.344 51.054 90)
+			(at 211.836 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6171,7 +6171,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 212.344 53.594 90)
+			(at 211.836 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
