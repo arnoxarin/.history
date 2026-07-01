@@ -10418,8 +10418,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 172.974 120.396 0)
+		(property "Value" "4.7k"
+			(at 172.212 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
