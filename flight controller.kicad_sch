@@ -7722,10 +7722,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4788b56-de5c-4045-8240-1d10fb3ab27d")
 		(property "Reference" "C12"
-			(at 88.9 38.1 90)
+			(at 91.186 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7734,7 +7733,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 88.9 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
