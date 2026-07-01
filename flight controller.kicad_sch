@@ -5449,12 +5449,6 @@
 		(uuid "0b3e5f91-c81e-4997-86ee-07a3d81b1a88")
 	)
 	(junction
-		(at 215.9 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a56b807-f423-4d5e-919e-d336718b4ab6")
-	)
-	(junction
 		(at 114.3 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5465,18 +5459,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bf3e7bb-03b0-407c-a48d-06f56fb8eed7")
-	)
-	(junction
-		(at 222.25 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c0577ea-f7c9-4b40-ad04-d48f5cb66785")
-	)
-	(junction
-		(at 243.84 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d870e01-33e8-453e-bce4-29acc575e203")
 	)
 	(junction
 		(at 138.43 31.75)
@@ -5501,12 +5483,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b8f2354-c145-497a-b275-28d4b0886b49")
-	)
-	(junction
-		(at 220.98 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f84c08e-1096-4853-a343-22be01d6130d")
 	)
 	(junction
 		(at 151.13 25.4)
@@ -5569,16 +5545,16 @@
 		(uuid "6dc79588-5cb1-455e-8911-9216b2b40e09")
 	)
 	(junction
-		(at 222.25 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8266ed15-1347-4fd5-b5b9-74a29a1fc257")
-	)
-	(junction
 		(at 67.31 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d9dd3d-4eff-44b9-aa96-67b603d4e7e7")
+	)
+	(junction
+		(at 243.84 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e3d9de6-4b91-4c2b-ba26-92902c149379")
 	)
 	(junction
 		(at 73.66 35.56)
@@ -5599,6 +5575,12 @@
 		(uuid "ab68ab05-2c70-451e-9f28-ec2814993ebc")
 	)
 	(junction
+		(at 220.98 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af2d7e36-8d96-4559-8c84-3403875ebf30")
+	)
+	(junction
 		(at 97.79 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5617,22 +5599,16 @@
 		(uuid "cbcff361-05a6-4201-b5c1-7107a0673906")
 	)
 	(junction
-		(at 220.98 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf46153b-ce44-4096-a447-83943492e50e")
-	)
-	(junction
 		(at 146.05 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2a8b6aa-5a8e-4e2e-af2d-9066974523d0")
 	)
 	(junction
-		(at 222.25 62.23)
+		(at 220.98 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d75430b0-a320-4732-b0f0-a0081505689e")
+		(uuid "d79efb1e-9c1a-4f1a-afe0-14d0f30f7c5b")
 	)
 	(junction
 		(at 171.45 33.02)
@@ -5647,16 +5623,16 @@
 		(uuid "fb09d2aa-a508-42cc-8af4-dc1c6bb49564")
 	)
 	(no_connect
-		(at 222.25 49.53)
+		(at 220.98 53.34)
 		(uuid "0df582b9-1cf7-4a96-8272-0c71e8845d0f")
 	)
 	(no_connect
-		(at 222.25 52.07)
+		(at 220.98 55.88)
 		(uuid "729a29ba-63aa-430a-b557-371020cf32a6")
 	)
 	(wire
 		(pts
-			(xy 222.25 74.93) (xy 215.9 74.93)
+			(xy 220.98 78.74) (xy 215.9 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5696,23 +5672,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 64.77) (xy 222.25 67.31)
+			(xy 220.98 68.58) (xy 220.98 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "088a6c92-587a-434c-a2a6-15c597d3c55d")
-	)
-	(wire
-		(pts
-			(xy 222.25 67.31) (xy 222.25 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d9be5c4-0460-4565-adc9-bd2a00c206bc")
 	)
 	(wire
 		(pts
@@ -5806,7 +5772,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 72.39) (xy 222.25 72.39)
+			(xy 215.9 76.2) (xy 220.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5886,16 +5852,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 64.77) (xy 220.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3914455d-ba9e-4117-aec3-9675b8c30424")
-	)
-	(wire
-		(pts
 			(xy 181.61 71.12) (xy 181.61 76.2)
 		)
 		(stroke
@@ -5936,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 59.69) (xy 222.25 62.23)
+			(xy 220.98 63.5) (xy 220.98 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5953,16 +5909,6 @@
 			(type default)
 		)
 		(uuid "4d010f43-265c-4933-b239-b4c78c1f10ef")
-	)
-	(wire
-		(pts
-			(xy 220.98 67.31) (xy 220.98 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4de760bf-b892-452f-88fa-dfc09c185e6b")
 	)
 	(wire
 		(pts
@@ -6066,17 +6012,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 45.72) (xy 243.84 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f07f050-b8c4-455c-b62a-eaa709b33273")
-	)
-	(wire
-		(pts
-			(xy 220.98 62.23) (xy 222.25 62.23)
+			(xy 220.98 64.77) (xy 220.98 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6146,16 +6082,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 80.01) (xy 220.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b923423-2c8a-4dc5-b72f-2a6942040430")
-	)
-	(wire
-		(pts
 			(xy 138.43 31.75) (xy 135.89 31.75)
 		)
 		(stroke
@@ -6183,16 +6109,6 @@
 			(type default)
 		)
 		(uuid "7fdaa03b-2b41-4c6d-8d54-5bf5f8158f7b")
-	)
-	(wire
-		(pts
-			(xy 238.76 41.91) (xy 238.76 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80842369-e120-4c1f-9327-613cb8c9fff0")
 	)
 	(wire
 		(pts
@@ -6226,7 +6142,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 74.93) (xy 215.9 76.2)
+			(xy 215.9 78.74) (xy 215.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6346,26 +6262,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 62.23) (xy 220.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ca07e8f-eedf-45c3-8edd-373a3ec79c3a")
-	)
-	(wire
-		(pts
-			(xy 215.9 76.2) (xy 215.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a184ed36-f7b0-4d30-bfd0-1d405bc1e69c")
-	)
-	(wire
-		(pts
 			(xy 260.35 60.96) (xy 260.35 62.23)
 		)
 		(stroke
@@ -6386,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 41.91) (xy 238.76 41.91)
+			(xy 236.22 45.72) (xy 243.84 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6416,16 +6312,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 62.23) (xy 222.25 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8821756-eec0-4df2-b58f-cd627896e3ed")
-	)
-	(wire
-		(pts
 			(xy 73.66 35.56) (xy 85.09 35.56)
 		)
 		(stroke
@@ -6443,16 +6329,6 @@
 			(type default)
 		)
 		(uuid "aa9dacaa-374c-4f99-b64b-db7c7c2e1924")
-	)
-	(wire
-		(pts
-			(xy 245.11 41.91) (xy 243.84 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab106719-8221-47da-a339-aa0227a95034")
 	)
 	(wire
 		(pts
@@ -6556,16 +6432,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 72.39) (xy 219.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cff389bb-934b-4d6b-8634-ae8b7a7e9c1e")
-	)
-	(wire
-		(pts
 			(xy 109.22 157.48) (xy 120.65 157.48)
 		)
 		(stroke
@@ -6613,16 +6479,6 @@
 			(type default)
 		)
 		(uuid "d564aa1c-d174-4554-aa33-4ba2f8db0445")
-	)
-	(wire
-		(pts
-			(xy 222.25 69.85) (xy 220.98 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d662c33a-5bee-4f61-a0ef-54049f1dd1d6")
 	)
 	(wire
 		(pts
@@ -6696,7 +6552,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 67.31) (xy 222.25 67.31)
+			(xy 220.98 69.85) (xy 220.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6763,16 +6619,6 @@
 			(type default)
 		)
 		(uuid "f12e298b-0328-43c3-bad5-ca1ca6241a46")
-	)
-	(wire
-		(pts
-			(xy 219.71 76.2) (xy 215.9 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2dbb559-cfa8-4743-ab66-229f2cc6a51d")
 	)
 	(wire
 		(pts
@@ -10595,7 +10441,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 237.49 64.77 180)
+		(at 236.22 68.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10605,7 +10451,7 @@
 		(dnp no)
 		(uuid "cae331ed-4fc6-4560-8cae-55e2a85a7d72")
 		(property "Reference" "J1"
-			(at 237.49 87.63 0)
+			(at 236.22 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10615,7 +10461,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 237.49 85.09 0)
+			(at 236.22 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10625,7 +10471,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
-			(at 233.68 64.77 0)
+			(at 232.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10636,7 +10482,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 233.68 64.77 0)
+			(at 232.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10647,7 +10493,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 237.49 64.77 0)
+			(at 236.22 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
