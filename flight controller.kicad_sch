@@ -5309,7 +5309,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 106.68 68.58 0)
+		(at 105.41 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5320,7 +5320,7 @@
 		(fields_autoplaced yes)
 		(uuid "2135b329-ef6e-46ba-9dc4-930024fc2d7d")
 		(property "Reference" "Y1"
-			(at 106.68 59.69 0)
+			(at 105.41 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5330,7 +5330,7 @@
 			)
 		)
 		(property "Value" "Crystal_GND24"
-			(at 106.68 62.23 0)
+			(at 105.41 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5340,7 +5340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 68.58 0)
+			(at 105.41 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 68.58 0)
+			(at 105.41 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5362,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 106.68 68.58 0)
+			(at 105.41 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,7 +5373,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 106.68 81.28 0)
+			(at 105.41 82.55 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5384,7 +5384,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 106.68 83.82 0)
+			(at 105.41 85.09 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
