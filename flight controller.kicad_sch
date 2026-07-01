@@ -8228,7 +8228,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "690f1993-ffd8-4800-9b4e-62b0cb065fdd")
 		(property "Reference" "R4"
 			(at 196.85 57.15 90)
@@ -8241,7 +8240,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 196.85 59.69 90)
+			(at 196.596 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8942,7 +8941,7 @@
 		(dnp no)
 		(uuid "916dbfcf-9b5a-4570-9de1-4229ccdab6db")
 		(property "Reference" "R5"
-			(at 191.77 76.2 90)
+			(at 192.024 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
