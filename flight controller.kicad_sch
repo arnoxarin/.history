@@ -7689,7 +7689,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 82.55 90)
+		(at 111.76 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7699,7 +7699,7 @@
 		(dnp no)
 		(uuid "b1b528fe-5c33-4e4e-8fab-8894e03144ad")
 		(property "Reference" "C14"
-			(at 114.808 80.518 90)
+			(at 109.728 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7709,7 +7709,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 111.76 78.74 90)
+			(at 107.95 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7719,7 +7719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 81.5848 0)
+			(at 110.7948 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8479,7 +8479,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 82.55 90)
+		(at 93.98 80.01 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8489,7 +8489,7 @@
 		(dnp no)
 		(uuid "f863dc91-1d84-4c78-aa48-621e62f14ad2")
 		(property "Reference" "C13"
-			(at 94.488 80.518 90)
+			(at 91.948 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8499,7 +8499,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 91.44 78.74 90)
+			(at 90.17 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8509,7 +8509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 81.5848 0)
+			(at 93.0148 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,7 +8520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 82.55 0)
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8531,7 +8531,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 82.55 0)
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
