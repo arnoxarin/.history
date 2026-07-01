@@ -4237,6 +4237,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 53.34) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36de78ef-d60a-432c-8e27-14fbb530c003")
+	)
+	(wire
+		(pts
 			(xy 163.83 25.4) (xy 179.07 25.4)
 		)
 		(stroke
@@ -4554,6 +4564,16 @@
 			(type default)
 		)
 		(uuid "aa9dacaa-374c-4f99-b64b-db7c7c2e1924")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac885ea3-99e8-4c2d-a79b-630dc9265add")
 	)
 	(wire
 		(pts
@@ -5566,7 +5586,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 101.6 46.99 0)
+			(at 101.6 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
