@@ -5742,6 +5742,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 120.65) (xy 203.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16cffb21-5142-4502-9c3e-e715603f44da")
+	)
+	(wire
+		(pts
 			(xy 97.79 60.96) (xy 120.65 60.96)
 		)
 		(stroke
@@ -5992,6 +6002,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 102.87) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a3354d-5db3-4d9d-b8f8-5a88a1243b0e")
+	)
+	(wire
+		(pts
 			(xy 196.85 33.02) (xy 196.85 35.56)
 		)
 		(stroke
@@ -6132,6 +6152,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 113.03) (xy 204.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfa5412-68d3-423b-99da-a447649f4bbc")
+	)
+	(wire
+		(pts
 			(xy 191.77 25.4) (xy 196.85 25.4)
 		)
 		(stroke
@@ -6199,6 +6229,16 @@
 			(type default)
 		)
 		(uuid "8fbdccb4-1924-4227-a9b3-909fe425f037")
+	)
+	(wire
+		(pts
+			(xy 203.2 130.81) (xy 203.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900264da-f379-4734-b6dd-1bb1efdbdd7c")
 	)
 	(wire
 		(pts
@@ -6903,6 +6943,94 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 209.55 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "084d84ff-aed2-4479-8092-db280f787994")
+		(property "Reference" "J4"
+			(at 210.82 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 210.82 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 209.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b7f8e444-c3e4-4b38-b7d4-2faad3a020ff")
+		)
+		(pin "2"
+			(uuid "e6f8b80a-7625-4526-b856-c0a50938539e")
+		)
+		(pin "4"
+			(uuid "340df979-9c76-462c-8f90-556e76fcfd1a")
+		)
+		(pin "1"
+			(uuid "251bc4ca-9587-4f5a-a703-f32b0dd09a17")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7960,6 +8088,94 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 208.28 128.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "429b9daf-829c-4df7-87a4-0f543720eb6c")
+		(property "Reference" "J3"
+			(at 209.55 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 209.55 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 208.28 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "477392c2-9229-41f9-9ba6-3488888aefdd")
+		)
+		(pin "2"
+			(uuid "a7d594c4-6cef-4251-9b4b-4b59f0cacc05")
+		)
+		(pin "4"
+			(uuid "bac84159-3693-4438-ac97-e61efe270ab0")
+		)
+		(pin "1"
+			(uuid "f06b3b69-e2a0-4442-a578-a638f00f4470")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "J3")
 					(unit 1)
 				)
 			)
