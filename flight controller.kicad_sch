@@ -9340,8 +9340,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 236.22 68.58 0)
-		(mirror y)
+		(at 236.22 68.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9351,7 +9350,7 @@
 		(dnp no)
 		(uuid "cae331ed-4fc6-4560-8cae-55e2a85a7d72")
 		(property "Reference" "J1"
-			(at 236.22 45.72 0)
+			(at 236.22 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9361,7 +9360,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 236.22 48.26 0)
+			(at 236.22 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
