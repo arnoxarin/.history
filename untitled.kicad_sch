@@ -1733,7 +1733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nf"
 			(at 60.96 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
