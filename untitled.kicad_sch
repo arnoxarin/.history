@@ -528,7 +528,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 43.18 54.61 0)
+		(at 43.18 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -539,29 +539,27 @@
 		(fields_autoplaced yes)
 		(uuid "725caa0f-1a7f-47c4-a459-7d30499882c2")
 		(property "Reference" "J5"
-			(at 45.72 54.6099 0)
+			(at 43.18 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 45.72 57.1499 0)
+			(at 43.18 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 43.18 54.61 0)
+			(at 43.18 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -572,7 +570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 54.61 0)
+			(at 43.18 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -583,7 +581,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 54.61 0)
+			(at 43.18 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
