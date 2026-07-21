@@ -1845,6 +1845,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 34.29) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd763de-f6d9-49c1-afb0-c27bb70679ef")
+	)
+	(wire
+		(pts
 			(xy 39.37 67.31) (xy 39.37 69.85)
 		)
 		(stroke
@@ -2252,6 +2262,16 @@
 			(justify left bottom)
 		)
 		(uuid "03a8e8e5-9d25-40e7-a74b-6700bbe63cdc")
+	)
+	(label "9v"
+		(at 147.32 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2875d55b-0443-4196-ada9-829a9446c683")
 	)
 	(label "comp"
 		(at 33.02 64.77 0)
