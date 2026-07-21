@@ -2001,6 +2001,16 @@
 		)
 		(uuid "fc544eef-9ff5-4d93-8574-96986c6574fa")
 	)
+	(label "fb"
+		(at 107.95 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0218e29e-eb47-4e0e-bd4f-708a46a088de")
+	)
 	(label "vin"
 		(at 16.51 38.1 0)
 		(effects
