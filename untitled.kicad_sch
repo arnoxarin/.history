@@ -4631,7 +4631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uf"
+		(property "Value" "100uf"
 			(at 144.526 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
