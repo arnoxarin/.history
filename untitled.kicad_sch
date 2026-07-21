@@ -2095,7 +2095,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 53.34 0)
+		(at 80.01 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2105,7 +2105,7 @@
 		(dnp no)
 		(uuid "4acf84d6-ebdd-42bc-b62b-970582592dab")
 		(property "Reference" "R12"
-			(at 81.28 52.0699 0)
+			(at 81.534 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2116,7 +2116,7 @@
 			)
 		)
 		(property "Value" "442k"
-			(at 72.898 52.578 0)
+			(at 74.168 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2127,7 +2127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.962 53.34 90)
+			(at 78.232 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2138,7 +2138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 53.34 0)
+			(at 80.01 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2149,7 +2149,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 53.34 0)
+			(at 80.01 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
