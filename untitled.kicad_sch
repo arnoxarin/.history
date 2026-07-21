@@ -1713,7 +1713,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 73.66 0)
+		(at 203.2 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1724,7 +1724,7 @@
 		(fields_autoplaced yes)
 		(uuid "23e0468b-70af-43e3-b421-8b0764ba7659")
 		(property "Reference" "C15"
-			(at 83.82 72.3899 0)
+			(at 207.01 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1735,7 +1735,7 @@
 			)
 		)
 		(property "Value" "470UF/50V"
-			(at 83.82 74.9299 0)
+			(at 207.01 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1746,7 +1746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.9752 77.47 0)
+			(at 204.1652 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1757,7 +1757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 73.66 0)
+			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1768,7 +1768,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 73.66 0)
+			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
