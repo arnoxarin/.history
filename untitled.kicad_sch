@@ -1636,12 +1636,6 @@
 		(uuid "bf52f4f3-7dd7-485f-9afd-15fac8119aa3")
 	)
 	(junction
-		(at 69.85 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5474cb3-4de3-43e6-8bc4-92b3863e018f")
-	)
-	(junction
 		(at 274.32 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1842,6 +1836,16 @@
 			(type default)
 		)
 		(uuid "faa16bbb-4339-4455-b74a-f4c7cc96a530")
+	)
+	(wire
+		(pts
+			(xy 69.85 46.99) (xy 69.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc544eef-9ff5-4d93-8574-96986c6574fa")
 	)
 	(label "+5v"
 		(at 279.4 30.48 0)
@@ -2429,7 +2433,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 49.53 0)
+		(at 69.85 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2439,7 +2443,7 @@
 		(dnp no)
 		(uuid "6465c9ee-e5cf-4f95-8697-e8d28f4a48c2")
 		(property "Reference" "R11"
-			(at 72.39 48.2599 0)
+			(at 72.39 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2449,8 +2453,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "442k"
-			(at 64.008 48.768 0)
+		(property "Value" "90.9k"
+			(at 64.008 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2461,7 +2465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.072 49.53 90)
+			(at 68.072 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2472,7 +2476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 49.53 0)
+			(at 69.85 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2483,7 +2487,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 49.53 0)
+			(at 69.85 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
