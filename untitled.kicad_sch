@@ -2497,7 +2497,7 @@
 		(dnp no)
 		(uuid "725caa0f-1a7f-47c4-a459-7d30499882c2")
 		(property "Reference" "J5"
-			(at 182.118 47.498 0)
+			(at 179.832 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
