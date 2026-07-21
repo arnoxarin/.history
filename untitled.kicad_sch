@@ -3185,6 +3185,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 92.71 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fd98d62-19d9-4cf5-9bd0-bd72a7362807")
+		(property "Reference" "C27"
+			(at 96.52 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uf"
+			(at 95.758 28.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.6752 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5a671db2-e577-4ed1-88c3-4a20e1bd6d3b")
+		)
+		(pin "1"
+			(uuid "e931d8e0-c7b9-4211-afe5-1de7821af634")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 213.36 27.94 0)
 		(mirror y)
@@ -4090,7 +4171,7 @@
 		(dnp no)
 		(uuid "d303429a-8a6d-473f-a7e2-1e89020f4693")
 		(property "Reference" "C26"
-			(at 160.02 29.2099 0)
+			(at 157.988 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
