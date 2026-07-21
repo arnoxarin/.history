@@ -1996,7 +1996,13 @@
 		(at 212.09 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8554366d-81d7-4da2-8642-bd2583208e80")
+		(uuid "4244845e-1153-4186-97cb-add3d3df13ee")
+	)
+	(junction
+		(at 212.09 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8fef722-6aa6-4390-a2a4-43e8454ef3e3")
 	)
 	(junction
 		(at 251.46 46.99)
@@ -2054,17 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 46.99) (xy 201.93 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eabac4b-64b9-40f9-b209-12ed0ee8ec11")
-	)
-	(wire
-		(pts
-			(xy 201.93 46.99) (xy 201.93 52.07)
+			(xy 208.28 46.99) (xy 208.28 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2104,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 212.09 52.07)
+			(xy 208.28 52.07) (xy 212.09 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 44.45) (xy 212.09 44.45)
+			(xy 208.28 44.45) (xy 212.09 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3021,7 +3017,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 198.12 44.45 0)
+		(at 203.2 44.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3032,7 +3028,7 @@
 		(dnp no)
 		(uuid "725caa0f-1a7f-47c4-a459-7d30499882c2")
 		(property "Reference" "J5"
-			(at 193.802 48.514 0)
+			(at 198.882 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3042,7 +3038,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 193.04 39.878 0)
+			(at 198.12 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3052,7 +3048,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 198.12 44.45 0)
+			(at 203.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3063,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 44.45 0)
+			(at 203.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,7 +3070,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 44.45 0)
+			(at 203.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
