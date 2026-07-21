@@ -1933,16 +1933,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 44.45) (xy 142.24 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ebb5369-7dd7-4419-868c-cbdedab76e38")
-	)
-	(wire
-		(pts
 			(xy 256.54 30.48) (xy 261.62 30.48)
 		)
 		(stroke
@@ -1960,26 +1950,6 @@
 			(type default)
 		)
 		(uuid "73d9a100-a549-4518-b7e1-c84d9b30342a")
-	)
-	(wire
-		(pts
-			(xy 134.62 44.45) (xy 142.24 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d2d479-719a-47c9-b118-a5b025841be8")
-	)
-	(wire
-		(pts
-			(xy 134.62 44.45) (xy 134.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b9a6fb-68ec-4613-b8cb-ef8da7a0ff76")
 	)
 	(wire
 		(pts
@@ -2143,16 +2113,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 49.53) (xy 163.83 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e25cc403-f1c4-4e9d-8f4a-e100fb50b522")
-	)
-	(wire
-		(pts
 			(xy 26.67 87.63) (xy 29.21 87.63)
 		)
 		(stroke
@@ -2280,16 +2240,6 @@
 			(justify left bottom)
 		)
 		(uuid "d416797d-52f4-4bcb-82c9-6dc40caa53ed")
-	)
-	(label "9v"
-		(at 163.83 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de505b8e-45e0-44bc-a392-8259da83a87e")
 	)
 	(symbol
 		(lib_id "Device:R")
