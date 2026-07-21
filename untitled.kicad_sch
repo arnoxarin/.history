@@ -1612,18 +1612,6 @@
 		(uuid "ac887985-ddc4-4db4-a3ef-a46e92fcf30c")
 	)
 	(junction
-		(at 156.21 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23061bea-f5b2-42b0-adee-ad00be725d9f")
-	)
-	(junction
-		(at 143.51 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33cb7dde-e379-4bea-b42a-192cd7b6b7c7")
-	)
-	(junction
 		(at 132.08 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1660,6 +1648,12 @@
 		(uuid "4a24b316-fb83-4209-ae3d-4628bdcf2cf0")
 	)
 	(junction
+		(at 143.51 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d89113d-ca7f-40e0-b94f-016e51bfff1f")
+	)
+	(junction
 		(at 31.75 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1670,12 +1664,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58754d2d-536a-40fc-b6d7-cbd764c3c497")
-	)
-	(junction
-		(at 156.21 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cb5adc2-84f3-4d35-b5ce-9c0a9884e1f3")
 	)
 	(junction
 		(at 40.64 38.1)
@@ -1883,7 +1871,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 38.1) (xy 156.21 38.1)
+			(xy 143.51 38.1) (xy 168.91 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2083,16 +2071,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 38.1) (xy 168.91 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e54496c-a694-4421-b46d-50e94b5351ff")
-	)
-	(wire
-		(pts
 			(xy 115.57 38.1) (xy 115.57 43.18)
 		)
 		(stroke
@@ -2250,16 +2228,6 @@
 			(type default)
 		)
 		(uuid "eaba1ab6-1edb-474a-86ba-7d229ee842ce")
-	)
-	(wire
-		(pts
-			(xy 143.51 45.72) (xy 156.21 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1bb0053-ea7f-4625-a0d3-906364760fb9")
 	)
 	(wire
 		(pts
@@ -2444,7 +2412,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 45.72 0)
+		(at 143.51 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2455,7 +2423,7 @@
 		(fields_autoplaced yes)
 		(uuid "14103cd0-6a62-4685-87ba-277f68ec9a35")
 		(property "Reference" "#PWR036"
-			(at 156.21 52.07 0)
+			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,7 +2434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 50.8 0)
+			(at 143.51 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2476,7 +2444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 45.72 0)
+			(at 143.51 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 45.72 0)
+			(at 143.51 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 45.72 0)
+			(at 143.51 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4555,87 +4523,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 156.21 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d303429a-8a6d-473f-a7e2-1e89020f4693")
-		(property "Reference" "C26"
-			(at 157.988 39.878 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uf"
-			(at 156.972 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.1752 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4d77887a-1214-4749-8753-c7c1b8ef52f7")
-		)
-		(pin "1"
-			(uuid "4e42a1c5-f882-4325-8f02-111e05fec6d4")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
-					(reference "C26")
 					(unit 1)
 				)
 			)
