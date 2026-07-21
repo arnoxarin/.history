@@ -3520,7 +3520,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 104.14 0)
+		(at 50.8 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3531,7 +3531,7 @@
 		(fields_autoplaced yes)
 		(uuid "e93ba436-8f0c-47d0-867a-947fcf12943b")
 		(property "Reference" "C16"
-			(at 80.01 102.8699 0)
+			(at 54.61 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3542,7 +3542,7 @@
 			)
 		)
 		(property "Value" "220uf/25v"
-			(at 80.01 105.4099 0)
+			(at 54.61 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3553,7 +3553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.1652 107.95 0)
+			(at 51.7652 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3564,7 +3564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 104.14 0)
+			(at 50.8 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,7 +3575,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 104.14 0)
+			(at 50.8 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
