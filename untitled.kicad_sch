@@ -1980,10 +1980,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "321d731b-a375-4e67-b93d-31db41f8365c")
 		(property "Reference" "C19"
-			(at 44.45 41.9099 0)
+			(at 41.656 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1994,7 +1993,7 @@
 			)
 		)
 		(property "Value" "2.2uf"
-			(at 44.45 44.4499 0)
+			(at 42.418 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2145,7 +2144,7 @@
 		(dnp no)
 		(uuid "3d02f21d-d2f8-4f0b-b1e3-6a941ba2ab2a")
 		(property "Reference" "C20"
-			(at 35.56 41.9099 0)
+			(at 34.29 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2156,7 +2155,7 @@
 			)
 		)
 		(property "Value" "2.2uf"
-			(at 35.56 44.45 0)
+			(at 33.274 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
