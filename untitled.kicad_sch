@@ -2009,7 +2009,9 @@
 		(at 231.648 15.494 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "ac887985-ddc4-4db4-a3ef-a46e92fcf30c")
