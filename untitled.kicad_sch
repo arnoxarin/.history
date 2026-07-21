@@ -2004,6 +2004,16 @@
 		)
 		(uuid "f6712683-39a5-47d9-8fea-1ad17c73a163")
 	)
+	(text "5v power"
+		(exclude_from_sim no)
+		(at 231.648 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac887985-ddc4-4db4-a3ef-a46e92fcf30c")
+	)
 	(junction
 		(at 222.25 35.56)
 		(diameter 0)
