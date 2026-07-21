@@ -1921,7 +1921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470UF/50V"
+		(property "Value" "680uf"
 			(at 207.01 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
