@@ -2446,7 +2446,7 @@
 			)
 		)
 		(property "Value" "243k"
-			(at 74.168 51.308 0)
+			(at 74.168 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2769,7 +2769,7 @@
 		(dnp no)
 		(uuid "6465c9ee-e5cf-4f95-8697-e8d28f4a48c2")
 		(property "Reference" "R11"
-			(at 72.39 50.7999 0)
+			(at 71.374 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2780,7 +2780,7 @@
 			)
 		)
 		(property "Value" "90.9k"
-			(at 64.008 51.308 0)
+			(at 63.246 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
