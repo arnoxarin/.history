@@ -1624,6 +1624,12 @@
 		(uuid "a8fef722-6aa6-4390-a2a4-43e8454ef3e3")
 	)
 	(junction
+		(at 69.85 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b931838a-abb0-4e58-b42f-964100bd4f87")
+	)
+	(junction
 		(at 261.62 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1676,6 +1682,16 @@
 			(type default)
 		)
 		(uuid "13dadfe7-7100-4172-8f82-9cbc4e725575")
+	)
+	(wire
+		(pts
+			(xy 69.85 55.88) (xy 80.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161a4abb-3f74-4042-bd00-a800ec3053de")
 	)
 	(wire
 		(pts
@@ -1839,7 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 46.99) (xy 69.85 45.72)
+			(xy 69.85 48.26) (xy 69.85 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2449,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 50.8 0)
+		(at 69.85 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2443,7 +2459,7 @@
 		(dnp no)
 		(uuid "6465c9ee-e5cf-4f95-8697-e8d28f4a48c2")
 		(property "Reference" "R11"
-			(at 72.39 49.5299 0)
+			(at 72.39 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2454,7 +2470,7 @@
 			)
 		)
 		(property "Value" "90.9k"
-			(at 64.008 50.038 0)
+			(at 64.008 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2465,7 +2481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.072 50.8 90)
+			(at 68.072 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,7 +2492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 50.8 0)
+			(at 69.85 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2503,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 50.8 0)
+			(at 69.85 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3169,6 +3185,84 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9258727-8690-4220-92ab-c88eeb870157")
+		(property "Reference" "#PWR032"
+			(at 74.93 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfdbd156-b0b1-47f3-99a4-f29492e009ee")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
