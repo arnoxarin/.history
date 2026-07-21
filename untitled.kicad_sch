@@ -2134,7 +2134,7 @@
 		(uuid "6168b1c9-8331-42c5-981c-dd7c90c78cc7")
 	)
 	(label "comp"
-		(at 77.47 46.99 180)
+		(at 80.01 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
