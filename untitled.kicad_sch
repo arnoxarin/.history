@@ -1374,34 +1374,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:XL4015"
+		(symbol "Regulator_Switching:TPS54560BDDA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U?"
-				(at -6.35 6.35 0)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "XL4015"
-				(at 6.35 6.35 0)
+			(property "Value" "TPS54560BDDA"
+				(at 10.16 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-				(at 21.59 -7.62 0)
+			(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1411,7 +1413,18 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.xlsemi.net/datasheet/XL4015%20datasheet-English.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54560b.pdf"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5A, Step Down DC-DC Converter, 4.5-60V Input Voltage, Texas R-PDSO-G8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1422,7 +1435,7 @@
 					)
 				)
 			)
-			(property "Description" "5A 180kHz 36V Buck DC to DC Converter"
+			(property "ki_keywords" "buck controller"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1433,7 +1446,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Buck DC-DC"
+			(property "ki_fp_filters" "Texas*R*PDSO*G8*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1444,21 +1457,10 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XL4015_0_1"
+			(symbol "TPS54560BDDA_0_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1468,11 +1470,11 @@
 					)
 				)
 			)
-			(symbol "XL4015_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
+			(symbol "TPS54560BDDA_1_1"
+				(pin passive line
+					(at 12.7 5.08 180)
 					(length 2.54)
-					(name "GND"
+					(name "BOOT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1487,10 +1489,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -2.54 180)
+				(pin power_in line
+					(at -12.7 5.08 0)
 					(length 2.54)
-					(name "FB"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1505,10 +1507,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 2.54 180)
+				(pin input line
+					(at -12.7 0 0)
 					(length 2.54)
-					(name "SW"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1523,10 +1525,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
+				(pin passive line
+					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "VC"
+					(name "RT/CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1541,10 +1543,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 2.54 0)
+				(pin input line
+					(at 12.7 -5.08 180)
 					(length 2.54)
-					(name "VIN"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1552,6 +1554,79 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2614,95 +2689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:XL4015")
-		(at 105.41 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d6d571a-b845-4c60-b293-49aee99d4ce8")
-		(property "Reference" "U2"
-			(at 105.41 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL4015"
-			(at 105.41 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 127 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.xlsemi.net/datasheet/XL4015%20datasheet-English.pdf"
-			(at 105.41 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "5A 180kHz 36V Buck DC to DC Converter"
-			(at 105.41 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9120acb4-518b-40a9-9ebf-a07d1a532f17")
-		)
-		(pin "4"
-			(uuid "a9e27059-a4e2-402f-b64d-df013c34d230")
-		)
-		(pin "1"
-			(uuid "61664387-e336-42d9-a4ba-e6a669e8c87e")
-		)
-		(pin "2"
-			(uuid "c4ec87fb-17e3-4cf9-985f-aeb3b754d8be")
-		)
-		(pin "5"
-			(uuid "79b8288e-08f2-432b-97f4-812770b90b29")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Switching:LM2596S-ADJ")
 		(at 243.84 27.94 0)
 		(unit 1)
@@ -3362,6 +3348,107 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TPS54560BDDA")
+		(at 152.4 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acbdc136-3766-46ae-8380-b4d90465a1ce")
+		(property "Reference" "U4"
+			(at 152.4 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54560BDDA"
+			(at 152.4 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+			(at 152.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54560b.pdf"
+			(at 152.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5A, Step Down DC-DC Converter, 4.5-60V Input Voltage, Texas R-PDSO-G8"
+			(at 152.4 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f5be6cda-ce05-4a16-9edd-b8347f3d92b8")
+		)
+		(pin "1"
+			(uuid "71856867-cf60-4512-91d2-9fd03c349803")
+		)
+		(pin "7"
+			(uuid "0fa5fdfb-5892-4f80-8f8f-b41830210621")
+		)
+		(pin "3"
+			(uuid "47de5e9f-386d-406f-992f-709ca1dfa0dd")
+		)
+		(pin "5"
+			(uuid "bab25024-ace9-4da2-b777-23fc53a6dbd6")
+		)
+		(pin "6"
+			(uuid "4456fa5d-0969-4010-87ce-62a795c1d809")
+		)
+		(pin "2"
+			(uuid "df0f2cb7-7cf3-4e22-b255-c0b8c6a416fc")
+		)
+		(pin "8"
+			(uuid "87bceea1-db71-49df-871c-bb1d2d42c15e")
+		)
+		(pin "9"
+			(uuid "98a25be4-9d9a-4371-8d33-bbfdffd7d621")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "U4")
 					(unit 1)
 				)
 			)
