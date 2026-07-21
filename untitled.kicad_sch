@@ -1690,6 +1690,12 @@
 		(uuid "96b73554-bcdf-495b-bedd-ff3e7f5d438e")
 	)
 	(junction
+		(at 168.91 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ea0555-2883-4b2f-ac56-02d32ac08c5b")
+	)
+	(junction
 		(at 31.75 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1976,6 +1982,16 @@
 			(type default)
 		)
 		(uuid "73d9a100-a549-4518-b7e1-c84d9b30342a")
+	)
+	(wire
+		(pts
+			(xy 168.91 38.1) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d2d479-719a-47c9-b118-a5b025841be8")
 	)
 	(wire
 		(pts
@@ -2276,6 +2292,16 @@
 			(justify left bottom)
 		)
 		(uuid "d416797d-52f4-4bcb-82c9-6dc40caa53ed")
+	)
+	(label "9v"
+		(at 171.45 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de505b8e-45e0-44bc-a392-8259da83a87e")
 	)
 	(symbol
 		(lib_id "Device:R")
