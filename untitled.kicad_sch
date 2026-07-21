@@ -2097,6 +2097,16 @@
 		)
 		(uuid "03a8e8e5-9d25-40e7-a74b-6700bbe63cdc")
 	)
+	(label "comp"
+		(at 33.02 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6168b1c9-8331-42c5-981c-dd7c90c78cc7")
+	)
 	(label "+5v"
 		(at 279.4 30.48 0)
 		(effects
