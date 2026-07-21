@@ -2790,7 +2790,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.848 84.7965 0)
+		(at 120.65 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2801,7 +2801,7 @@
 		(fields_autoplaced yes)
 		(uuid "748d692b-c3b7-414d-8334-8b4e354a2b1c")
 		(property "Reference" "#PWR034"
-			(at 134.848 91.1465 0)
+			(at 120.65 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2812,7 +2812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.848 89.8765 0)
+			(at 120.65 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2822,7 +2822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.848 84.7965 0)
+			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.848 84.7965 0)
+			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2844,7 +2844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.848 84.7965 0)
+			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,6 +2939,84 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f4a2bf4-a25c-4f6d-9ca9-1caab4fdadf7")
+		(property "Reference" "#PWR035"
+			(at 30.48 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b693b6eb-5ea1-47a7-9976-2a5e82b737ab")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
