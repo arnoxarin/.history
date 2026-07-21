@@ -3603,7 +3603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uf"
+		(property "Value" "100uf"
 			(at 23.368 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
