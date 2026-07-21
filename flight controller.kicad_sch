@@ -6118,6 +6118,12 @@
 		(uuid "216a0e4a-c764-4773-84ae-6995227021c7")
 	)
 	(junction
+		(at 193.04 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22acd17c-98c1-4c23-a9be-27d1e5b2e3ac")
+	)
+	(junction
 		(at 111.76 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6212,6 +6218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e3d9de6-4b91-4c2b-ba26-92902c149379")
+	)
+	(junction
+		(at 196.85 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cf9f271-889c-46a9-8251-ecb172eae3e8")
 	)
 	(junction
 		(at 73.66 35.56)
@@ -6381,6 +6393,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 64.77) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e13f87-c560-4e5e-bf3a-85b6cd260d7e")
+	)
+	(wire
+		(pts
 			(xy 95.25 45.72) (xy 120.65 45.72)
 		)
 		(stroke
@@ -6388,6 +6410,16 @@
 			(type default)
 		)
 		(uuid "0c011612-3f00-4050-9e81-7acf3fb40d39")
+	)
+	(wire
+		(pts
+			(xy 196.85 71.12) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cafc58b-595b-41df-98c9-c4ae704f1411")
 	)
 	(wire
 		(pts
@@ -6478,6 +6510,16 @@
 			(type default)
 		)
 		(uuid "17bd7ac2-1a0b-4e7a-8fd8-f861f8d82947")
+	)
+	(wire
+		(pts
+			(xy 199.39 64.77) (xy 196.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18238738-1647-4eab-87a4-5d49c1cbacbe")
 	)
 	(wire
 		(pts
@@ -6871,7 +6913,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.12) (xy 199.39 71.12)
+			(xy 181.61 71.12) (xy 196.85 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7048,6 +7090,16 @@
 			(type default)
 		)
 		(uuid "889eaab6-d827-4b04-815f-f95f3d9ea957")
+	)
+	(wire
+		(pts
+			(xy 199.39 67.31) (xy 193.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd7e3d2-8c59-4a03-a984-295560685245")
 	)
 	(wire
 		(pts
@@ -7538,6 +7590,16 @@
 			(type default)
 		)
 		(uuid "d92a121e-af02-4021-a88c-3bc33630b17e")
+	)
+	(wire
+		(pts
+			(xy 193.04 67.31) (xy 193.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9eac2c6-5e09-496d-a9f7-cb7d961e4a8b")
 	)
 	(wire
 		(pts
