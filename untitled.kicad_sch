@@ -1717,6 +1717,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 38.1) (xy 17.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106d87cf-26a1-4432-8f40-f4822c9252c0")
+	)
+	(wire
+		(pts
 			(xy 231.14 35.56) (xy 243.84 35.56)
 		)
 		(stroke
@@ -1984,6 +1994,16 @@
 			(type default)
 		)
 		(uuid "fc544eef-9ff5-4d93-8574-96986c6574fa")
+	)
+	(label "vin"
+		(at 16.51 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03a8e8e5-9d25-40e7-a74b-6700bbe63cdc")
 	)
 	(label "+5v"
 		(at 279.4 30.48 0)
