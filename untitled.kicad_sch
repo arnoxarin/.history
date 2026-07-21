@@ -3298,7 +3298,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 41.91 90)
+		(at 111.76 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3308,7 +3308,7 @@
 		(dnp no)
 		(uuid "6fd98d62-19d9-4cf5-9bd0-bd72a7362807")
 		(property "Reference" "C27"
-			(at 110.4899 38.1 0)
+			(at 110.4899 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3319,7 +3319,7 @@
 			)
 		)
 		(property "Value" "0.1uf"
-			(at 114.808 38.862 0)
+			(at 114.808 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3330,7 +3330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 40.9448 0)
+			(at 115.57 37.1348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3341,7 +3341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 41.91 0)
+			(at 111.76 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +3352,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 41.91 0)
+			(at 111.76 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
