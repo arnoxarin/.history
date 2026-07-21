@@ -2135,7 +2135,7 @@
 		(dnp no)
 		(uuid "03fa3ee0-5dea-4dc3-93dd-d7cf02a05a5d")
 		(property "Reference" "R13"
-			(at 119.634 44.45 0)
+			(at 119.634 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2145,8 +2145,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "90.9k"
-			(at 111.506 47.498 0)
+		(property "Value" "16.9k"
+			(at 111.76 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
