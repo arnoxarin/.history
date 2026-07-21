@@ -2243,7 +2243,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "096fcad1-f3dc-4e22-8636-a749035ec6f4")
 		(property "Reference" "#PWR037"
 			(at 118.11 45.72 0)
@@ -2257,7 +2256,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 44.45 0)
+			(at 121.666 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
