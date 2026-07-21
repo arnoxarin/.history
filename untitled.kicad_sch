@@ -1826,6 +1826,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 203.2 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82879258-205e-4e4e-aa87-8562d338cfa0")
+	)
+	(wire
+		(pts
+			(xy 203.2 43.18) (xy 220.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d313524-a858-47ef-b455-e3fd70f8c334")
+	)
 	(wire
 		(pts
 			(xy 220.98 43.18) (xy 220.98 41.91)
@@ -1838,13 +1854,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 43.18) (xy 220.98 43.18)
+			(xy 189.23 43.18) (xy 203.2 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5377129-7b1d-4c8e-8e66-b12db71c98f9")
+		(uuid "eaba1ab6-1edb-474a-86ba-7d229ee842ce")
 	)
 	(symbol
 		(lib_id "Device:C")
