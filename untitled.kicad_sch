@@ -1832,6 +1832,12 @@
 		(color 0 0 0 0)
 		(uuid "82879258-205e-4e4e-aa87-8562d338cfa0")
 	)
+	(junction
+		(at 203.2 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8554366d-81d7-4da2-8642-bd2583208e80")
+	)
 	(wire
 		(pts
 			(xy 203.2 43.18) (xy 220.98 43.18)
@@ -1841,6 +1847,36 @@
 			(type default)
 		)
 		(uuid "0d313524-a858-47ef-b455-e3fd70f8c334")
+	)
+	(wire
+		(pts
+			(xy 189.23 45.72) (xy 193.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eabac4b-64b9-40f9-b209-12ed0ee8ec11")
+	)
+	(wire
+		(pts
+			(xy 193.04 45.72) (xy 193.04 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a5b8e2-7e64-4bad-8da8-20362152c2a6")
+	)
+	(wire
+		(pts
+			(xy 193.04 50.8) (xy 203.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1ad0ae-9d46-40d5-8abe-10d5b7da102a")
 	)
 	(wire
 		(pts
@@ -2461,7 +2497,7 @@
 		(dnp no)
 		(uuid "725caa0f-1a7f-47c4-a459-7d30499882c2")
 		(property "Reference" "J5"
-			(at 184.15 52.07 0)
+			(at 182.118 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2471,7 +2507,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 184.15 49.53 0)
+			(at 179.07 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
