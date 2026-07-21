@@ -1553,6 +1553,12 @@
 		(uuid "bf52f4f3-7dd7-485f-9afd-15fac8119aa3")
 	)
 	(junction
+		(at 135.89 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c50189b6-f225-4386-ade5-af2f745df93f")
+	)
+	(junction
 		(at 151.13 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1575,12 +1581,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f042182d-3aba-4c1a-8a5f-5bd9e0d143ae")
-	)
-	(junction
-		(at 135.89 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5f039ee-9c96-478b-b91e-7bf2a9882c70")
 	)
 	(wire
 		(pts
@@ -1654,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 135.89 41.91)
+			(xy 104.14 44.45) (xy 135.89 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1804,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 41.91) (xy 135.89 44.45)
+			(xy 135.89 38.1) (xy 135.89 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1871,16 +1871,6 @@
 			(type default)
 		)
 		(uuid "9c3d91a6-c19e-4ced-ad29-c3e2d9042956")
-	)
-	(wire
-		(pts
-			(xy 135.89 38.1) (xy 135.89 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a812451b-7a4d-4a9c-9d6f-3b11fe0d09fd")
 	)
 	(wire
 		(pts
@@ -1964,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 104.14 40.64)
+			(xy 104.14 44.45) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2238,6 +2228,84 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "096fcad1-f3dc-4e22-8636-a749035ec6f4")
+		(property "Reference" "#PWR037"
+			(at 118.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23566449-5f14-432b-8a2e-3d811b2503c0")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
