@@ -2139,12 +2139,12 @@
 		(uuid "2875d55b-0443-4196-ada9-829a9446c683")
 	)
 	(label "vin"
-		(at 213.36 25.4 0)
+		(at 218.44 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "505a9a5f-9b52-4c3c-b354-c2ece9bae989")
 	)
