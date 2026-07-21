@@ -3771,10 +3771,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e93ba436-8f0c-47d0-867a-947fcf12943b")
 		(property "Reference" "C16"
-			(at 54.61 41.9099 0)
+			(at 52.324 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3785,7 +3784,7 @@
 			)
 		)
 		(property "Value" "2.2uf"
-			(at 54.61 44.4499 0)
+			(at 53.848 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
