@@ -3298,7 +3298,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 24.13 90)
+		(at 111.76 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3308,7 +3308,7 @@
 		(dnp no)
 		(uuid "6fd98d62-19d9-4cf5-9bd0-bd72a7362807")
 		(property "Reference" "C27"
-			(at 91.4399 20.32 0)
+			(at 110.4899 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3319,7 +3319,7 @@
 			)
 		)
 		(property "Value" "0.1uf"
-			(at 95.758 21.082 0)
+			(at 114.808 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3330,7 +3330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 23.1648 0)
+			(at 115.57 40.9448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3341,7 +3341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 24.13 0)
+			(at 111.76 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +3352,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 24.13 0)
+			(at 111.76 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,84 +3611,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "858f8b68-035a-42b8-b315-283a5b016ed7")
-		(property "Reference" "#PWR033"
-			(at 92.71 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd6550c6-8b6f-4301-887a-0c0607a14b94")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
