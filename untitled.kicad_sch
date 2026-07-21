@@ -3268,7 +3268,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 24.13 0)
+		(at 92.71 24.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3278,7 +3278,7 @@
 		(dnp no)
 		(uuid "6fd98d62-19d9-4cf5-9bd0-bd72a7362807")
 		(property "Reference" "C27"
-			(at 96.52 22.8599 0)
+			(at 91.4399 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3289,7 +3289,7 @@
 			)
 		)
 		(property "Value" "2.2uf"
-			(at 95.758 27.178 0)
+			(at 95.758 21.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3300,7 +3300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.6752 27.94 0)
+			(at 96.52 23.1648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
