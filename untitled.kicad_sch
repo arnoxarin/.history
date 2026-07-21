@@ -4584,7 +4584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uf"
+		(property "Value" "47pf"
 			(at 133.858 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
