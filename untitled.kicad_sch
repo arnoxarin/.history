@@ -1992,6 +1992,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 191.77 12.7)
+		(end 284.48 52.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f6712683-39a5-47d9-8fea-1ad17c73a163")
+	)
 	(junction
 		(at 222.25 35.56)
 		(diameter 0)
