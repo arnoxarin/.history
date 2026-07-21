@@ -2653,7 +2653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680uf"
+		(property "Value" "220uf"
 			(at 267.97 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
