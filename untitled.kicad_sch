@@ -2005,6 +2005,12 @@
 		(uuid "8554366d-81d7-4da2-8642-bd2583208e80")
 	)
 	(junction
+		(at 251.46 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc403721-f5b8-4bb1-8443-71fc82307cf4")
+	)
+	(junction
 		(at 220.98 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2109,6 +2115,16 @@
 			(type default)
 		)
 		(uuid "eaba1ab6-1edb-474a-86ba-7d229ee842ce")
+	)
+	(wire
+		(pts
+			(xy 251.46 46.99) (xy 254 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4299a3e-a9ac-4b7d-beb3-42de5dd6dd5d")
 	)
 	(symbol
 		(lib_id "Device:C")
