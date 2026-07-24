@@ -9512,7 +9512,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 37.592 175.514 0)
+			(at 37.338 175.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
