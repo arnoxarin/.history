@@ -2774,6 +2774,18 @@
 		)
 		(uuid "f6712683-39a5-47d9-8fea-1ad17c73a163")
 	)
+	(text "BARO"
+		(exclude_from_sim no)
+		(at 70.866 155.194 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "186b0cc2-2918-43bc-983d-4bd7c13aded1")
+	)
 	(text "IMU1\n"
 		(exclude_from_sim no)
 		(at 55.88 101.092 0)
