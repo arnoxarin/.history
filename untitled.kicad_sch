@@ -4987,7 +4987,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 90.17 0)
+		(at 228.6 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4995,10 +4995,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d23400ae-fa7c-421f-b76f-5892b1293a24")
 		(property "Reference" "#PWR040"
-			(at 228.6 96.52 0)
+			(at 228.6 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,7 +5008,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 95.25 0)
+			(at 232.156 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5019,7 +5018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 90.17 0)
+			(at 228.6 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,7 +5029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 90.17 0)
+			(at 228.6 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5041,7 +5040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 90.17 0)
+			(at 228.6 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
