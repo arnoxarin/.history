@@ -2428,6 +2428,12 @@
 		(uuid "58754d2d-536a-40fc-b6d7-cbd764c3c497")
 	)
 	(junction
+		(at 132.08 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6092aa79-affc-461f-905c-35652ed080a8")
+	)
+	(junction
 		(at 146.05 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2810,6 +2816,16 @@
 			(type default)
 		)
 		(uuid "331e165b-e65f-4378-8ac8-60c80255f7a3")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 138.43 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337b9ce5-365a-414d-b183-3387fb28400f")
 	)
 	(wire
 		(pts
@@ -3670,6 +3686,16 @@
 			(justify right bottom)
 		)
 		(uuid "f80259c2-a850-4972-8508-632aa7daf273")
+	)
+	(label "3.3v"
+		(at 138.43 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbc483ef-db1b-4f86-acbb-488b14011752")
 	)
 	(symbol
 		(lib_id "power:GND")
