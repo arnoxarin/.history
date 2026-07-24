@@ -3089,7 +3089,7 @@
 		(dnp no)
 		(uuid "45ecefdd-6e71-4218-9605-4db4f06cb3d6")
 		(property "Reference" "C17"
-			(at 213.36 67.3099 0)
+			(at 202.692 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3100,7 +3100,7 @@
 			)
 		)
 		(property "Value" "680uf"
-			(at 212.09 70.866 0)
+			(at 202.184 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
