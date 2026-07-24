@@ -2029,12 +2029,6 @@
 		(uuid "f550dae0-7a07-491d-8113-c02cb25c3a59")
 	)
 	(junction
-		(at 274.32 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "facc9075-997d-4d46-bdd7-ec53a72f4c83")
-	)
-	(junction
 		(at 265.43 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2049,6 +2043,16 @@
 			(type default)
 		)
 		(uuid "038b10f6-bc70-4ee8-ad32-9c300d877f26")
+	)
+	(wire
+		(pts
+			(xy 278.13 26.67) (xy 283.21 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3f9d84-91bc-4a30-90e6-3607cc4f1777")
 	)
 	(wire
 		(pts
@@ -2119,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "1909df87-7dfc-40f0-95a9-db067b32cab7")
+	)
+	(wire
+		(pts
+			(xy 278.13 34.29) (xy 274.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd8bbd3-c540-4268-8da7-5883faf6ecc8")
 	)
 	(wire
 		(pts
@@ -2302,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 26.67) (xy 274.32 26.67)
+			(xy 265.43 26.67) (xy 278.13 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2672,16 +2686,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 26.67) (xy 279.4 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f753a955-da69-4f47-875f-d267d9927012")
-	)
-	(wire
-		(pts
 			(xy 217.17 36.83) (xy 219.71 36.83)
 		)
 		(stroke
@@ -2731,7 +2735,7 @@
 		(uuid "2875d55b-0443-4196-ada9-829a9446c683")
 	)
 	(label "5v"
-		(at 279.4 26.67 0)
+		(at 283.21 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3848,7 +3852,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 198.12 83.82 90)
+		(at 276.86 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3858,7 +3862,7 @@
 		(dnp no)
 		(uuid "58e45e90-7fe9-4ae6-ad98-bc211638f53d")
 		(property "Reference" "D3"
-			(at 200.66 82.5499 90)
+			(at 279.4 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3869,7 +3873,7 @@
 			)
 		)
 		(property "Value" "1SMB5919B"
-			(at 198.882 87.376 90)
+			(at 277.622 86.106 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,7 +3884,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 198.12 83.82 0)
+			(at 276.86 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3891,7 +3895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 83.82 0)
+			(at 276.86 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3902,7 +3906,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 198.12 83.82 0)
+			(at 276.86 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4746,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 189.23 80.01 90)
+		(at 267.97 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4752,7 +4756,7 @@
 		(dnp no)
 		(uuid "823ca61e-0c60-43e6-a801-ecd0b998c0a4")
 		(property "Reference" "F1"
-			(at 188.722 78.232 0)
+			(at 267.462 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4763,7 +4767,7 @@
 			)
 		)
 		(property "Value" "Polyfuse_Small"
-			(at 195.58 82.55 90)
+			(at 274.32 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4774,7 +4778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 78.74 0)
+			(at 273.05 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 80.01 0)
+			(at 267.97 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4801,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 189.23 80.01 0)
+			(at 267.97 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5319,7 +5323,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 274.32 30.48 180)
+		(at 278.13 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5329,7 +5333,7 @@
 		(dnp no)
 		(uuid "ad9895ce-0d5f-4555-aed3-7c2d401b9ec4")
 		(property "Reference" "C30"
-			(at 273.304 33.02 0)
+			(at 277.114 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5340,7 +5344,7 @@
 			)
 		)
 		(property "Value" "22uf"
-			(at 277.622 24.638 0)
+			(at 281.432 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5351,7 +5355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.3548 26.67 0)
+			(at 277.1648 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 30.48 0)
+			(at 278.13 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,7 +5377,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 274.32 30.48 0)
+			(at 278.13 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
