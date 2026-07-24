@@ -5335,7 +5335,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 90.17 0)
+		(at 210.82 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5345,7 +5345,7 @@
 		(dnp no)
 		(uuid "ec3d7199-2480-4a1a-b7af-8bbfafc1394a")
 		(property "Reference" "R16"
-			(at 212.344 87.63 0)
+			(at 212.598 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5356,7 +5356,7 @@
 			)
 		)
 		(property "Value" "10.2k"
-			(at 204.216 90.678 0)
+			(at 213.106 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5367,7 +5367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.042 90.17 90)
+			(at 210.82 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
