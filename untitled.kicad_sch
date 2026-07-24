@@ -2291,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 81.28) (xy 210.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4e154d-abc9-4e01-ad78-803a67815f99")
+	)
+	(wire
+		(pts
 			(xy 68.58 30.48) (xy 78.74 30.48)
 		)
 		(stroke
@@ -2608,6 +2618,16 @@
 			(justify left bottom)
 		)
 		(uuid "d416797d-52f4-4bcb-82c9-6dc40caa53ed")
+	)
+	(label "stm pg"
+		(at 207.01 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee1c95ba-1e83-4b1b-867b-16588020f23a")
 	)
 	(symbol
 		(lib_id "Device:R")
