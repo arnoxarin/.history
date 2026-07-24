@@ -3015,6 +3015,12 @@
 		(uuid "c6800424-cd62-4468-995e-10f335669a30")
 	)
 	(junction
+		(at 99.06 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8da3d6a-828c-43bf-a17c-3c7811edf3d6")
+	)
+	(junction
 		(at 209.55 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3037,6 +3043,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7408926-3791-4915-8ab7-88e412d96e99")
+	)
+	(junction
+		(at 99.06 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76cc934-5a59-4cdb-a54d-d1e1335902b9")
 	)
 	(junction
 		(at 68.58 30.48)
@@ -3257,6 +3269,16 @@
 			(type default)
 		)
 		(uuid "2109d381-02f4-467d-9732-60f6c0bf4725")
+	)
+	(wire
+		(pts
+			(xy 99.06 168.91) (xy 116.84 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229cca4f-4b0e-47c0-bbb1-24ecef2ddc6a")
 	)
 	(wire
 		(pts
@@ -3620,6 +3642,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 171.45) (xy 99.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74985ee5-858d-4190-8012-fd9b958345de")
+	)
+	(wire
+		(pts
 			(xy 248.92 71.12) (xy 248.92 74.93)
 		)
 		(stroke
@@ -3810,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 168.91) (xy 116.84 168.91)
+			(xy 90.17 168.91) (xy 99.06 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4047,6 +4079,16 @@
 			(type default)
 		)
 		(uuid "ded6c3a0-061f-4def-959c-824d7dcf78be")
+	)
+	(wire
+		(pts
+			(xy 90.17 171.45) (xy 99.06 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44c8e9c-54d0-46df-ad4b-8165cb2db614")
 	)
 	(wire
 		(pts
@@ -6236,7 +6278,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 176.53 0)
+		(at 99.06 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6246,7 +6288,7 @@
 		(dnp no)
 		(uuid "58ce355a-71e6-490e-8355-15d749c2a78c")
 		(property "Reference" "C41"
-			(at 104.14 173.736 0)
+			(at 101.6 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6257,7 +6299,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 103.378 179.07 0)
+			(at 100.838 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6268,7 +6310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.5652 180.34 0)
+			(at 100.0252 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 176.53 0)
+			(at 99.06 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6290,7 +6332,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 176.53 0)
+			(at 99.06 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
