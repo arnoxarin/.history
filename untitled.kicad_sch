@@ -3557,6 +3557,16 @@
 		)
 		(uuid "088feb17-a562-4b25-a4d6-f451195d4f63")
 	)
+	(label "pc4"
+		(at 101.6 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "165178db-9a28-49a5-aeaf-45895143bd68")
+	)
 	(label "5v"
 		(at 208.28 74.93 180)
 		(effects
