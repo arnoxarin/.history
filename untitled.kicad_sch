@@ -3881,7 +3881,7 @@
 		)
 		(uuid "d7fe0b87-9c73-47b8-a0f3-0b721a11ad6e")
 	)
-	(label "PE2"
+	(label "pe2"
 		(at 184.15 132.08 180)
 		(effects
 			(font
