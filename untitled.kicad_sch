@@ -2379,6 +2379,16 @@
 		)
 		(uuid "03a8e8e5-9d25-40e7-a74b-6700bbe63cdc")
 	)
+	(label "5v"
+		(at 212.09 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c303bc3-3aa3-43cc-97a0-d7b48b68a13f")
+	)
 	(label "9v"
 		(at 146.05 26.67 0)
 		(effects
