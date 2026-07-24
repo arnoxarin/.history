@@ -5929,7 +5929,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 83.82 0)
+		(at 252.73 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5939,7 +5939,7 @@
 		(dnp no)
 		(uuid "db121034-8da0-4b4a-bc4d-7439798fd1ff")
 		(property "Reference" "C33"
-			(at 249.428 81.788 0)
+			(at 248.158 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5949,8 +5949,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uf"
-			(at 249.682 86.36 0)
+		(property "Value" "100nf"
+			(at 254.508 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5961,7 +5961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254.9652 87.63 0)
+			(at 253.6952 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5972,7 +5972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 83.82 0)
+			(at 252.73 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +5983,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 254 83.82 0)
+			(at 252.73 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
