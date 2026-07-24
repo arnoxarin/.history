@@ -3856,7 +3856,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "58e45e90-7fe9-4ae6-ad98-bc211638f53d")
 		(property "Reference" "D3"
 			(at 200.66 82.5499 90)
@@ -3869,8 +3868,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 200.66 85.0899 90)
+		(property "Value" "1SMB5919B"
+			(at 198.882 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
