@@ -2308,6 +2308,18 @@
 		(uuid "232f5448-0ff9-4488-8879-eec671accaf2")
 	)
 	(rectangle
+		(start 142.24 95.25)
+		(end 254 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4433d0f2-07d0-4105-b9e2-aed03baadf51")
+	)
+	(rectangle
 		(start 20.32 93.98)
 		(end 121.92 147.32)
 		(stroke
