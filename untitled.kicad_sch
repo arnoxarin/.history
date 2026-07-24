@@ -4366,6 +4366,16 @@
 		)
 		(uuid "8b95e64c-213e-4cfc-84c2-fdbd9dc7063d")
 	)
+	(label "pb6"
+		(at 40.64 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c80d4f7b-f0d7-4050-b75c-2400cf54c17c")
+	)
 	(label "pe3"
 		(at 184.15 124.46 180)
 		(effects
