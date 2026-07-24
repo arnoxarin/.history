@@ -3031,7 +3031,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 92.71 0)
+		(at 227.33 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3041,7 +3041,7 @@
 		(dnp no)
 		(uuid "3660b3e7-951a-4a26-ac9a-3f1a88a0e766")
 		(property "Reference" "C28"
-			(at 225.298 90.678 0)
+			(at 222.758 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "Value" "1uf"
-			(at 225.552 95.25 0)
+			(at 223.012 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3063,7 +3063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 230.8352 96.52 0)
+			(at 228.2952 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,7 +3074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 92.71 0)
+			(at 227.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,7 +3085,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 229.87 92.71 0)
+			(at 227.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5325,7 +5325,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 78.74 0)
+		(at 210.82 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5335,7 +5335,7 @@
 		(dnp no)
 		(uuid "ec3d7199-2480-4a1a-b7af-8bbfafc1394a")
 		(property "Reference" "R16"
-			(at 226.314 76.2 0)
+			(at 212.344 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5346,7 +5346,7 @@
 			)
 		)
 		(property "Value" "10.2k"
-			(at 218.186 79.248 0)
+			(at 204.216 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5357,7 +5357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 78.74 90)
+			(at 209.042 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5368,7 +5368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 78.74 0)
+			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5379,7 +5379,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 78.74 0)
+			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
