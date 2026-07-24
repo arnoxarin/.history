@@ -1957,6 +1957,12 @@
 		(uuid "788fe4b7-d0b4-4654-baf2-3f392c12e27b")
 	)
 	(junction
+		(at 243.84 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f09ecda-7cd7-4f6f-88b5-052d7ff807d1")
+	)
+	(junction
 		(at 214.63 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2646,6 +2652,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 80.01) (xy 252.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d6e113-7f9f-4833-a8f9-5e82b48d7f1a")
+	)
+	(wire
+		(pts
 			(xy 118.11 30.48) (xy 118.11 31.75)
 		)
 		(stroke
@@ -2703,6 +2719,16 @@
 			(type default)
 		)
 		(uuid "d3ed1d28-a64e-4bed-8d10-928d4421fb01")
+	)
+	(wire
+		(pts
+			(xy 240.03 80.01) (xy 243.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d15f4b-c79c-492a-b575-c8b2e41f60f5")
 	)
 	(wire
 		(pts
@@ -2783,6 +2809,16 @@
 			(type default)
 		)
 		(uuid "e7a229d0-6f03-4ec1-959c-9f3369424acd")
+	)
+	(wire
+		(pts
+			(xy 243.84 87.63) (xy 252.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea23fa46-a8b7-4fdb-8319-4198d4e06936")
 	)
 	(wire
 		(pts
@@ -5939,7 +5975,7 @@
 		(dnp no)
 		(uuid "db121034-8da0-4b4a-bc4d-7439798fd1ff")
 		(property "Reference" "C33"
-			(at 248.158 81.788 0)
+			(at 255.27 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
