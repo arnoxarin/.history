@@ -4741,7 +4741,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 190.5 78.74 0)
+		(at 189.23 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4749,10 +4749,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "823ca61e-0c60-43e6-a801-ecd0b998c0a4")
 		(property "Reference" "F1"
-			(at 193.04 77.4699 0)
+			(at 187.9599 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4763,7 +4762,7 @@
 			)
 		)
 		(property "Value" "Polyfuse_Small"
-			(at 193.04 80.0099 0)
+			(at 195.58 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4774,7 +4773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 83.82 0)
+			(at 194.31 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 78.74 0)
+			(at 189.23 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4796,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 190.5 78.74 0)
+			(at 189.23 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
