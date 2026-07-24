@@ -4818,7 +4818,7 @@
 				)
 			)
 		)
-		(property "Value" "33uh"
+		(property "Value" "8uh"
 			(at 271.018 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
