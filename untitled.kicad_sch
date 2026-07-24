@@ -1957,6 +1957,12 @@
 		(uuid "788fe4b7-d0b4-4654-baf2-3f392c12e27b")
 	)
 	(junction
+		(at 214.63 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8575d645-919e-4ebb-9275-b59e7d4007e4")
+	)
+	(junction
 		(at 49.53 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
