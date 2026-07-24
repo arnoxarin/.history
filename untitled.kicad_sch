@@ -3041,7 +3041,7 @@
 		(dnp no)
 		(uuid "3660b3e7-951a-4a26-ac9a-3f1a88a0e766")
 		(property "Reference" "C28"
-			(at 223.012 90.678 0)
+			(at 225.298 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "Value" "1uf"
-			(at 222.504 95.25 0)
+			(at 225.552 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
