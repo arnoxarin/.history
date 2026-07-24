@@ -2343,6 +2343,18 @@
 		)
 		(uuid "f6712683-39a5-47d9-8fea-1ad17c73a163")
 	)
+	(text "IMU1\n"
+		(exclude_from_sim no)
+		(at 51.816 105.664 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "1c81133d-5b73-4061-981d-6980a9642e9f")
+	)
 	(text "5v power"
 		(exclude_from_sim no)
 		(at 231.648 15.494 0)
