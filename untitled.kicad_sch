@@ -1999,6 +1999,12 @@
 		(uuid "c50189b6-f225-4386-ade5-af2f745df93f")
 	)
 	(junction
+		(at 265.43 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6800424-cd62-4468-995e-10f335669a30")
+	)
+	(junction
 		(at 209.55 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2157,6 +2163,16 @@
 			(type default)
 		)
 		(uuid "2bdfbf1c-d30a-42a3-916f-f40d596b56c8")
+	)
+	(wire
+		(pts
+			(xy 265.43 26.67) (xy 270.51 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c546d95-5a24-4863-a675-8df2985373d9")
 	)
 	(wire
 		(pts
@@ -5317,7 +5333,7 @@
 		(dnp no)
 		(uuid "ad9895ce-0d5f-4555-aed3-7c2d401b9ec4")
 		(property "Reference" "C30"
-			(at 281.432 35.052 0)
+			(at 283.718 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
