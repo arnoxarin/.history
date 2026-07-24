@@ -6446,7 +6446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "1uf"
 			(at 133.858 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
