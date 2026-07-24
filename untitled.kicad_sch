@@ -4740,7 +4740,7 @@
 		(dnp no)
 		(uuid "823ca61e-0c60-43e6-a801-ecd0b998c0a4")
 		(property "Reference" "F1"
-			(at 273.558 31.242 90)
+			(at 274.066 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4979,7 +4979,7 @@
 		(dnp no)
 		(uuid "9da97e55-ba11-422c-a2eb-29270eaaea63")
 		(property "Reference" "R17"
-			(at 266.954 27.94 0)
+			(at 260.096 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
