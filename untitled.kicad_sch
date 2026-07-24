@@ -2191,6 +2191,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 67.31) (xy 255.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c837ae-1a93-4721-8ef2-adef7cdc9d70")
+	)
+	(wire
+		(pts
 			(xy 231.14 39.37) (xy 231.14 35.56)
 		)
 		(stroke
@@ -4672,7 +4682,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 267.97 63.5 90)
+		(at 267.97 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4682,7 +4692,7 @@
 		(dnp no)
 		(uuid "856b7e98-d2c1-4be7-b6c0-b0fce44806e4")
 		(property "Reference" "L3"
-			(at 264.668 61.468 90)
+			(at 264.668 62.738 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4692,7 +4702,7 @@
 			)
 		)
 		(property "Value" "33uh"
-			(at 268.478 61.214 90)
+			(at 268.478 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4702,7 +4712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 63.5 0)
+			(at 267.97 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4713,7 +4723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 63.5 0)
+			(at 267.97 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4724,7 +4734,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 267.97 63.5 0)
+			(at 267.97 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
