@@ -1855,6 +1855,12 @@
 		(color 0 0 0 0)
 		(uuid "f042182d-3aba-4c1a-8a5f-5bd9e0d143ae")
 	)
+	(junction
+		(at 209.55 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f550dae0-7a07-491d-8113-c02cb25c3a59")
+	)
 	(wire
 		(pts
 			(xy 222.25 27.94) (xy 231.14 27.94)
@@ -1964,6 +1970,16 @@
 			(type default)
 		)
 		(uuid "26ef5c5e-3a66-4b0f-b961-62d837007f70")
+	)
+	(wire
+		(pts
+			(xy 199.39 64.77) (xy 209.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdfbf1c-d30a-42a3-916f-f40d596b56c8")
 	)
 	(wire
 		(pts
@@ -2464,6 +2480,16 @@
 			(justify left bottom)
 		)
 		(uuid "6168b1c9-8331-42c5-981c-dd7c90c78cc7")
+	)
+	(label "9v"
+		(at 199.39 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64d5b57c-9552-4797-b97a-89301789bfcc")
 	)
 	(label "comp"
 		(at 78.74 38.1 180)
