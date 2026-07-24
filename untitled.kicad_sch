@@ -5380,8 +5380,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
-			(at 275.59 60.96 0)
+		(property "Value" "22uf"
+			(at 277.622 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
