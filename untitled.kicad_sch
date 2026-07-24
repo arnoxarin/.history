@@ -4292,6 +4292,16 @@
 		)
 		(uuid "2875d55b-0443-4196-ada9-829a9446c683")
 	)
+	(label "3.3v"
+		(at 43.18 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "309e3613-1653-46f2-b66b-a6f10a9f7d67")
+	)
 	(label "5v"
 		(at 281.94 19.05 0)
 		(effects
