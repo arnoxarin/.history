@@ -3782,6 +3782,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 179.07) (xy 116.84 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b535733-3f57-4de4-a794-a71caeba3e88")
+	)
+	(wire
+		(pts
 			(xy 72.39 35.56) (xy 78.74 35.56)
 		)
 		(stroke
@@ -4009,6 +4019,16 @@
 			(type default)
 		)
 		(uuid "d3ed1d28-a64e-4bed-8d10-928d4421fb01")
+	)
+	(wire
+		(pts
+			(xy 116.84 179.07) (xy 116.84 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c5a43e-ac5b-4aec-b20d-f4e901c54495")
 	)
 	(wire
 		(pts
@@ -5124,6 +5144,85 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d6238d-1258-4c04-9acb-a206deeb55ba")
+		(property "Reference" "#PWR052"
+			(at 113.03 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 180.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d331d67e-056b-4e2b-b4d5-5efc9520d370")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
