@@ -1892,6 +1892,12 @@
 		(uuid "f550dae0-7a07-491d-8113-c02cb25c3a59")
 	)
 	(junction
+		(at 274.32 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "facc9075-997d-4d46-bdd7-ec53a72f4c83")
+	)
+	(junction
 		(at 265.43 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2639,6 +2645,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 63.5) (xy 279.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f753a955-da69-4f47-875f-d267d9927012")
+	)
+	(wire
+		(pts
 			(xy 274.32 30.48) (xy 279.4 30.48)
 		)
 		(stroke
@@ -2696,6 +2712,16 @@
 			(justify left bottom)
 		)
 		(uuid "2875d55b-0443-4196-ada9-829a9446c683")
+	)
+	(label "5v"
+		(at 279.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e5dbc66-eb45-45aa-bda7-4164430b7b6c")
 	)
 	(label "vin"
 		(at 218.44 27.94 180)
