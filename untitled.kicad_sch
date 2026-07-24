@@ -4512,6 +4512,16 @@
 		)
 		(uuid "ee1c95ba-1e83-4b1b-867b-16588020f23a")
 	)
+	(label "3.3v"
+		(at 49.53 173.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f00dd4f7-4601-4154-b799-3c90902db0cc")
+	)
 	(label "pa5"
 		(at 29.21 129.54 180)
 		(effects
