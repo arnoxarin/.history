@@ -3836,7 +3836,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 276.86 82.55 270)
+		(at 276.86 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3846,7 +3846,7 @@
 		(dnp no)
 		(uuid "58e45e90-7fe9-4ae6-ad98-bc211638f53d")
 		(property "Reference" "D3"
-			(at 274.32 83.8201 90)
+			(at 274.32 31.7501 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3857,7 +3857,7 @@
 			)
 		)
 		(property "Value" "1SMB5919B"
-			(at 282.194 90.678 90)
+			(at 282.194 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3868,7 +3868,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 276.86 82.55 0)
+			(at 276.86 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3879,7 +3879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 82.55 0)
+			(at 276.86 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,7 +3890,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 276.86 82.55 0)
+			(at 276.86 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5317,7 +5317,7 @@
 		(dnp no)
 		(uuid "ad9895ce-0d5f-4555-aed3-7c2d401b9ec4")
 		(property "Reference" "C30"
-			(at 280.924 33.02 0)
+			(at 281.432 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
