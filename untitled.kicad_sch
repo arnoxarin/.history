@@ -1879,6 +1879,12 @@
 		(uuid "effb7da2-47c9-490e-a063-7a8e658ad69b")
 	)
 	(junction
+		(at 276.86 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d8da692-3f5e-4372-ad7b-0c7a38ee7222")
+	)
+	(junction
 		(at 118.11 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2639,6 +2645,16 @@
 			(type default)
 		)
 		(uuid "dd158026-a340-4d8f-ab71-63ecfd375c35")
+	)
+	(wire
+		(pts
+			(xy 275.59 26.67) (xy 276.86 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8ba014-1973-46b2-8f00-503e1f395592")
 	)
 	(wire
 		(pts
@@ -3889,7 +3905,7 @@
 			)
 		)
 		(property "Value" "1SMB5919B"
-			(at 282.194 38.608 90)
+			(at 279.146 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
