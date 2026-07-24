@@ -4110,7 +4110,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 259.08 66.04 0)
+		(at 259.08 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4120,7 +4120,7 @@
 		(dnp no)
 		(uuid "698c8eee-0daa-4b45-8288-744bd12e0db4")
 		(property "Reference" "C29"
-			(at 260.096 64.262 0)
+			(at 257.302 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4131,7 +4131,7 @@
 			)
 		)
 		(property "Value" "0.1uf"
-			(at 260.096 68.834 0)
+			(at 261.874 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4142,7 +4142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.0452 69.85 0)
+			(at 262.89 66.3448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +4153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 66.04 0)
+			(at 259.08 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,7 +4164,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 259.08 66.04 0)
+			(at 259.08 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
