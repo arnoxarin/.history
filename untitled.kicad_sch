@@ -4751,7 +4751,7 @@
 		(dnp no)
 		(uuid "823ca61e-0c60-43e6-a801-ecd0b998c0a4")
 		(property "Reference" "F1"
-			(at 187.9599 78.74 0)
+			(at 188.722 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
