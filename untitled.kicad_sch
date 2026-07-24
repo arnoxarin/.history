@@ -3430,7 +3430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680uf"
+		(property "Value" "220nf"
 			(at 223.52 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
