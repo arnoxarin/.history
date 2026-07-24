@@ -3667,6 +3667,16 @@
 		)
 		(uuid "ee1c95ba-1e83-4b1b-867b-16588020f23a")
 	)
+	(label "pa5"
+		(at 50.8 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f80259c2-a850-4972-8508-632aa7daf273")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 111.76 139.7 0)
