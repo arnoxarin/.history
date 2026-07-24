@@ -4399,12 +4399,12 @@
 		(uuid "710857aa-b145-4f20-a204-984be328c2a3")
 	)
 	(label "3.3v"
-		(at 43.18 189.23 0)
+		(at 43.18 189.23 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "71aecc6c-755e-416d-9a87-e507b1ca76f5")
 	)
