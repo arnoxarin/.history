@@ -1730,6 +1730,12 @@
 		(uuid "4522e54a-8b73-4840-b286-d044da274210")
 	)
 	(junction
+		(at 227.33 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47633d80-24d3-40bc-93b0-ec3d9a301c94")
+	)
+	(junction
 		(at 31.75 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,6 +1977,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 64.77) (xy 231.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bab996-ab5f-408b-b27b-a19e77f4f437")
+	)
+	(wire
+		(pts
 			(xy 146.05 26.67) (xy 146.05 30.48)
 		)
 		(stroke
@@ -2038,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "4dac8d61-6880-4a51-b6c1-8ba002fbbd93")
+	)
+	(wire
+		(pts
+			(xy 231.14 69.85) (xy 227.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9e7026-fa2d-47fd-a92e-c9e65013d619")
 	)
 	(wire
 		(pts
@@ -2148,6 +2174,16 @@
 			(type default)
 		)
 		(uuid "9045d5c2-b0e9-430e-a4e4-8617e98c47bf")
+	)
+	(wire
+		(pts
+			(xy 227.33 69.85) (xy 227.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9854c316-30ff-4ca2-b632-e160b7f0f90a")
 	)
 	(wire
 		(pts
@@ -2321,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 64.77) (xy 231.14 64.77)
+			(xy 220.98 64.77) (xy 227.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3456,7 +3492,7 @@
 		(dnp no)
 		(uuid "5eb79d6c-8b6b-42c1-8689-28b7537f94be")
 		(property "Reference" "C26"
-			(at 224.79 67.3099 0)
+			(at 221.996 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3467,7 +3503,7 @@
 			)
 		)
 		(property "Value" "220nf"
-			(at 223.52 70.866 0)
+			(at 221.996 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
