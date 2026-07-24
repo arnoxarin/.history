@@ -2065,6 +2065,12 @@
 		(uuid "f550dae0-7a07-491d-8113-c02cb25c3a59")
 	)
 	(junction
+		(at 248.92 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9df2cee-2069-43af-9de8-6187606a6e7a")
+	)
+	(junction
 		(at 265.43 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2159,6 +2165,16 @@
 			(type default)
 		)
 		(uuid "165a8b54-6bd3-4c48-9d55-20770c00a866")
+	)
+	(wire
+		(pts
+			(xy 248.92 87.63) (xy 252.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189eaf8e-17a1-4c9d-9872-cb84e5141f3a")
 	)
 	(wire
 		(pts
@@ -2812,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 87.63) (xy 252.73 87.63)
+			(xy 243.84 87.63) (xy 248.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4665,6 +4681,84 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a70d817-25b2-4dc5-91ba-9d30442e2c13")
+		(property "Reference" "#PWR045"
+			(at 248.92 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf916226-483a-4efd-9913-10a6ec501ae9")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
