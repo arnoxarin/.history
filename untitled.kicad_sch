@@ -9501,7 +9501,7 @@
 		(dnp no)
 		(uuid "ea16c839-bce0-437d-9991-caef59dfb943")
 		(property "Reference" "R19"
-			(at 44.704 172.72 0)
+			(at 37.338 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9511,8 +9511,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.2k"
-			(at 36.576 175.768 0)
+		(property "Value" "4.7k"
+			(at 37.592 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
