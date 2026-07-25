@@ -13159,10 +13159,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd1c2f2f-be2b-4d74-93e8-9ada06abbf31")
 		(property "Reference" "U2"
-			(at 65.1511 157.48 0)
+			(at 65.532 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13173,7 +13172,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 65.1511 160.02 0)
+			(at 67.564 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
