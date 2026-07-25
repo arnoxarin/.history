@@ -7225,6 +7225,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4bdb2e-13cc-43fe-b573-596edd79ba23")
+	)
+	(wire
+		(pts
 			(xy 146.05 31.75) (xy 143.51 31.75)
 		)
 		(stroke
@@ -7575,7 +7585,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 116.84) (xy 177.8 116.84)
+			(xy 166.37 116.84) (xy 173.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8045,6 +8055,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 116.84) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0c5974-09ca-4452-99e8-087a1e9e7eb0")
+	)
+	(wire
+		(pts
 			(xy 154.94 34.29) (xy 151.13 34.29)
 		)
 		(stroke
@@ -8256,7 +8276,7 @@
 		(uuid "5977dafa-a42f-4083-af0b-1473839dbddb")
 	)
 	(label "i2c2 sda"
-		(at 173.99 116.84 0)
+		(at 182.88 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8321,7 +8341,7 @@
 		(uuid "8d613aea-aa9d-431b-90b4-6b813e3a1f91")
 	)
 	(label "i2c2 scl"
-		(at 173.99 114.3 0)
+		(at 187.96 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
