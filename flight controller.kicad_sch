@@ -6545,6 +6545,18 @@
 		)
 		(uuid "45c2920d-d28b-4cfd-94ea-dab907658910")
 	)
+	(rectangle
+		(start 199.39 93.98)
+		(end 245.11 123.19)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ef175765-ebce-48c0-aadc-a0bbb9b3820b")
+	)
 	(text "usb "
 		(exclude_from_sim no)
 		(at 52.578 132.08 0)
