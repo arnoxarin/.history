@@ -5107,7 +5107,7 @@
 		(dnp no)
 		(uuid "05601e7a-989c-4e3e-95e0-bf2804b77961")
 		(property "Reference" "J9"
-			(at 147.32 76.1999 0)
+			(at 142.494 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
