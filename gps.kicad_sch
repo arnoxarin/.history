@@ -2741,6 +2741,18 @@
 		)
 		(uuid "259c0fbc-2ae5-404d-8cd9-d3dce40e7fae")
 	)
+	(label "s3"
+		(at 93.98 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "25f8e7a4-7133-48f3-9937-3d1217c67fa5")
+	)
 	(label "pc11"
 		(at 207.01 34.29 180)
 		(effects
