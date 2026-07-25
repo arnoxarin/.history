@@ -7344,6 +7344,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 167.64) (xy 80.01 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c87bb8d-51b3-448f-a0d6-e95f4d45b794")
+	)
+	(wire
+		(pts
 			(xy 260.35 60.96) (xy 260.35 62.23)
 		)
 		(stroke
@@ -12202,7 +12212,7 @@
 		(dnp no)
 		(uuid "b1b9bd55-a341-4479-b170-77a9eec9574c")
 		(property "Reference" "R28"
-			(at 72.39 172.5104 90)
+			(at 72.39 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12213,7 +12223,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 77.978 169.672 90)
+			(at 74.676 167.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
