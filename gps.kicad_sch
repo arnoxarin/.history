@@ -8721,7 +8721,7 @@
 		(dnp no)
 		(uuid "fc657b8d-06c0-4335-910a-f6ca966a8643")
 		(property "Reference" "J8"
-			(at 156.21 46.9899 0)
+			(at 144.272 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
