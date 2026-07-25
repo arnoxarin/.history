@@ -840,6 +840,12 @@
 		(uuid "58d2fbb0-f410-4476-80c7-cab58be7e789")
 	)
 	(junction
+		(at 215.9 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdae95f3-952b-4ba4-bb21-d7afa6370955")
+	)
+	(junction
 		(at 214.63 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -923,6 +929,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 31.75) (xy 228.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2dc0bc8-0611-48d0-82d3-2ff8f443858a")
+	)
+	(wire
+		(pts
 			(xy 251.46 73.66) (xy 260.35 73.66)
 		)
 		(stroke
@@ -933,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 31.75) (xy 228.6 31.75)
+			(xy 212.09 31.75) (xy 215.9 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1456,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 59.69 0)
+		(at 215.9 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1448,10 +1464,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66df3eb5-c216-4e5b-ad78-6611e7a060ae")
 		(property "Reference" "R23"
-			(at 162.56 58.4199 0)
+			(at 210.566 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1462,7 +1477,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 162.56 60.9599 0)
+			(at 210.566 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1473,7 +1488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.242 59.69 90)
+			(at 214.122 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1484,7 +1499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 59.69 0)
+			(at 215.9 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1495,7 +1510,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 59.69 0)
+			(at 215.9 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
