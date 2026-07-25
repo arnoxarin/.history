@@ -5520,16 +5520,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.12) (xy 181.61 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39fd0a46-9147-443c-b3e1-485daf6796b7")
-	)
-	(wire
-		(pts
 			(xy 182.88 107.95) (xy 182.88 109.22)
 		)
 		(stroke
@@ -6593,8 +6583,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
