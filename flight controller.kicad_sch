@@ -7261,6 +7261,18 @@
 		)
 		(uuid "a770b149-27a9-4a39-8c1a-792d2870c23d")
 	)
+	(label "pa5"
+		(at 46.99 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "af93cfe3-a778-445f-b99d-a2b950ffa5f1")
+	)
 	(label "pb0"
 		(at 166.37 88.9 0)
 		(effects
@@ -7270,6 +7282,18 @@
 			(justify left bottom)
 		)
 		(uuid "ce82f47f-a6a3-440b-8fdb-27104f92fa89")
+	)
+	(label "pb5"
+		(at 46.99 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d02f5306-3349-4535-b90f-e24251be6409")
 	)
 	(label "i2c1sda"
 		(at 173.99 111.76 0)
