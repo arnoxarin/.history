@@ -923,10 +923,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04063fe3-64b9-426c-a825-99e66a25d733")
 		(property "Reference" "C15"
-			(at 218.44 41.9099 0)
+			(at 215.138 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -937,7 +936,7 @@
 			)
 		)
 		(property "Value" "10uf"
-			(at 218.44 44.4499 0)
+			(at 215.9 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1534,7 +1533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.012 46.99 90)
+			(at 224.028 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
