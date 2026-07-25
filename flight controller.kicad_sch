@@ -7962,6 +7962,18 @@
 		)
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
 	)
+	(label "3.3v"
+		(at 204.47 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b964ced-e9c7-489a-8883-d1ef671801a9")
+	)
 	(label "pa5"
 		(at 166.37 58.42 0)
 		(effects
