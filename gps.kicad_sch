@@ -4563,7 +4563,7 @@
 		(uuid "436ace25-e382-433e-b704-78d027c4936c")
 	)
 	(label "s7"
-		(at 134.62 54.61 180)
+		(at 140.97 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4608,14 +4608,14 @@
 		(uuid "62a9d7ae-87b7-49a7-900d-f07ea25002b7")
 	)
 	(label "s8"
-		(at 134.62 57.15 0)
+		(at 140.97 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6af46728-8eeb-4820-aa5a-7d1f6bd0bc66")
 	)
