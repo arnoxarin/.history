@@ -8260,17 +8260,7 @@
 		)
 		(uuid "2eea8f92-9a03-453d-94c4-f3f3df91f5ff")
 	)
-	(label "pd6"
-		(at 27.94 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3001dbb3-64c5-49a6-87f6-50e0fb8a3b3e")
-	)
-	(label "pd6"
+	(label "pd6(TX)"
 		(at 120.65 127 180)
 		(effects
 			(font
