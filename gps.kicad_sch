@@ -883,6 +883,16 @@
 		)
 		(uuid "fc77eacc-fa0f-4b96-9737-c250ecf7ec4a")
 	)
+	(label "dat0"
+		(at 227.33 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "102ba1a2-1f96-4e41-9d3b-e6a5fb8a01ca")
+	)
 	(label "pc8"
 		(at 209.55 74.93 0)
 		(effects
