@@ -6557,6 +6557,18 @@
 		)
 		(uuid "1e896f84-2cf5-4971-bfbe-0016f955471f")
 	)
+	(text "telemetry"
+		(exclude_from_sim no)
+		(at 34.798 59.436 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "26d64ad6-7c0f-407c-9fb8-aab2b273cf60")
+	)
 	(text "GPS"
 		(exclude_from_sim no)
 		(at 36.068 91.44 0)
