@@ -883,6 +883,16 @@
 		)
 		(uuid "fc77eacc-fa0f-4b96-9737-c250ecf7ec4a")
 	)
+	(label "pc8"
+		(at 209.55 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fe49253-86ac-427b-8af7-ce7f4f7cd4f0")
+	)
 	(label "3.3v"
 		(at 194.31 39.37 0)
 		(effects
