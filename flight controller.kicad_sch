@@ -8283,6 +8283,18 @@
 		)
 		(uuid "a3e7d621-9343-4968-bfd7-3a9fe26d8722")
 	)
+	(label "5v"
+		(at 106.68 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a724796a-385e-4721-9fb4-b0e8170356e2")
+	)
 	(label "pb1"
 		(at 166.37 91.44 0)
 		(effects
@@ -12636,7 +12648,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 107.95 138.43 180)
+		(at 101.6 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12647,7 +12659,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd806da6-247c-4029-a3e2-9776b5c92cff")
 		(property "Reference" "J7"
-			(at 108.585 128.27 0)
+			(at 102.235 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12657,7 +12669,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 108.585 130.81 0)
+			(at 102.235 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12667,7 +12679,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
-			(at 107.95 138.43 0)
+			(at 101.6 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12678,7 +12690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 138.43 0)
+			(at 101.6 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12701,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 107.95 138.43 0)
+			(at 101.6 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
