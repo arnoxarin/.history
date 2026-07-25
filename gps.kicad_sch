@@ -827,6 +827,18 @@
 		)
 		(uuid "dfa3f07d-d29e-40d7-b457-4b5d93e12232")
 	)
+	(text "SD CARD\n"
+		(exclude_from_sim no)
+		(at 245.618 15.24 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f96b4735-5093-43e5-b3ad-c6df5ab6090f")
+	)
 	(junction
 		(at 214.63 39.37)
 		(diameter 0)
