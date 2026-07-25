@@ -3966,7 +3966,7 @@
 		)
 		(uuid "845e1fbd-4fc0-4518-aebb-68d8085efd52")
 	)
-	(label "pe9"
+	(label "pd14"
 		(at 128.27 81.28 180)
 		(effects
 			(font
@@ -4054,7 +4054,7 @@
 		)
 		(uuid "9eace175-86c5-4873-adf8-334b3652c8b8")
 	)
-	(label "pe9"
+	(label "pd15"
 		(at 128.27 83.82 180)
 		(effects
 			(font
