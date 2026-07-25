@@ -7861,6 +7861,16 @@
 		)
 		(uuid "270a8afa-674b-4fde-9012-089c9774b917")
 	)
+	(label "pb7"
+		(at 166.37 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eea8f92-9a03-453d-94c4-f3f3df91f5ff")
+	)
 	(label "3.3v to mcu"
 		(at 201.93 87.63 0)
 		(effects
