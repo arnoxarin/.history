@@ -1235,6 +1235,18 @@
 		)
 	)
 	(rectangle
+		(start 12.7 12.7)
+		(end 185.42 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "622e6ae5-c6c9-431b-b333-b654173c3e42")
+	)
+	(rectangle
 		(start 190.5 12.7)
 		(end 284.48 88.9)
 		(stroke
