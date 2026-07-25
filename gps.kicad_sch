@@ -895,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 36.83) (xy 218.44 36.83)
+			(xy 205.74 36.83) (xy 207.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1022,6 +1022,16 @@
 			(type default)
 		)
 		(uuid "a2187611-4e1d-4769-9b20-517f711afd53")
+	)
+	(wire
+		(pts
+			(xy 214.63 36.83) (xy 218.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1b9e9a-e500-4217-b366-2e99adfe2202")
 	)
 	(wire
 		(pts
@@ -1434,7 +1444,7 @@
 		(dnp no)
 		(uuid "14e6cb1e-5379-417c-ac70-b04c8b5324d0")
 		(property "Reference" "R30"
-			(at 212.09 36.83 90)
+			(at 200.66 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1605,6 +1615,87 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/144e5f7d-352f-43f0-94c0-d8713d07b695"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56866cb4-5242-4a82-9998-d69bd5296aaa")
+		(property "Reference" "R31"
+			(at 208.788 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22"
+			(at 213.106 37.084 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 38.608 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "64f1c9b0-d74e-4168-b874-ebfd5e80cadf")
+		)
+		(pin "1"
+			(uuid "3bd4b979-4a54-4ba7-9176-43691533cc61")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/144e5f7d-352f-43f0-94c0-d8713d07b695"
+					(reference "R31")
 					(unit 1)
 				)
 			)
