@@ -6477,12 +6477,6 @@
 		(uuid "f5ebda9b-7d95-4b19-b74f-8dcfcd66051a")
 	)
 	(junction
-		(at 50.8 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8e4b70d-a1e2-4d89-ae6e-93a900cf5bb8")
-	)
-	(junction
 		(at 73.66 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6707,16 +6701,6 @@
 			(type default)
 		)
 		(uuid "259ac7eb-b29b-4046-bfa6-86c9b52c9afa")
-	)
-	(wire
-		(pts
-			(xy 50.8 168.91) (xy 53.34 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26ac2e63-7014-4880-8955-83bfd58310b1")
 	)
 	(wire
 		(pts
@@ -7881,7 +7865,7 @@
 		(uuid "929b5863-900c-436a-a063-7565c5787984")
 	)
 	(label "usbd+"
-		(at 53.34 168.91 0)
+		(at 68.58 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7956,7 +7940,7 @@
 		(uuid "d11f4d0d-8b46-4c6d-9ea0-5d406d984899")
 	)
 	(label "usbd-"
-		(at 53.34 161.29 0)
+		(at 77.47 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13115,7 +13099,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 77.47 151.13 0)
+		(at 62.23 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13126,7 +13110,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd1c2f2f-be2b-4d74-93e8-9ada06abbf31")
 		(property "Reference" "U2"
-			(at 79.1211 143.51 0)
+			(at 63.8811 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13137,7 +13121,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 79.1211 146.05 0)
+			(at 63.8811 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13148,7 +13132,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 78.74 157.48 0)
+			(at 63.5 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13161,7 +13145,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 78.74 159.385 0)
+			(at 63.5 170.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13173,7 +13157,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 77.47 151.13 0)
+			(at 62.23 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
