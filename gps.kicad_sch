@@ -1258,6 +1258,18 @@
 		)
 		(uuid "dfa3f07d-d29e-40d7-b457-4b5d93e12232")
 	)
+	(text "servo signal"
+		(exclude_from_sim no)
+		(at 76.708 18.034 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2d625e29-45a5-4b49-a341-2705eb2cdf81")
+	)
 	(text "SD CARD\n"
 		(exclude_from_sim no)
 		(at 245.364 16.51 0)
