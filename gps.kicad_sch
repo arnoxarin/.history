@@ -700,9 +700,35 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 214.63 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fce5313-97ad-4ff1-95fb-d950305216d9")
+	)
+	(wire
+		(pts
+			(xy 203.2 39.37) (xy 214.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23d142c-8d17-426f-bea1-6eafe6e69037")
+	)
+	(wire
+		(pts
+			(xy 214.63 39.37) (xy 228.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e265263d-f3fa-47c9-aeb6-c7bbe94d05bc")
+	)
 	(symbol
 		(lib_id "Device:C")
-		(at 214.63 44.45 0)
+		(at 214.63 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -713,7 +739,7 @@
 		(fields_autoplaced yes)
 		(uuid "04063fe3-64b9-426c-a825-99e66a25d733")
 		(property "Reference" "C15"
-			(at 218.44 43.1799 0)
+			(at 218.44 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -724,7 +750,7 @@
 			)
 		)
 		(property "Value" "10uf"
-			(at 218.44 45.7199 0)
+			(at 218.44 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -735,7 +761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.5952 48.26 0)
+			(at 215.5952 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -746,7 +772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 44.45 0)
+			(at 214.63 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -757,7 +783,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 214.63 44.45 0)
+			(at 214.63 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1055,7 +1081,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 44.45 0)
+		(at 203.2 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1065,7 +1091,7 @@
 		(dnp no)
 		(uuid "8276fad5-77d1-462d-ae58-7b98fcb4afb5")
 		(property "Reference" "C18"
-			(at 204.47 42.164 0)
+			(at 204.47 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1076,7 +1102,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 204.216 47.244 0)
+			(at 204.216 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1087,7 +1113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.1652 48.26 0)
+			(at 204.1652 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1098,7 +1124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 44.45 0)
+			(at 203.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1109,7 +1135,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 203.2 44.45 0)
+			(at 203.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
