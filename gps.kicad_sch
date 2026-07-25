@@ -3813,6 +3813,18 @@
 		)
 		(uuid "2bb4f09e-8a7b-4f55-8dc8-39962854cc21")
 	)
+	(label "mcugnd"
+		(at 167.64 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "36945814-0f00-4d18-a562-16a854e8ef0e")
+	)
 	(label "s2"
 		(at 72.39 40.64 0)
 		(effects
@@ -3824,6 +3836,18 @@
 			(justify left bottom)
 		)
 		(uuid "377bf75b-a2cf-4698-8a15-0f247d992bbd")
+	)
+	(label "mcugnd"
+		(at 167.64 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "38216364-8955-4730-a864-ebe8b7bd9402")
 	)
 	(label "pc11"
 		(at 207.01 34.29 180)
@@ -3868,6 +3892,18 @@
 			(justify right bottom)
 		)
 		(uuid "52f8a7d4-8fe0-4884-b9e2-3282ddc6fb2c")
+	)
+	(label "mcugnd"
+		(at 167.64 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "532b3981-b3ab-4b0c-9530-7aa9ba2919ad")
 	)
 	(label "3.3v"
 		(at 260.35 66.04 0)
@@ -4245,6 +4281,18 @@
 			(justify right bottom)
 		)
 		(uuid "d1837822-fa17-4828-896e-ac7415e3a7a7")
+	)
+	(label "mcugnd"
+		(at 167.64 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d75a1192-8e66-445d-a862-d6d2c0233c58")
 	)
 	(label "pd2"
 		(at 205.74 36.83 180)
