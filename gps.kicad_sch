@@ -3699,7 +3699,7 @@
 		)
 		(uuid "0b1a66b6-f027-4244-a633-1905e2226e39")
 	)
-	(label "pe9"
+	(label "pe13"
 		(at 128.27 71.12 180)
 		(effects
 			(font
@@ -4218,7 +4218,7 @@
 		)
 		(uuid "dca8ef6d-d951-4898-b915-be20af53dd26")
 	)
-	(label "pe9"
+	(label "pe11"
 		(at 128.27 68.58 180)
 		(effects
 			(font
