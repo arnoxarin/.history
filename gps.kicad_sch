@@ -2963,7 +2963,7 @@
 		)
 		(uuid "f3858964-614b-4eca-bb02-7ab13f377ebf")
 	)
-	(label "9v"
+	(label "servo9v"
 		(at 157.48 135.89 0)
 		(effects
 			(font
