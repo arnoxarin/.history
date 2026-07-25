@@ -7861,6 +7861,16 @@
 		)
 		(uuid "3f26be86-86e5-4eda-9a0d-a188392a3036")
 	)
+	(label "pb4"
+		(at 166.37 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4db1cb83-5073-42dc-ad6c-cdbca528cf54")
+	)
 	(label "usbd-"
 		(at 168.91 76.2 0)
 		(effects
