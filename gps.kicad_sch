@@ -903,6 +903,16 @@
 		)
 		(uuid "71ef8717-2c13-4aa6-962a-4c3824c58460")
 	)
+	(label "dat0"
+		(at 228.6 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3858964-614b-4eca-bb02-7ab13f377ebf")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 214.63 43.18 0)
