@@ -6500,6 +6500,14 @@
 		(color 0 0 0 0)
 		(uuid "fb09d2aa-a508-42cc-8af4-dc1c6bb49564")
 	)
+	(no_connect
+		(at 46.99 176.53)
+		(uuid "1201fec5-1c49-4fba-9a19-f4f95b9abec1")
+	)
+	(no_connect
+		(at 46.99 179.07)
+		(uuid "3b61b05f-21fc-4e10-be7b-1f928e58a115")
+	)
 	(wire
 		(pts
 			(xy 166.37 111.76) (xy 179.07 111.76)
