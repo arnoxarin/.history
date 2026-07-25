@@ -3255,6 +3255,18 @@
 		)
 		(uuid "25f8e7a4-7133-48f3-9937-3d1217c67fa5")
 	)
+	(label "pa3"
+		(at 64.77 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bb4f09e-8a7b-4f55-8dc8-39962854cc21")
+	)
 	(label "s8"
 		(at 123.19 86.36 0)
 		(effects
@@ -3412,6 +3424,18 @@
 			(justify left bottom)
 		)
 		(uuid "9c2269e6-380a-4589-b850-44f6c2420952")
+	)
+	(label "pa2"
+		(at 64.77 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9df9735b-a5cd-4142-be58-f4fb105869ad")
 	)
 	(label "pa1"
 		(at 101.6 46.99 180)
