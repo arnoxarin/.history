@@ -5593,7 +5593,7 @@
 		(dnp no)
 		(uuid "29ae1992-1bae-4db3-92df-f5dfb3f1c530")
 		(property "Reference" "R36"
-			(at 135.636 71.12 0)
+			(at 133.604 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6337,7 +6337,7 @@
 		(dnp no)
 		(uuid "52e0dfed-7912-4cdb-8558-dcdc500ad467")
 		(property "Reference" "R37"
-			(at 135.636 73.66 0)
+			(at 137.16 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
