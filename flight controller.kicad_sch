@@ -6266,6 +6266,18 @@
 		)
 		(uuid "45c2920d-d28b-4cfd-94ea-dab907658910")
 	)
+	(text "usb "
+		(exclude_from_sim no)
+		(at 52.578 132.08 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1e896f84-2cf5-4971-bfbe-0016f955471f")
+	)
 	(text "GPS"
 		(exclude_from_sim no)
 		(at 36.068 91.44 0)
