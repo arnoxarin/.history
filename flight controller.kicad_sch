@@ -7962,7 +7962,7 @@
 		)
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
 	)
-	(label "3.3v"
+	(label "stlink3.3"
 		(at 204.47 100.33 0)
 		(effects
 			(font
