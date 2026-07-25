@@ -8252,6 +8252,17 @@
 		)
 		(uuid "7b964ced-e9c7-489a-8883-d1ef671801a9")
 	)
+	(label "pd8(usart3_tx)"
+		(at 104.14 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "89fcca36-e1c0-4c1d-83f1-da7c36ab2cef")
+	)
 	(label "pa5"
 		(at 166.37 58.42 0)
 		(effects
