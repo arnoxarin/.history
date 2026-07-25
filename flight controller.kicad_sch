@@ -7841,6 +7841,16 @@
 		)
 		(uuid "0690e999-7f39-4009-a6c4-7d833412e405")
 	)
+	(label "pb5"
+		(at 166.37 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2532a25d-1d5b-4f5a-ada6-9a98fd0788af")
+	)
 	(label "i2c1 scl"
 		(at 173.99 109.22 0)
 		(effects
@@ -7860,6 +7870,16 @@
 			(justify left bottom)
 		)
 		(uuid "3f26be86-86e5-4eda-9a0d-a188392a3036")
+	)
+	(label "pb6"
+		(at 166.37 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "463eb375-db2f-4481-be91-50dcfff06863")
 	)
 	(label "pb4"
 		(at 166.37 99.06 0)
