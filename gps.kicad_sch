@@ -1627,6 +1627,18 @@
 		)
 		(uuid "5f1087fb-bb6f-4a47-ae74-478a4e1b647d")
 	)
+	(label "s2"
+		(at 82.55 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "68f55264-2f59-4cd2-851d-bd90c8ab16ee")
+	)
 	(label "3.3v"
 		(at 194.31 39.37 0)
 		(effects
@@ -1636,6 +1648,18 @@
 			(justify left bottom)
 		)
 		(uuid "71ef8717-2c13-4aa6-962a-4c3824c58460")
+	)
+	(label "s1"
+		(at 81.28 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "792a06e8-faf6-43bb-bb67-ff1117c5ee2b")
 	)
 	(label "pc9"
 		(at 251.46 85.09 0)
