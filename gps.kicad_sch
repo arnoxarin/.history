@@ -939,16 +939,6 @@
 		)
 		(uuid "fc77eacc-fa0f-4b96-9737-c250ecf7ec4a")
 	)
-	(label "dat2"
-		(at 228.6 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03013f26-acca-4fd6-8c5e-d152ae076fea")
-	)
 	(label "dat0"
 		(at 270.51 73.66 180)
 		(effects
@@ -1008,16 +998,6 @@
 			(justify left bottom)
 		)
 		(uuid "71ef8717-2c13-4aa6-962a-4c3824c58460")
-	)
-	(label "dat3"
-		(at 228.6 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b1fd3b4-4e0a-42e1-b9cc-4aa2c3b31da0")
 	)
 	(label "dat1"
 		(at 228.6 49.53 180)
