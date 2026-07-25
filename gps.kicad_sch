@@ -5097,7 +5097,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 146.05 76.2 0)
+		(at 149.86 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5107,7 +5107,7 @@
 		(dnp no)
 		(uuid "05601e7a-989c-4e3e-95e0-bf2804b77961")
 		(property "Reference" "J9"
-			(at 142.494 66.04 0)
+			(at 146.304 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5118,7 +5118,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Socket"
-			(at 133.858 68.326 0)
+			(at 137.668 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5129,7 +5129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 76.2 0)
+			(at 149.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5140,7 +5140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 76.2 0)
+			(at 149.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,7 +5151,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 146.05 76.2 0)
+			(at 149.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
