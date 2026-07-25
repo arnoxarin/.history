@@ -1963,7 +1963,7 @@
 	)
 	(text "servo 5v logic\n"
 		(exclude_from_sim no)
-		(at 59.944 18.542 0)
+		(at 60.706 17.78 0)
 		(effects
 			(font
 				(size 2.54 2.54)
