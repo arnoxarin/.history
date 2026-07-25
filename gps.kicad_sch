@@ -999,6 +999,16 @@
 		)
 		(uuid "b514383f-b05b-4155-a7fb-d3dcc429506e")
 	)
+	(label "pd3"
+		(at 228.6 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb92d7e2-82e0-490d-a144-e01f9d088d43")
+	)
 	(label "pd2"
 		(at 212.09 36.83 180)
 		(effects
