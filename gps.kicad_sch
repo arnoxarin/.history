@@ -2903,6 +2903,18 @@
 		)
 		(uuid "d1837822-fa17-4828-896e-ac7415e3a7a7")
 	)
+	(label "s4"
+		(at 95.25 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2f96345-a7e8-4cf1-8607-4f39efce3bb3")
+	)
 	(label "pa0"
 		(at 74.93 21.59 180)
 		(effects
