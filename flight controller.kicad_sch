@@ -9810,7 +9810,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "3.3V"
 			(at 208.28 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
