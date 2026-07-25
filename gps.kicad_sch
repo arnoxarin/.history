@@ -815,6 +815,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 190.5 12.7)
+		(end 284.48 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dfa3f07d-d29e-40d7-b457-4b5d93e12232")
+	)
 	(junction
 		(at 214.63 39.37)
 		(diameter 0)
