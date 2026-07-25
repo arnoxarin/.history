@@ -1632,7 +1632,7 @@
 		(dnp no)
 		(uuid "56866cb4-5242-4a82-9998-d69bd5296aaa")
 		(property "Reference" "R31"
-			(at 208.788 38.1 90)
+			(at 207.772 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2435,7 +2435,7 @@
 		(dnp no)
 		(uuid "dedfd743-1499-4975-ae74-a5a2489d1f8a")
 		(property "Reference" "R29"
-			(at 209.55 34.29 90)
+			(at 209.042 29.718 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
