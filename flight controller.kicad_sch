@@ -8216,6 +8216,16 @@
 		)
 		(uuid "2eea8f92-9a03-453d-94c4-f3f3df91f5ff")
 	)
+	(label "pd6"
+		(at 43.18 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3001dbb3-64c5-49a6-87f6-50e0fb8a3b3e")
+	)
 	(label "3.3v to mcu"
 		(at 201.93 87.63 0)
 		(effects
