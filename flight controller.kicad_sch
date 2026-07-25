@@ -7341,6 +7341,17 @@
 		)
 		(uuid "929b5863-900c-436a-a063-7565c5787984")
 	)
+	(label "usbd+"
+		(at 53.34 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "92ec7f30-d6f6-47a5-b7c1-088d886fb55f")
+	)
 	(label "pb11(SDA)"
 		(at 185.42 128.27 0)
 		(effects
@@ -7404,6 +7415,16 @@
 			(justify left bottom)
 		)
 		(uuid "d11f4d0d-8b46-4c6d-9ea0-5d406d984899")
+	)
+	(label "usbd-"
+		(at 53.34 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5f40242-9bfc-425b-9209-41563121675c")
 	)
 	(label "pd5(RX)"
 		(at 120.65 124.46 180)
