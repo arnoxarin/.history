@@ -2785,7 +2785,7 @@
 		)
 		(uuid "25f8e7a4-7133-48f3-9937-3d1217c67fa5")
 	)
-	(label "s4"
+	(label "s8"
 		(at 123.19 86.36 0)
 		(effects
 			(font
@@ -2974,7 +2974,7 @@
 		)
 		(uuid "c9440ab1-16d9-47b2-afef-004baa4bcec5")
 	)
-	(label "s3"
+	(label "s7"
 		(at 125.73 63.5 0)
 		(effects
 			(font
