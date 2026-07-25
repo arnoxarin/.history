@@ -8089,6 +8089,17 @@
 		)
 		(uuid "fe83bd50-0166-4d47-8c99-9dab637072b9")
 	)
+	(label "pd9(usart3_rx)"
+		(at 106.68 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a09b346-f755-4651-8849-1cfe612480a4")
+	)
 	(label "pb10(SCL)"
 		(at 27.94 109.22 0)
 		(effects
