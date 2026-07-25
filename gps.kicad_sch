@@ -4677,6 +4677,16 @@
 		)
 		(uuid "7e6a88cc-ff1c-435a-8ba2-5512478112cc")
 	)
+	(label "servo9v"
+		(at 149.86 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83e3fed7-911c-495f-8f48-a2f14f95f81e")
+	)
 	(label "pc9"
 		(at 251.46 85.09 0)
 		(effects
