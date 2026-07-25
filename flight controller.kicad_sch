@@ -8400,7 +8400,7 @@
 		)
 		(uuid "ea2a8e16-f401-41d6-ba0e-59680b63948f")
 	)
-	(label "pd5"
+	(label "pd5(RX)"
 		(at 27.94 106.68 0)
 		(effects
 			(font
