@@ -706,15 +706,21 @@
 		(color 0 0 0 0)
 		(uuid "0fce5313-97ad-4ff1-95fb-d950305216d9")
 	)
+	(junction
+		(at 203.2 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5201ef18-7de6-4904-97f6-9dc19a5a7db6")
+	)
 	(wire
 		(pts
-			(xy 203.2 39.37) (xy 214.63 39.37)
+			(xy 194.31 39.37) (xy 203.2 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e23d142c-8d17-426f-bea1-6eafe6e69037")
+		(uuid "922743d7-55e6-493f-951b-01a847379c77")
 	)
 	(wire
 		(pts
@@ -725,6 +731,26 @@
 			(type default)
 		)
 		(uuid "e265263d-f3fa-47c9-aeb6-c7bbe94d05bc")
+	)
+	(wire
+		(pts
+			(xy 203.2 39.37) (xy 214.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f0226a-c970-455d-8d17-467f53b4b3b5")
+	)
+	(label "3.3v"
+		(at 194.31 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71ef8717-2c13-4aa6-962a-4c3824c58460")
 	)
 	(symbol
 		(lib_id "Device:C")
