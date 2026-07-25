@@ -6588,6 +6588,18 @@
 		)
 		(uuid "e88f0ebc-352a-4e70-b3d2-a80fec2c8c26")
 	)
+	(label "usbd+"
+		(at 166.37 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9ceda23-ca0c-4efc-90e7-b7ca69a8ef11")
+	)
 	(label "pd6(TX)"
 		(at 27.94 104.14 0)
 		(effects
