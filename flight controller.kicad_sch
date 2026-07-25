@@ -8346,6 +8346,16 @@
 		)
 		(uuid "d11f4d0d-8b46-4c6d-9ea0-5d406d984899")
 	)
+	(label "pd5"
+		(at 43.18 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9e43482-e872-4ebd-99ea-a30a9a9c2cd3")
+	)
 	(label "pb3"
 		(at 166.37 96.52 0)
 		(effects
