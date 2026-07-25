@@ -8390,6 +8390,16 @@
 		)
 		(uuid "d11f4d0d-8b46-4c6d-9ea0-5d406d984899")
 	)
+	(label "pd6(TX)"
+		(at 27.94 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea2a8e16-f401-41d6-ba0e-59680b63948f")
+	)
 	(label "pd5"
 		(at 27.94 106.68 0)
 		(effects
