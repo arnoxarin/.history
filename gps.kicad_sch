@@ -1898,7 +1898,7 @@
 		)
 		(uuid "2d625e29-45a5-4b49-a341-2705eb2cdf81")
 	)
-	(text "9v\n"
+	(text " servo 9v"
 		(exclude_from_sim no)
 		(at 100.838 127.508 0)
 		(effects
