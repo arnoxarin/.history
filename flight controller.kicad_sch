@@ -8246,6 +8246,16 @@
 		)
 		(uuid "4db1cb83-5073-42dc-ad6c-cdbca528cf54")
 	)
+	(label "5v"
+		(at 43.18 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "513d4be4-2b27-4564-8015-f0c76976fa3b")
+	)
 	(label "usbd-"
 		(at 168.91 76.2 0)
 		(effects
