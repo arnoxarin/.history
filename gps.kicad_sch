@@ -1513,7 +1513,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 44.45 0)
+		(at 224.79 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1521,10 +1521,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bedd1ef0-7946-4fcc-8538-0f1df8aac918")
 		(property "Reference" "#PWR030"
-			(at 224.79 50.8 0)
+			(at 218.44 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1535,13 +1534,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 49.53 0)
+			(at 223.012 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
