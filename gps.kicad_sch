@@ -939,6 +939,16 @@
 		)
 		(uuid "1fe49253-86ac-427b-8af7-ce7f4f7cd4f0")
 	)
+	(label "pc11"
+		(at 212.09 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "436ace25-e382-433e-b704-78d027c4936c")
+	)
 	(label "3.3v"
 		(at 222.25 64.77 0)
 		(effects
