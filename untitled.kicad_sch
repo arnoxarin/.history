@@ -3031,6 +3031,12 @@
 		(uuid "24df6d0e-459c-43c9-b9a2-c3a3bf8e2ed1")
 	)
 	(junction
+		(at 248.92 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "250b5826-f718-42c4-bef5-0d399e293559")
+	)
+	(junction
 		(at 105.41 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3890,13 +3896,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 71.12) (xy 248.92 74.93)
+			(xy 248.92 71.12) (xy 248.92 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75e8aba0-b13c-43ea-874e-9008a9535947")
+	)
+	(wire
+		(pts
+			(xy 248.92 72.39) (xy 248.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c61b5c8-7bf0-48e4-8cc7-5e6d83d4bd64")
 	)
 	(wire
 		(pts
@@ -4651,13 +4667,13 @@
 		(uuid "836e2363-ed2b-4d02-8fea-e6ebf97b8404")
 	)
 	(label "stlink3.3"
-		(at 243.84 69.85 180)
+		(at 256.54 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8b61b6b7-c2a1-43c9-9c35-6356f0ec38c7")
 	)
@@ -10138,7 +10154,7 @@
 	)
 	(symbol
 		(lib_id "symbols:D_Schottky")
-		(at 246.38 72.39 90)
+		(at 252.73 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10149,29 +10165,27 @@
 		(fields_autoplaced yes)
 		(uuid "ebca18ea-337a-409c-a02a-289a3c18889e")
 		(property "Reference" "D4"
-			(at 248.92 71.4374 90)
+			(at 252.4125 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 248.92 73.9774 90)
+			(at 252.4125 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 72.39 0)
+			(at 252.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10182,7 +10196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 72.39 0)
+			(at 252.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10193,7 +10207,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 246.38 72.39 0)
+			(at 252.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
