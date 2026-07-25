@@ -7941,6 +7941,26 @@
 		)
 		(uuid "d11f4d0d-8b46-4c6d-9ea0-5d406d984899")
 	)
+	(label "pb3"
+		(at 166.37 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb124078-2304-46c7-b8da-61da1e2b83ed")
+	)
+	(label "pb2"
+		(at 166.37 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc5a14e6-0be8-4d86-9004-4358214d8d3a")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 144.78 180.34 0)
