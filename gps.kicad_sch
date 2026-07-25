@@ -1153,8 +1153,18 @@
 		)
 		(uuid "dca8ef6d-d951-4898-b915-be20af53dd26")
 	)
+	(label "3.3v"
+		(at 260.35 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1c0c953-d264-4a09-b2cb-9180a8d95910")
+	)
 	(label "dat1"
-		(at 270.51 82.55 0)
+		(at 270.51 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
