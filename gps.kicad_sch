@@ -2810,6 +2810,18 @@
 		)
 	)
 	(rectangle
+		(start 115.57 12.7)
+		(end 189.23 52.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2a8a19e9-99a5-420b-8ff1-f3c850b69b55")
+	)
+	(rectangle
 		(start 15.24 12.7)
 		(end 110.49 85.09)
 		(stroke
@@ -2820,6 +2832,18 @@
 			(type none)
 		)
 		(uuid "622e6ae5-c6c9-431b-b333-b654173c3e42")
+	)
+	(rectangle
+		(start 115.57 55.88)
+		(end 189.23 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7ead6323-f4ea-4aa4-abef-205705877fe2")
 	)
 	(rectangle
 		(start 12.7 116.84)
