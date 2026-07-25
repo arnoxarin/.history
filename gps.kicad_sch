@@ -2435,7 +2435,7 @@
 		(dnp no)
 		(uuid "dedfd743-1499-4975-ae74-a5a2489d1f8a")
 		(property "Reference" "R29"
-			(at 209.042 29.718 90)
+			(at 209.042 29.972 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
