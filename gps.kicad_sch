@@ -909,6 +909,16 @@
 		)
 		(uuid "fc77eacc-fa0f-4b96-9737-c250ecf7ec4a")
 	)
+	(label "dat2"
+		(at 228.6 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03013f26-acca-4fd6-8c5e-d152ae076fea")
+	)
 	(label "dat0"
 		(at 227.33 72.39 180)
 		(effects
