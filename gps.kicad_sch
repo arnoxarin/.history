@@ -3533,6 +3533,18 @@
 		)
 		(uuid "a7432711-cb7b-4ef2-b497-ef78b7faf3ae")
 	)
+	(label "s8"
+		(at 90.17 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab451016-7380-4493-8a23-6e2d12f4a87e")
+	)
 	(label "s3"
 		(at 90.17 48.26 0)
 		(effects
