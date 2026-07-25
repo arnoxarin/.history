@@ -7231,6 +7231,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 107.95) (xy 86.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5218c0da-2e6c-4940-9ecd-d3e279289177")
+	)
+	(wire
+		(pts
 			(xy 260.35 48.26) (xy 260.35 49.53)
 		)
 		(stroke
@@ -8090,7 +8100,7 @@
 		(uuid "fe83bd50-0166-4d47-8c99-9dab637072b9")
 	)
 	(label "pd9(usart3_rx)"
-		(at 104.14 139.7 0)
+		(at 82.55 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8253,7 +8263,7 @@
 		(uuid "7b964ced-e9c7-489a-8883-d1ef671801a9")
 	)
 	(label "pd8(usart3_tx)"
-		(at 104.14 142.24 0)
+		(at 86.36 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8306,7 +8316,7 @@
 		(uuid "a3e7d621-9343-4968-bfd7-3a9fe26d8722")
 	)
 	(label "5v"
-		(at 104.14 134.62 0)
+		(at 82.55 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12118,7 +12128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 137.16 90)
+		(at 82.55 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12129,7 +12139,7 @@
 		(fields_autoplaced yes)
 		(uuid "a581aef5-5ee0-437c-a48a-0c80423a5c65")
 		(property "Reference" "#PWR022"
-			(at 110.49 137.16 0)
+			(at 88.9 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12140,7 +12150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 137.1599 90)
+			(at 86.36 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12151,7 +12161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 137.16 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,7 +12172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 137.16 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12173,7 +12183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 137.16 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12749,7 +12759,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 99.06 139.7 180)
+		(at 77.47 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12760,7 +12770,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd806da6-247c-4029-a3e2-9776b5c92cff")
 		(property "Reference" "J7"
-			(at 99.695 129.54 0)
+			(at 78.105 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12770,7 +12780,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 99.695 132.08 0)
+			(at 78.105 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12780,7 +12790,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
-			(at 99.06 139.7 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12791,7 +12801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 139.7 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12802,7 +12812,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 99.06 139.7 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
