@@ -1864,7 +1864,7 @@
 	)
 	(rectangle
 		(start 12.7 12.7)
-		(end 185.42 147.32)
+		(end 185.42 110.49)
 		(stroke
 			(width 0)
 			(type default)
@@ -2719,7 +2719,7 @@
 		(uuid "1fe49253-86ac-427b-8af7-ce7f4f7cd4f0")
 	)
 	(label "5v"
-		(at 64.77 127 180)
+		(at 73.66 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2750,7 +2750,7 @@
 		(uuid "5f1087fb-bb6f-4a47-ae74-478a4e1b647d")
 	)
 	(label "s2"
-		(at 83.82 64.77 0)
+		(at 92.71 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2772,7 +2772,7 @@
 		(uuid "71ef8717-2c13-4aa6-962a-4c3824c58460")
 	)
 	(label "s1"
-		(at 81.28 45.72 0)
+		(at 90.17 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2794,7 +2794,7 @@
 		(uuid "845e1fbd-4fc0-4518-aebb-68d8085efd52")
 	)
 	(label "pa1"
-		(at 68.58 64.77 180)
+		(at 77.47 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 		(uuid "98b966e7-51af-40e2-a272-fdbec21c3a24")
 	)
 	(label "pa2"
-		(at 69.85 85.09 180)
+		(at 78.74 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,7 +2858,7 @@
 		(uuid "cb92d7e2-82e0-490d-a144-e01f9d088d43")
 	)
 	(label "pa3"
-		(at 71.12 101.6 180)
+		(at 80.01 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2880,7 +2880,7 @@
 		(uuid "d1837822-fa17-4828-896e-ac7415e3a7a7")
 	)
 	(label "pa0"
-		(at 66.04 45.72 180)
+		(at 74.93 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3365,7 +3365,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 127 90)
+		(at 99.06 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3376,7 +3376,7 @@
 		(fields_autoplaced yes)
 		(uuid "239bd080-865f-49f0-8d56-292912c215fc")
 		(property "Reference" "#PWR023"
-			(at 96.52 127 0)
+			(at 105.41 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3387,7 +3387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 126.9999 90)
+			(at 102.87 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3398,7 +3398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 127 0)
+			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3409,7 +3409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 127 0)
+			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,7 +3420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 127 0)
+			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +3709,7 @@
 	)
 	(symbol
 		(lib_id "symbols:74AHCT125")
-		(at 78.74 101.6 0)
+		(at 87.63 77.47 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3720,7 +3720,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f0f83c2-0f58-4390-a46c-c1820f2e3976")
 		(property "Reference" "U9"
-			(at 78.74 92.71 0)
+			(at 87.63 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3730,7 +3730,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 78.74 95.25 0)
+			(at 87.63 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3740,7 +3740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 101.6 0)
+			(at 87.63 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +3751,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 78.74 101.6 0)
+			(at 87.63 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,7 +3762,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 78.74 101.6 0)
+			(at 87.63 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,7 +4386,7 @@
 	)
 	(symbol
 		(lib_id "symbols:74AHCT125")
-		(at 77.47 85.09 0)
+		(at 86.36 60.96 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4397,7 +4397,7 @@
 		(fields_autoplaced yes)
 		(uuid "6083537c-c15e-47a0-aa2b-5e2b36826c27")
 		(property "Reference" "U9"
-			(at 77.47 76.2 0)
+			(at 86.36 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4407,7 +4407,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 77.47 78.74 0)
+			(at 86.36 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4417,7 +4417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 85.09 0)
+			(at 86.36 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4428,7 +4428,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 77.47 85.09 0)
+			(at 86.36 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,7 +4439,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 77.47 85.09 0)
+			(at 86.36 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,7 +4502,7 @@
 	)
 	(symbol
 		(lib_id "symbols:74AHCT125")
-		(at 73.66 45.72 0)
+		(at 82.55 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4513,7 +4513,7 @@
 		(fields_autoplaced yes)
 		(uuid "630da23a-f7eb-478b-8efe-9f507e85c075")
 		(property "Reference" "U9"
-			(at 73.66 36.83 0)
+			(at 82.55 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4523,7 +4523,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 73.66 39.37 0)
+			(at 82.55 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4533,7 +4533,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 73.66 45.72 0)
+			(at 82.55 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4544,7 +4544,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 73.66 45.72 0)
+			(at 82.55 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4555,7 +4555,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 73.66 45.72 0)
+			(at 82.55 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +4861,7 @@
 	)
 	(symbol
 		(lib_id "symbols:74AHCT125")
-		(at 76.2 64.77 0)
+		(at 85.09 40.64 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4872,7 +4872,7 @@
 		(fields_autoplaced yes)
 		(uuid "72b4e67d-5f8b-4fff-9f8a-e79c3805358d")
 		(property "Reference" "U9"
-			(at 76.2 55.88 0)
+			(at 85.09 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4882,7 +4882,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 76.2 58.42 0)
+			(at 85.09 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4892,7 +4892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 64.77 0)
+			(at 85.09 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +4903,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 76.2 64.77 0)
+			(at 85.09 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,7 +4914,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 76.2 64.77 0)
+			(at 85.09 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6440,7 +6440,7 @@
 	)
 	(symbol
 		(lib_id "symbols:74AHCT125")
-		(at 77.47 127 90)
+		(at 86.36 102.87 90)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6451,7 +6451,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9c8c3e0-44ad-4577-bd75-2895f5afe9f9")
 		(property "Reference" "U9"
-			(at 77.47 116.84 90)
+			(at 86.36 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6461,7 +6461,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 77.47 119.38 90)
+			(at 86.36 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6471,7 +6471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 127 0)
+			(at 86.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +6482,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 77.47 127 0)
+			(at 86.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +6493,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 77.47 127 0)
+			(at 86.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
