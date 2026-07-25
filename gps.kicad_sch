@@ -843,7 +843,7 @@
 		(at 226.06 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69e5bd3f-9c08-4ec0-84b6-e928e340965b")
+		(uuid "5fb11691-0293-4ff5-b40f-88c092069374")
 	)
 	(junction
 		(at 214.63 46.99)
@@ -1357,10 +1357,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "607755dd-77f8-4b77-bb86-627486121f02")
 		(property "Reference" "R22"
-			(at 228.6 29.2099 0)
+			(at 220.98 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
