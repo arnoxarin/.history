@@ -8317,6 +8317,18 @@
 		)
 		(uuid "c24a02bb-fd17-43b2-889b-46c004b6e2a4")
 	)
+	(label "5v"
+		(at 191.77 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd14d0d6-d2c8-49d4-b57f-d65a417c87d1")
+	)
 	(label "pb0"
 		(at 166.37 88.9 0)
 		(effects
