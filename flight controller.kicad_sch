@@ -5864,6 +5864,12 @@
 		(uuid "2b0981ba-3c9f-41cd-b710-58af1e60d5a4")
 	)
 	(junction
+		(at 51.6064 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "357fdc92-f8af-4213-b94c-58da7b153349")
+	)
+	(junction
 		(at 151.13 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6359,16 +6365,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.6136 157.48) (xy 49.53 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f78fce9-c244-4bd8-8b34-772a4be552b2")
-	)
-	(wire
-		(pts
 			(xy 95.25 27.94) (xy 104.14 27.94)
 		)
 		(stroke
@@ -6489,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 157.48) (xy 51.6064 156.21)
+			(xy 51.6064 156.21) (xy 62.6936 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7340,7 +7336,7 @@
 		(uuid "ce82f47f-a6a3-440b-8fdb-27104f92fa89")
 	)
 	(label "pb5"
-		(at 57.6136 157.48 0)
+		(at 62.6936 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11005,7 +11001,7 @@
 		(dnp no)
 		(uuid "b12c4885-74f0-4dd4-a205-dbf50a7f8a8e")
 		(property "Reference" "R25"
-			(at 53.3844 152.908 0)
+			(at 46.736 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11016,7 +11012,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 52.3684 155.956 0)
+			(at 50.546 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
