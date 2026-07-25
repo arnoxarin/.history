@@ -2081,7 +2081,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 62.23 0)
+		(at 260.35 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2092,7 +2092,7 @@
 		(fields_autoplaced yes)
 		(uuid "c84ff0ef-fd53-45bd-9b73-c941ef02c6c2")
 		(property "Reference" "R24"
-			(at 149.86 60.9599 0)
+			(at 262.89 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2103,7 +2103,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 149.86 63.4999 0)
+			(at 262.89 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2114,7 +2114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.542 62.23 90)
+			(at 258.572 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,7 +2125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 62.23 0)
+			(at 260.35 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,7 +2136,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 62.23 0)
+			(at 260.35 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
