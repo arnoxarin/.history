@@ -6642,12 +6642,6 @@
 		(uuid "2b0981ba-3c9f-41cd-b710-58af1e60d5a4")
 	)
 	(junction
-		(at 190.5 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f458334-d0ee-485e-b185-5408ae8d394a")
-	)
-	(junction
 		(at 151.13 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6754,12 +6748,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5ba5633-8811-4ee7-906b-2f585b8d5f8c")
-	)
-	(junction
-		(at 173.99 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b829cbe8-ecef-44e4-9d97-d139bc5b85c7")
 	)
 	(junction
 		(at 97.79 69.85)
@@ -6947,7 +6935,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 107.95) (xy 190.5 107.95)
+			(xy 204.47 107.95) (xy 182.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6994,16 +6982,6 @@
 			(type default)
 		)
 		(uuid "1952427e-13aa-4180-b5dd-d0d4705cce4c")
-	)
-	(wire
-		(pts
-			(xy 190.5 107.95) (xy 173.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b638a72-2ae3-4282-b50d-cb207bcf7bea")
 	)
 	(wire
 		(pts
@@ -7354,6 +7332,16 @@
 			(type default)
 		)
 		(uuid "5b9ba039-d3b1-45d9-8d61-92b1e1fac5eb")
+	)
+	(wire
+		(pts
+			(xy 173.99 109.22) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5525e5-08e1-43bd-a099-9d087072490a")
 	)
 	(wire
 		(pts
@@ -7857,6 +7845,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 107.95) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22ae77e-4062-44a6-a73a-911de544ea24")
+	)
+	(wire
+		(pts
 			(xy 72.39 46.99) (xy 72.39 39.37)
 		)
 		(stroke
@@ -8007,16 +8005,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 109.22) (xy 182.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e03419de-6689-47b8-a66f-95c476a38024")
-	)
-	(wire
-		(pts
 			(xy 185.42 93.98) (xy 185.42 96.52)
 		)
 		(stroke
@@ -8107,16 +8095,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 107.95) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fce019db-5d52-4059-bd42-65c960b03ee0")
-	)
-	(wire
-		(pts
 			(xy 49.53 161.29) (xy 49.53 163.83)
 		)
 		(stroke
@@ -8187,7 +8165,7 @@
 		(uuid "2532a25d-1d5b-4f5a-ada6-9a98fd0788af")
 	)
 	(label "i2c1 scl"
-		(at 190.5 107.95 0)
+		(at 182.88 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
