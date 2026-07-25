@@ -1764,7 +1764,7 @@
 		(dnp no)
 		(uuid "990bcd17-37bd-4904-b712-9d162b4be92e")
 		(property "Reference" "R21"
-			(at 220.98 31.7499 0)
+			(at 219.964 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
