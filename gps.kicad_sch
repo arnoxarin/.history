@@ -829,7 +829,7 @@
 	)
 	(text "SD CARD\n"
 		(exclude_from_sim no)
-		(at 245.618 15.24 0)
+		(at 245.364 16.51 0)
 		(effects
 			(font
 				(size 2.54 2.54)
