@@ -822,12 +822,6 @@
 		(uuid "0fce5313-97ad-4ff1-95fb-d950305216d9")
 	)
 	(junction
-		(at 226.06 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2882355d-4473-48ce-bfa5-b065983aed81")
-	)
-	(junction
 		(at 260.35 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -851,6 +845,12 @@
 		(color 0 0 0 0)
 		(uuid "e3360e64-7b0a-4e3a-9227-42ae1c24c4c0")
 	)
+	(junction
+		(at 226.06 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fac9a874-ea0e-4761-b692-268fb3550feb")
+	)
 	(wire
 		(pts
 			(xy 212.09 36.83) (xy 218.44 36.83)
@@ -873,7 +873,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 31.75) (xy 226.06 34.29)
+			(xy 226.06 33.02) (xy 226.06 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 27.94 0)
+		(at 226.06 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1369,7 +1369,7 @@
 		(dnp no)
 		(uuid "607755dd-77f8-4b77-bb86-627486121f02")
 		(property "Reference" "R22"
-			(at 220.98 26.924 0)
+			(at 220.98 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 226.314 29.718 90)
+			(at 226.314 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1391,7 +1391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.282 27.94 90)
+			(at 224.282 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1402,7 +1402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 27.94 0)
+			(at 226.06 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 27.94 0)
+			(at 226.06 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
