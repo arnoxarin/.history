@@ -7896,7 +7896,7 @@
 		(uuid "a770b149-27a9-4a39-8c1a-792d2870c23d")
 	)
 	(label "pa5"
-		(at 64.77 153.67 0)
+		(at 76.2 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7918,7 +7918,7 @@
 		(uuid "ce82f47f-a6a3-440b-8fdb-27104f92fa89")
 	)
 	(label "pb5"
-		(at 62.6936 156.21 0)
+		(at 74.93 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
