@@ -3214,6 +3214,18 @@
 		)
 		(uuid "027802d3-ebd6-45ab-a672-9161bf972b25")
 	)
+	(label "s4"
+		(at 90.17 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b1a66b6-f027-4244-a633-1905e2226e39")
+	)
 	(label "dat0"
 		(at 270.51 73.66 0)
 		(effects
