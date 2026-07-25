@@ -822,7 +822,7 @@
 		(uuid "0fce5313-97ad-4ff1-95fb-d950305216d9")
 	)
 	(junction
-		(at 222.25 72.39)
+		(at 260.35 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423dbece-8d24-46f4-86ae-65e6ebfb0b48")
@@ -841,7 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 72.39) (xy 232.41 72.39)
+			(xy 260.35 73.66) (xy 270.51 73.66)
 		)
 		(stroke
 			(width 0)
@@ -871,7 +871,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 222.25 72.39)
+			(xy 251.46 73.66) (xy 260.35 73.66)
 		)
 		(stroke
 			(width 0)
@@ -920,7 +920,7 @@
 		(uuid "03013f26-acca-4fd6-8c5e-d152ae076fea")
 	)
 	(label "dat0"
-		(at 232.41 72.39 180)
+		(at 270.51 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -940,7 +940,7 @@
 		(uuid "1088762f-9bd5-4188-982a-b062d48f9f0f")
 	)
 	(label "pc8"
-		(at 213.36 72.39 0)
+		(at 251.46 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -960,7 +960,7 @@
 		(uuid "436ace25-e382-433e-b704-78d027c4936c")
 	)
 	(label "3.3v"
-		(at 222.25 64.77 0)
+		(at 260.35 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 222.25 68.58 0)
+		(at 260.35 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1641,7 +1641,7 @@
 		(fields_autoplaced yes)
 		(uuid "95bea40e-1118-4003-a7be-370d18352ff8")
 		(property "Reference" "R10"
-			(at 224.79 67.3099 0)
+			(at 262.89 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1652,7 +1652,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 224.79 69.8499 0)
+			(at 262.89 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1663,7 +1663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.472 68.58 90)
+			(at 258.572 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1674,7 +1674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 68.58 0)
+			(at 260.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1685,7 +1685,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 222.25 68.58 0)
+			(at 260.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
