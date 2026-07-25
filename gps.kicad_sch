@@ -929,6 +929,16 @@
 		)
 		(uuid "102ba1a2-1f96-4e41-9d3b-e6a5fb8a01ca")
 	)
+	(label "pc12"
+		(at 228.6 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1088762f-9bd5-4188-982a-b062d48f9f0f")
+	)
 	(label "pc8"
 		(at 213.36 72.39 0)
 		(effects
