@@ -7959,6 +7959,18 @@
 		)
 		(uuid "af93cfe3-a778-445f-b99d-a2b950ffa5f1")
 	)
+	(label "vbus"
+		(at 63.5 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c24a02bb-fd17-43b2-889b-46c004b6e2a4")
+	)
 	(label "pb0"
 		(at 166.37 88.9 0)
 		(effects
@@ -8000,6 +8012,18 @@
 			(justify left bottom)
 		)
 		(uuid "d5f40242-9bfc-425b-9209-41563121675c")
+	)
+	(label "vbus"
+		(at 46.99 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0fe65b2-7808-4beb-aeb1-2428040d976b")
 	)
 	(label "pd5(RX)"
 		(at 120.65 124.46 180)
