@@ -1044,12 +1044,12 @@
 		(uuid "fc77eacc-fa0f-4b96-9737-c250ecf7ec4a")
 	)
 	(label "dat0"
-		(at 270.51 73.66 180)
+		(at 270.51 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "102ba1a2-1f96-4e41-9d3b-e6a5fb8a01ca")
 	)
@@ -1152,6 +1152,16 @@
 			(justify right bottom)
 		)
 		(uuid "dca8ef6d-d951-4898-b915-be20af53dd26")
+	)
+	(label "dat1"
+		(at 270.51 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7ff083e-8600-4b8d-b914-009aded3bf76")
 	)
 	(label "dat0"
 		(at 228.6 46.99 180)
