@@ -870,6 +870,12 @@
 		(uuid "6bf2fdb0-b3c1-4628-97cd-dc63c839dcbb")
 	)
 	(junction
+		(at 215.9 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cc28e33-f4fc-4385-81c9-e2a88c545bae")
+	)
+	(junction
 		(at 226.06 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -880,12 +886,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be946cc4-6cf3-4e8a-a930-4a863e9895e3")
-	)
-	(junction
-		(at 215.9 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdae95f3-952b-4ba4-bb21-d7afa6370955")
 	)
 	(junction
 		(at 214.63 46.99)
@@ -995,6 +995,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 34.29) (xy 226.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f50e31e-3559-4310-8fda-e034b747fe9d")
+	)
+	(wire
+		(pts
+			(xy 213.36 31.75) (xy 215.9 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0891630-6dfa-4578-a1ef-29e7d7ab684f")
+	)
+	(wire
+		(pts
 			(xy 215.9 24.13) (xy 218.44 24.13)
 		)
 		(stroke
@@ -1045,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 31.75) (xy 215.9 31.75)
+			(xy 203.2 31.75) (xy 205.74 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 34.29) (xy 226.06 34.29)
+			(xy 207.01 34.29) (xy 208.28 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1224,7 @@
 		(uuid "dad8480e-9d50-4271-b9f1-a302e12e31c6")
 	)
 	(label "pc10"
-		(at 212.09 31.75 180)
+		(at 203.2 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1397,6 +1417,87 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/144e5f7d-352f-43f0-94c0-d8713d07b695"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 212.09 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14e6cb1e-5379-417c-ac70-b04c8b5324d0")
+		(property "Reference" "R30"
+			(at 212.09 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22"
+			(at 214.376 34.544 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 36.068 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8c7f3216-ea39-46d4-ac80-bad1c992397a")
+		)
+		(pin "1"
+			(uuid "8132d4c3-ee7c-4ef1-8a7b-9d04c82d9351")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/144e5f7d-352f-43f0-94c0-d8713d07b695"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2226,6 +2327,87 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/144e5f7d-352f-43f0-94c0-d8713d07b695"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dedfd743-1499-4975-ae74-a5a2489d1f8a")
+		(property "Reference" "R29"
+			(at 209.55 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22"
+			(at 211.836 32.004 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 33.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac50abd3-ab49-4185-8a55-c9f8213e6515")
+		)
+		(pin "1"
+			(uuid "54b128b1-6104-4e7d-8a09-22707e91c182")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/144e5f7d-352f-43f0-94c0-d8713d07b695"
+					(reference "R29")
 					(unit 1)
 				)
 			)
