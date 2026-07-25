@@ -6724,6 +6724,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 165.1) (xy 80.01 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ddf557-4798-4285-9a05-b2110f4d1614")
+	)
+	(wire
+		(pts
 			(xy 151.13 25.4) (xy 151.13 34.29)
 		)
 		(stroke
@@ -11795,7 +11805,7 @@
 		(dnp no)
 		(uuid "a4b419f7-4e85-44e5-a2cb-5fd0b2f82b33")
 		(property "Reference" "R27"
-			(at 72.39 169.9704 0)
+			(at 74.168 165.354 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
