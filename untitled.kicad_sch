@@ -3606,7 +3606,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 17.78) (xy 146.05 30.48)
+			(xy 146.05 17.78) (xy 146.05 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4253,6 +4253,16 @@
 			(type default)
 		)
 		(uuid "c0356f90-af04-4703-a783-66c440acb5bf")
+	)
+	(wire
+		(pts
+			(xy 146.05 27.94) (xy 146.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a0e3d7-682a-49ef-86df-ef55ac8bd042")
 	)
 	(wire
 		(pts
@@ -5368,6 +5378,88 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:D_Schottky")
+		(at 146.05 24.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f992d61-3780-4461-a7ce-cf8e583f336f")
+		(property "Reference" "D6"
+			(at 148.59 22.5424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 148.59 25.0824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 146.05 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9688454e-9808-4b6d-90c1-4020b095fd36")
+		)
+		(pin "1"
+			(uuid "d2e4698b-5620-4c7d-a477-893152cd364c")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "D6")
 					(unit 1)
 				)
 			)
