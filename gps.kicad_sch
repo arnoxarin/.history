@@ -1057,6 +1057,16 @@
 		)
 		(uuid "71ef8717-2c13-4aa6-962a-4c3824c58460")
 	)
+	(label "3.3v"
+		(at 220.98 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98b966e7-51af-40e2-a272-fdbec21c3a24")
+	)
 	(label "dat1"
 		(at 228.6 49.53 180)
 		(effects
@@ -1466,7 +1476,7 @@
 		(dnp no)
 		(uuid "66df3eb5-c216-4e5b-ad78-6611e7a060ae")
 		(property "Reference" "R23"
-			(at 210.566 26.924 0)
+			(at 210.566 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
