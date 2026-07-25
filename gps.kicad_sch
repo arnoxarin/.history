@@ -3202,6 +3202,18 @@
 		)
 		(uuid "fc77eacc-fa0f-4b96-9737-c250ecf7ec4a")
 	)
+	(label "pa0"
+		(at 64.77 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "027802d3-ebd6-45ab-a672-9161bf972b25")
+	)
 	(label "dat0"
 		(at 270.51 73.66 0)
 		(effects
@@ -3300,6 +3312,18 @@
 			(justify right bottom)
 		)
 		(uuid "47f8c2e9-e722-45bf-89d0-6d53e738573b")
+	)
+	(label "pa1"
+		(at 64.77 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "52f8a7d4-8fe0-4884-b9e2-3282ddc6fb2c")
 	)
 	(label "3.3v"
 		(at 260.35 66.04 0)
