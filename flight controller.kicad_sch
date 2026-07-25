@@ -6420,6 +6420,18 @@
 		)
 		(uuid "45c2920d-d28b-4cfd-94ea-dab907658910")
 	)
+	(text "GPS"
+		(exclude_from_sim no)
+		(at 36.068 91.44 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "ab90163d-88ff-4fe0-8e55-63ff60b8e3e2")
+	)
 	(junction
 		(at 85.09 35.56)
 		(diameter 0)
