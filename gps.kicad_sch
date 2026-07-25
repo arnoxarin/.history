@@ -3307,6 +3307,122 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:74AHCT125")
+		(at 77.47 127 90)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9c8c3e0-44ad-4577-bd75-2895f5afe9f9")
+		(property "Reference" "U9"
+			(at 77.47 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 77.47 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "646fbcc3-e5db-4807-a667-7773642afe10")
+		)
+		(pin "12"
+			(uuid "306e998c-552d-4d62-bb27-e142383a7f95")
+		)
+		(pin "14"
+			(uuid "c92f2039-15d8-4e9e-b48e-077d8de73b90")
+		)
+		(pin "8"
+			(uuid "1047a8e3-5eb5-4721-9e48-568d9b821a62")
+		)
+		(pin "13"
+			(uuid "7b172370-3eb7-4028-8444-16c0b807bd46")
+		)
+		(pin "5"
+			(uuid "ae047550-0576-46ff-8b42-13afe81ef374")
+		)
+		(pin "10"
+			(uuid "799416dc-d9f4-4902-bee3-7f7343a9a019")
+		)
+		(pin "1"
+			(uuid "fa36dc63-c3b9-4a60-a7cc-c8b3ddb17ea3")
+		)
+		(pin "2"
+			(uuid "73178640-331b-4b83-bf65-bf157fed4062")
+		)
+		(pin "3"
+			(uuid "fd1137ab-1a4a-439e-96a5-e1f8cb49c52e")
+		)
+		(pin "6"
+			(uuid "d09cf597-7c9f-45e1-bd76-49761bc2fc75")
+		)
+		(pin "9"
+			(uuid "98aea3d3-798f-47d0-80d9-c23c57093140")
+		)
+		(pin "11"
+			(uuid "6fa76c62-cca9-49f2-bff7-f8ae0be3aa36")
+		)
+		(pin "7"
+			(uuid "6e44af64-0757-4105-af0f-d8a17a94db4e")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/144e5f7d-352f-43f0-94c0-d8713d07b695"
+					(reference "U9")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 209.55 31.75 90)
 		(unit 1)
