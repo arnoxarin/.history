@@ -6914,16 +6914,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 165.1) (xy 68.58 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b25b7af-e91c-4d45-9894-56a1ab4ad474")
-	)
-	(wire
-		(pts
 			(xy 171.45 33.02) (xy 171.45 35.56)
 		)
 		(stroke
@@ -7691,16 +7681,6 @@
 			(type default)
 		)
 		(uuid "de71314f-8cb8-4678-9a0a-6b675f3d5f8a")
-	)
-	(wire
-		(pts
-			(xy 80.01 167.64) (xy 68.58 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e066867b-1ffa-42aa-a547-23b0c6849345")
 	)
 	(wire
 		(pts
@@ -11798,6 +11778,87 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4b419f7-4e85-44e5-a2cb-5fd0b2f82b33")
+		(property "Reference" "R27"
+			(at 72.39 169.9704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 77.724 166.1604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 166.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "54a71d07-0a87-449a-93c9-f9a125db9ed5")
+		)
+		(pin "1"
+			(uuid "b2309814-0c16-42bb-9474-bc07da07de41")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "R27")
 					(unit 1)
 				)
 			)
