@@ -2882,7 +2882,7 @@
 	)
 	(rectangle
 		(start 204.47 59.69)
-		(end 262.89 93.98)
+		(end 267.97 93.98)
 		(stroke
 			(width 0)
 			(type default)
@@ -3029,12 +3029,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24df6d0e-459c-43c9-b9a2-c3a3bf8e2ed1")
-	)
-	(junction
-		(at 248.92 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "250b5826-f718-42c4-bef5-0d399e293559")
 	)
 	(junction
 		(at 105.41 121.92)
@@ -3476,6 +3470,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 72.39) (xy 248.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200e6ec6-2cef-49f8-aadd-3b7b7eed876f")
+	)
+	(wire
+		(pts
 			(xy 31.75 57.15) (xy 31.75 59.69)
 		)
 		(stroke
@@ -3746,6 +3750,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 72.39) (xy 248.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c76af21-6526-4f5e-ae74-2d04f9924e89")
+	)
+	(wire
+		(pts
 			(xy 38.1 80.01) (xy 38.1 69.85)
 		)
 		(stroke
@@ -3896,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 71.12) (xy 248.92 72.39)
+			(xy 245.11 71.12) (xy 245.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4505,7 +4519,7 @@
 		(uuid "03a8e8e5-9d25-40e7-a74b-6700bbe63cdc")
 	)
 	(label "3,3v"
-		(at 248.92 71.12 0)
+		(at 245.11 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10162,10 +10176,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ebca18ea-337a-409c-a02a-289a3c18889e")
 		(property "Reference" "D4"
-			(at 252.4125 66.04 0)
+			(at 258.064 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10175,7 +10188,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 252.4125 68.58 0)
+			(at 256.794 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
