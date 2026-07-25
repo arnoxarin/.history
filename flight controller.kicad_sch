@@ -8220,7 +8220,7 @@
 		)
 		(uuid "0bfbab33-ff02-4d1c-8dfc-7582b6da5cc3")
 	)
-	(label "pb11"
+	(label "pb11(SDA)"
 		(at 27.94 111.76 0)
 		(effects
 			(font
@@ -8389,6 +8389,16 @@
 			(justify left bottom)
 		)
 		(uuid "d11f4d0d-8b46-4c6d-9ea0-5d406d984899")
+	)
+	(label "pd5(RX)"
+		(at 120.65 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e88f0ebc-352a-4e70-b3d2-a80fec2c8c26")
 	)
 	(label "pd6(TX)"
 		(at 27.94 104.14 0)
