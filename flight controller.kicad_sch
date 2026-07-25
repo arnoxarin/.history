@@ -7319,6 +7319,18 @@
 		)
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
 	)
+	(label "pa5"
+		(at 166.37 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d613aea-aa9d-431b-90b4-6b813e3a1f91")
+	)
 	(label "i2c2 scl"
 		(at 173.99 114.3 0)
 		(effects
