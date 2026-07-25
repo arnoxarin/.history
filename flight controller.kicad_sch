@@ -7911,6 +7911,16 @@
 		)
 		(uuid "929b5863-900c-436a-a063-7565c5787984")
 	)
+	(label "pb0"
+		(at 166.37 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce82f47f-a6a3-440b-8fdb-27104f92fa89")
+	)
 	(label "i2c1sda"
 		(at 173.99 111.76 0)
 		(effects
