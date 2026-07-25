@@ -8090,7 +8090,7 @@
 		(uuid "fe83bd50-0166-4d47-8c99-9dab637072b9")
 	)
 	(label "pd9(usart3_rx)"
-		(at 106.68 139.7 0)
+		(at 104.14 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8295,7 +8295,7 @@
 		(uuid "a3e7d621-9343-4968-bfd7-3a9fe26d8722")
 	)
 	(label "5v"
-		(at 106.68 134.62 0)
+		(at 104.14 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12107,7 +12107,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 137.16 90)
+		(at 104.14 137.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12118,7 +12118,7 @@
 		(fields_autoplaced yes)
 		(uuid "a581aef5-5ee0-437c-a48a-0c80423a5c65")
 		(property "Reference" "#PWR022"
-			(at 113.03 137.16 0)
+			(at 110.49 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12129,7 +12129,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 137.1599 90)
+			(at 107.95 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12140,7 +12140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 137.16 0)
+			(at 104.14 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12151,7 +12151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 137.16 0)
+			(at 104.14 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,7 +12162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 137.16 0)
+			(at 104.14 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12738,7 +12738,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 101.6 139.7 180)
+		(at 99.06 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12749,7 +12749,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd806da6-247c-4029-a3e2-9776b5c92cff")
 		(property "Reference" "J7"
-			(at 102.235 129.54 0)
+			(at 99.695 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12759,7 +12759,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 102.235 132.08 0)
+			(at 99.695 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12769,7 +12769,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
-			(at 101.6 139.7 0)
+			(at 99.06 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12780,7 +12780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 139.7 0)
+			(at 99.06 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12791,7 +12791,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 101.6 139.7 0)
+			(at 99.06 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
