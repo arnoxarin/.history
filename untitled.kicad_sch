@@ -4094,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 72.39) (xy 256.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f616b7c-495d-479e-99ef-bac8d94e5cd8")
+	)
+	(wire
+		(pts
 			(xy 259.08 34.29) (xy 259.08 38.1)
 		)
 		(stroke
@@ -5015,7 +5025,7 @@
 		(uuid "836e2363-ed2b-4d02-8fea-e6ebf97b8404")
 	)
 	(label "stlink3.3"
-		(at 256.54 72.39 0)
+		(at 257.81 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
