@@ -7949,16 +7949,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 83.82) (xy 185.42 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb40038-5744-4f90-8104-20f254ae6919")
-	)
-	(wire
-		(pts
 			(xy 46.99 163.83) (xy 49.53 163.83)
 		)
 		(stroke
@@ -7986,16 +7976,6 @@
 			(type default)
 		)
 		(uuid "e017a103-0c40-4857-9d93-b247d862b75b")
-	)
-	(wire
-		(pts
-			(xy 185.42 93.98) (xy 185.42 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e97ce89f-2594-41a2-9e5a-9c04991de86a")
 	)
 	(wire
 		(pts
@@ -13396,83 +13376,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fcfd5cef-a232-4773-8dac-3687588fc706")
-		(property "Reference" "#PWR021"
-			(at 185.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.484 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f72c867b-d762-4e21-a2bd-8e8500206572")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
