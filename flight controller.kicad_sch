@@ -8475,6 +8475,18 @@
 		)
 		(uuid "af93cfe3-a778-445f-b99d-a2b950ffa5f1")
 	)
+	(label "pa2"
+		(at 166.37 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb238dda-a1a5-4e44-b7be-1ca3fe1353f7")
+	)
 	(label "pe5"
 		(at 120.65 81.28 180)
 		(effects
