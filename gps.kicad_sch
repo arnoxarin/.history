@@ -4317,16 +4317,6 @@
 		)
 		(uuid "af159a9a-543f-4ee6-995e-2ef0e4a44229")
 	)
-	(label "dat1"
-		(at 228.6 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b514383f-b05b-4155-a7fb-d3dcc429506e")
-	)
 	(label "vin"
 		(at 26.67 139.7 0)
 		(effects
@@ -4488,16 +4478,6 @@
 			(justify right bottom)
 		)
 		(uuid "f201888d-192e-495b-9a20-aa06f144456f")
-	)
-	(label "dat0"
-		(at 228.6 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f3858964-614b-4eca-bb02-7ab13f377ebf")
 	)
 	(label "servo9v"
 		(at 157.48 135.89 0)
