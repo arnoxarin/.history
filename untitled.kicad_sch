@@ -1422,7 +1422,7 @@
 				)
 			)
 			(symbol "ICM-42688-P_1_1_0"
-				(pin input line
+				(pin bidirectional line
 					(at -25.4 0 0)
 					(length 5.08)
 					(name "AP_CS"
@@ -1440,7 +1440,7 @@
 						)
 					)
 				)
-				(pin input clock
+				(pin bidirectional clock
 					(at -25.4 -2.54 0)
 					(length 5.08)
 					(name "AP_SCL/AP_SCLK"
