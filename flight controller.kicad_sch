@@ -8115,6 +8115,16 @@
 		)
 		(uuid "4762e1fa-19b9-459c-9edd-d114af81f725")
 	)
+	(label "pc11"
+		(at 166.37 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b296a42-f448-4a37-bf66-abb229be0894")
+	)
 	(label "pb10(SCL)"
 		(at 187.96 125.73 0)
 		(effects
