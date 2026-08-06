@@ -3164,6 +3164,12 @@
 		(uuid "3947f48a-f44a-4a98-86ad-247c62e03c7a")
 	)
 	(junction
+		(at 247.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b60bc09-7c24-4b34-94d5-d249b8d7212a")
+	)
+	(junction
 		(at 210.82 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3883,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 72.39) (xy 248.92 72.39)
+			(xy 245.11 72.39) (xy 247.65 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4140,6 +4146,16 @@
 			(type default)
 		)
 		(uuid "9045d5c2-b0e9-430e-a4e4-8617e98c47bf")
+	)
+	(wire
+		(pts
+			(xy 247.65 72.39) (xy 248.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e03456-62cd-461b-8fc8-34045eaa469a")
 	)
 	(wire
 		(pts
@@ -11436,6 +11452,84 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 247.65 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f85fbf-0c15-4ddb-8bf7-fd31f0416071")
+		(property "Reference" "#FLG06"
+			(at 247.65 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 247.65 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 247.65 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e635d2e1-3921-4aad-b0c0-b774432da791")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
