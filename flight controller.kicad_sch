@@ -5992,145 +5992,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3VA"
 			(power global)
 			(pin_numbers
@@ -6798,16 +6659,16 @@
 		(uuid "d2a8b6aa-5a8e-4e2e-af2d-9066974523d0")
 	)
 	(junction
+		(at 175.26 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e4098f-f0b2-40cf-9249-6e50d2879ad3")
+	)
+	(junction
 		(at 54.61 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbe72e4c-3212-4f13-9214-c597de287326")
-	)
-	(junction
-		(at 176.53 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcf30c05-5a7c-416e-98e8-6d501336bcca")
 	)
 	(junction
 		(at 175.26 124.46)
@@ -7019,6 +6880,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 101.6) (xy 179.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21aca30e-3716-4345-b0ab-5fb3979fba9b")
+	)
+	(wire
+		(pts
 			(xy 151.13 25.4) (xy 151.13 34.29)
 		)
 		(stroke
@@ -7116,16 +6987,6 @@
 			(type default)
 		)
 		(uuid "36de78ef-d60a-432c-8e27-14fbb530c003")
-	)
-	(wire
-		(pts
-			(xy 176.53 101.6) (xy 179.07 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc10fef-dd27-4e1e-ae63-00e9e4fcbfb9")
 	)
 	(wire
 		(pts
@@ -7759,7 +7620,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 176.53 101.6)
+			(xy 172.72 101.6) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7776,6 +7637,16 @@
 			(type default)
 		)
 		(uuid "be743981-658d-42fc-afed-afdbc4f679cc")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c076153b-531d-4abd-beeb-70d76b2717a1")
 	)
 	(wire
 		(pts
@@ -8181,6 +8052,16 @@
 			(justify left bottom)
 		)
 		(uuid "270a8afa-674b-4fde-9012-089c9774b917")
+	)
+	(label "3,3v"
+		(at 175.26 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "284191d0-da3f-4ece-bbe5-581f7808db3c")
 	)
 	(label "pb7"
 		(at 166.37 106.68 0)
@@ -9022,83 +8903,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 176.53 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19189493-98b3-4e52-9c62-425b320d080a")
-		(property "Reference" "#PWR026"
-			(at 176.53 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3v"
-			(at 176.276 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 176.53 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5f3247d-d6f9-4ea9-9ffa-1b6327cc4a3b")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
