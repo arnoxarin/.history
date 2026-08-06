@@ -4245,6 +4245,12 @@
 		(uuid "cd34f519-0d3d-416b-a22a-708da1fd1db7")
 	)
 	(junction
+		(at 107.95 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf600016-9a80-4399-ae2c-5015007e5f61")
+	)
+	(junction
 		(at 43.18 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4504,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 168.91) (xy 116.84 168.91)
+			(xy 99.06 168.91) (xy 107.95 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5241,6 +5247,16 @@
 			(type default)
 		)
 		(uuid "a6db8fb1-bf9b-41a5-a7b2-a270ce244c38")
+	)
+	(wire
+		(pts
+			(xy 107.95 168.91) (xy 116.84 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86a62de-dda2-45b1-bc61-7d79a810b9bc")
 	)
 	(wire
 		(pts
@@ -10700,6 +10716,84 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 107.95 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b642108b-d530-416d-8d37-c47e621f7838")
+		(property "Reference" "#PWR089"
+			(at 107.95 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 107.95 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 107.95 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2427504-3714-456a-a098-b87f1a857ab8")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
