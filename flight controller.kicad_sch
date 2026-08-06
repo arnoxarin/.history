@@ -7538,16 +7538,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 53.34) (xy 166.37 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71d9126f-3c1c-46d2-91a1-8badfa8056aa")
-	)
-	(wire
-		(pts
 			(xy 97.79 69.85) (xy 97.79 60.96)
 		)
 		(stroke
@@ -8468,7 +8458,7 @@
 		(uuid "4dc0c3d6-fe84-4fb9-90d5-f98b4bc74d97")
 	)
 	(label "pa3"
-		(at 171.45 53.34 0)
+		(at 166.37 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
