@@ -6595,7 +6595,7 @@
 	)
 	(text "stlink\n"
 		(exclude_from_sim no)
-		(at 223.266 96.012 0)
+		(at 228.346 76.962 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7199,7 +7199,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 176.53 91.44)
+			(xy 209.55 91.44) (xy 176.53 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7279,7 +7279,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 100.33) (xy 204.47 105.41)
+			(xy 209.55 81.28) (xy 209.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7419,7 +7419,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 113.03) (xy 204.47 115.57)
+			(xy 209.55 93.98) (xy 209.55 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7959,7 +7959,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 88.9) (xy 179.07 88.9)
+			(xy 209.55 88.9) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8069,7 +8069,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 115.57) (xy 207.01 115.57)
+			(xy 209.55 96.52) (xy 212.09 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8282,7 +8282,7 @@
 		(uuid "6b89894d-ce7a-4e67-88f5-ec68b3254efa")
 	)
 	(label "stlink3.3"
-		(at 204.47 100.33 0)
+		(at 209.55 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8608,7 +8608,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 209.55 110.49 180)
+		(at 214.63 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8619,7 +8619,7 @@
 		(fields_autoplaced yes)
 		(uuid "084d84ff-aed2-4479-8092-db280f787994")
 		(property "Reference" "J4"
-			(at 210.82 107.9499 0)
+			(at 215.9 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8630,7 +8630,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 210.82 110.4899 0)
+			(at 215.9 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8641,7 +8641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 110.49 0)
+			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,7 +8652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 110.49 0)
+			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8663,7 +8663,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 209.55 110.49 0)
+			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9593,7 +9593,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 115.57 0)
+		(at 212.09 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9603,7 +9603,7 @@
 		(dnp no)
 		(uuid "50a3a239-d111-4e06-8ddb-0786c34b622c")
 		(property "Reference" "#PWR024"
-			(at 207.01 121.92 0)
+			(at 212.09 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9614,7 +9614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.566 117.602 0)
+			(at 215.646 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9624,7 +9624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 115.57 0)
+			(at 212.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9635,7 +9635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 115.57 0)
+			(at 212.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9646,7 +9646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 115.57 0)
+			(at 212.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
