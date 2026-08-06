@@ -4355,12 +4355,6 @@
 		(uuid "6092aa79-affc-461f-905c-35652ed080a8")
 	)
 	(junction
-		(at 74.93 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60c04312-85fe-4621-94d7-157ea6a6855c")
-	)
-	(junction
 		(at 146.05 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5544,16 +5538,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 30.48) (xy 78.74 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa6d74d0-cb8b-40cf-8734-b31073a93f30")
-	)
-	(wire
-		(pts
 			(xy 83.82 127) (xy 83.82 128.27)
 		)
 		(stroke
@@ -5584,7 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 30.48) (xy 74.93 30.48)
+			(xy 68.58 30.48) (xy 78.74 30.48)
 		)
 		(stroke
 			(width 0)
@@ -11137,84 +11121,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 74.93 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1262665-9049-4a85-b553-586f4405693a")
-		(property "Reference" "#FLG03"
-			(at 74.93 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 74.93 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 74.93 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffa47a95-b7ef-44b8-9254-0a341bbed6a8")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
