@@ -8281,6 +8281,16 @@
 		)
 		(uuid "6b89894d-ce7a-4e67-88f5-ec68b3254efa")
 	)
+	(label "pa4"
+		(at 166.37 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e86b2f4-b2ce-40fd-b576-ed6ade9ca220")
+	)
 	(label "stlink3.3"
 		(at 209.55 81.28 0)
 		(effects
