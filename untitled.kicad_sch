@@ -6032,16 +6032,6 @@
 		)
 		(uuid "165178db-9a28-49a5-aeaf-45895143bd68")
 	)
-	(label "5v"
-		(at 208.28 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c303bc3-3aa3-43cc-97a0-d7b48b68a13f")
-	)
 	(label "pe1"
 		(at 234.95 124.46 0)
 		(effects
