@@ -6708,16 +6708,16 @@
 		(uuid "6dc79588-5cb1-455e-8911-9216b2b40e09")
 	)
 	(junction
-		(at 46.99 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fbf8d62-9a9f-40fa-b6d4-7b22a5c9fabc")
-	)
-	(junction
 		(at 67.31 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d9dd3d-4eff-44b9-aa96-67b603d4e7e7")
+	)
+	(junction
+		(at 46.99 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92fd5ac0-6250-4738-b1f2-76bd9fd93ab3")
 	)
 	(junction
 		(at 73.66 35.56)
@@ -7241,7 +7241,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 151.13) (xy 46.99 148.59)
+			(xy 46.99 151.13) (xy 46.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8776,14 +8776,14 @@
 		(uuid "eb55699d-c16c-4ab1-91f0-e7778bc66f42")
 	)
 	(label "vbus"
-		(at 45.72 151.13 0)
+		(at 46.99 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f19075f2-d25d-4faa-86e6-fa730132d173")
 	)
