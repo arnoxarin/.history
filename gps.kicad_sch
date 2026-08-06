@@ -4301,6 +4301,16 @@
 		)
 		(uuid "0b1a66b6-f027-4244-a633-1905e2226e39")
 	)
+	(label "vin"
+		(at 227.33 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cdfa3f0-4a90-4390-ad18-923888564426")
+	)
 	(label "pe13"
 		(at 130.81 81.28 180)
 		(effects
