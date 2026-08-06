@@ -3710,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 26.67) (xy 281.94 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dae1d2-4a0a-466d-90e3-680a1e550859")
+	)
+	(wire
+		(pts
 			(xy 20.32 38.1) (xy 30.48 38.1)
 		)
 		(stroke
@@ -4941,7 +4951,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 280.8914 30.4063 180)
+		(at 281.94 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4951,7 +4961,7 @@
 		(dnp no)
 		(uuid "06226be3-1270-4d0a-b3de-6d004cfaf354")
 		(property "Reference" "C51"
-			(at 282.6694 34.7243 0)
+			(at 283.718 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4962,7 +4972,7 @@
 			)
 		)
 		(property "Value" "22uf"
-			(at 284.1934 24.5643 0)
+			(at 285.242 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4973,7 +4983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.9262 26.5963 0)
+			(at 280.9748 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4984,7 +4994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.8914 30.4063 0)
+			(at 281.94 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4995,7 +5005,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 280.8914 30.4063 0)
+			(at 281.94 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
