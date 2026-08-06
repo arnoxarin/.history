@@ -8167,6 +8167,16 @@
 		)
 		(uuid "5159a7c3-75d9-41f7-b6ef-985488dfccbc")
 	)
+	(label "pc10"
+		(at 166.37 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ede99e-daab-434d-af6f-31e1e14507e5")
+	)
 	(label "pd8(usart3_tx)"
 		(at 120.65 137.16 180)
 		(effects
