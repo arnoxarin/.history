@@ -6708,6 +6708,12 @@
 		(uuid "6dc79588-5cb1-455e-8911-9216b2b40e09")
 	)
 	(junction
+		(at 46.99 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fbf8d62-9a9f-40fa-b6d4-7b22a5c9fabc")
+	)
+	(junction
 		(at 67.31 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7232,6 +7238,16 @@
 			(type default)
 		)
 		(uuid "52fa14c2-4781-4368-9727-b51ce60c5054")
+	)
+	(wire
+		(pts
+			(xy 45.72 151.13) (xy 46.99 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b2934d-3e9b-4a8e-bb14-6bc5bdc49edb")
 	)
 	(wire
 		(pts
@@ -8760,7 +8776,7 @@
 		(uuid "eb55699d-c16c-4ab1-91f0-e7778bc66f42")
 	)
 	(label "vbus"
-		(at 46.99 148.59 0)
+		(at 45.72 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10213,7 +10229,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 45.72 148.59 0)
+		(at 46.99 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10224,7 +10240,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e985d40-6767-4bfa-b214-64f13b7a1716")
 		(property "Reference" "#FLG07"
-			(at 45.72 146.685 0)
+			(at 46.99 146.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10235,7 +10251,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 45.72 143.51 0)
+			(at 46.99 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10245,7 +10261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 148.59 0)
+			(at 46.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10256,7 +10272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 148.59 0)
+			(at 46.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10267,7 +10283,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 148.59 0)
+			(at 46.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
