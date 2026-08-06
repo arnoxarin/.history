@@ -3560,7 +3560,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 55.88) (xy 209.55 43.18)
+			(xy 209.55 55.88) (xy 209.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3937,6 +3937,16 @@
 			(type default)
 		)
 		(uuid "83b0900f-fc22-4970-b8e7-f1fba1a48bde")
+	)
+	(wire
+		(pts
+			(xy 209.55 45.72) (xy 209.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875725dd-0b81-414c-a9fb-5e7c10adca29")
 	)
 	(wire
 		(pts
@@ -9882,6 +9892,87 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e57faa32-0eff-4714-af30-03d9a55085be")
+		(property "Reference" "R44"
+			(at 211.074 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20K"
+			(at 202.946 50.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.772 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e95d817-9052-4594-9fb1-e37557ed830e")
+		)
+		(pin "2"
+			(uuid "274bfc0a-32de-4ad7-8b6f-9f7bc1b2a4d7")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b/01eadb20-ad5a-457b-b9aa-f1bf9fe7a694"
+					(reference "R44")
 					(unit 1)
 				)
 			)
