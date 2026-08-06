@@ -7959,16 +7959,6 @@
 		)
 		(uuid "0a09b346-f755-4651-8849-1cfe612480a4")
 	)
-	(label "pb10(SCL)"
-		(at 27.94 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bfbab33-ff02-4d1c-8dfc-7582b6da5cc3")
-	)
 	(label "pa0"
 		(at 166.37 45.72 0)
 		(effects
@@ -8086,6 +8076,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c8b47f7-baf6-44e5-b2c7-730219905cf0")
+	)
+	(label "i2c2 scl"
+		(at 27.94 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "407b8f21-6339-4bce-9635-1a6b245f186a")
 	)
 	(label "pe14"
 		(at 120.65 104.14 180)
