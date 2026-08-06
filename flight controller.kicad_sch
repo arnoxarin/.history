@@ -6546,8 +6546,8 @@
 		(uuid "45c2920d-d28b-4cfd-94ea-dab907658910")
 	)
 	(rectangle
-		(start 199.39 93.98)
-		(end 245.11 123.19)
+		(start 199.39 73.66)
+		(end 245.11 102.87)
 		(stroke
 			(width 0)
 			(type default)
