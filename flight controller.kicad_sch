@@ -8074,7 +8074,7 @@
 		(uuid "2eea8f92-9a03-453d-94c4-f3f3df91f5ff")
 	)
 	(label "pe9"
-		(at 121.92 91.44 180)
+		(at 120.65 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8255,7 +8255,7 @@
 		(uuid "5c39d0a0-2740-4924-a1f8-982e672fd095")
 	)
 	(label "pe13"
-		(at 219.71 146.05 180)
+		(at 212.09 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8327,7 +8327,7 @@
 		(uuid "6e86b2f4-b2ce-40fd-b576-ed6ade9ca220")
 	)
 	(label "pe11"
-		(at 219.71 143.51 180)
+		(at 120.65 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
