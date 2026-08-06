@@ -4987,7 +4987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uf"
+		(property "Value" "100U"
 			(at 285.242 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
