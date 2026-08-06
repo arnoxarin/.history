@@ -8335,6 +8335,16 @@
 		)
 		(uuid "8c97db1f-27e7-4799-85ce-1962a543dbc5")
 	)
+	(label "pa6"
+		(at 166.37 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd13566-fe31-44bd-9749-50b4a806a2a6")
+	)
 	(label "pa5"
 		(at 166.37 58.42 0)
 		(effects
