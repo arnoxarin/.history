@@ -6612,12 +6612,6 @@
 		(uuid "03f52df3-6536-4f09-87d7-91dac3e17098")
 	)
 	(junction
-		(at 175.26 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08d6640e-4af4-4dbb-925b-e47de218c9c7")
-	)
-	(junction
 		(at 104.14 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6816,6 +6810,12 @@
 		(uuid "dcf30c05-5a7c-416e-98e8-6d501336bcca")
 	)
 	(junction
+		(at 175.26 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd13dfd8-d1f3-4fb1-ad6a-5f098a183d8d")
+	)
+	(junction
 		(at 50.8 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6886,16 +6886,6 @@
 			(type default)
 		)
 		(uuid "05636f78-1fba-41c1-a34d-afff30748ea1")
-	)
-	(wire
-		(pts
-			(xy 171.45 124.46) (xy 175.26 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ddc28b-a990-489e-b3a3-dfcf265a574a")
 	)
 	(wire
 		(pts
@@ -7379,13 +7369,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 124.46) (xy 177.8 124.46)
+			(xy 171.45 124.46) (xy 175.26 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b96fcbc-8063-4461-bd16-43991a4ea26e")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 177.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6befca92-8c8c-4c17-87e3-efdbbcb9d50b")
 	)
 	(wire
 		(pts
@@ -7726,6 +7726,16 @@
 			(type default)
 		)
 		(uuid "accadfd7-377f-4281-bf1a-6aac2b5e2c86")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 175.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8e0b1e-e112-4e7d-be2f-352b15e8228e")
 	)
 	(wire
 		(pts
@@ -8486,6 +8496,16 @@
 			(justify left bottom)
 		)
 		(uuid "a770b149-27a9-4a39-8c1a-792d2870c23d")
+	)
+	(label "3,3v"
+		(at 175.26 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7e6dda3-d94b-48b9-bfef-1d16a061bcca")
 	)
 	(label "pa5"
 		(at 64.77 153.67 0)
@@ -11524,83 +11544,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 175.26 124.46 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "858b15ac-02c1-42bf-8991-f87949a2d7d6")
-		(property "Reference" "#PWR027"
-			(at 175.26 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 171.45 125.476 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc1db71c-40a4-489d-ab4a-71ac5571335f")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
