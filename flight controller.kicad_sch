@@ -8108,6 +8108,16 @@
 		)
 		(uuid "0bfbab33-ff02-4d1c-8dfc-7582b6da5cc3")
 	)
+	(label "pe6"
+		(at 120.65 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fa1f669-ee60-4d98-803d-d52741150887")
+	)
 	(label "pb11(SDA)"
 		(at 27.94 111.76 0)
 		(effects
@@ -8547,6 +8557,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea2a8e16-f401-41d6-ba0e-59680b63948f")
+	)
+	(label "pe2"
+		(at 120.65 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb55699d-c16c-4ab1-91f0-e7778bc66f42")
 	)
 	(label "pd5(RX)"
 		(at 27.94 106.68 0)
