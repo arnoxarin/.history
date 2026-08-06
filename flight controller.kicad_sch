@@ -9230,7 +9230,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "169da420-21ed-4823-8965-40ff9260ec00")
 		(property "Reference" "#FLG08"
 			(at 133.35 23.495 0)
@@ -9244,7 +9243,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 133.35 20.32 0)
+			(at 137.668 22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
