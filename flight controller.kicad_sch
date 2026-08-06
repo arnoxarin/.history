@@ -8228,6 +8228,16 @@
 		)
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
 	)
+	(label "pd3"
+		(at 120.65 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65d44365-9965-4c29-9bfc-6346ee74aa2d")
+	)
 	(label "pe3"
 		(at 120.65 76.2 180)
 		(effects
