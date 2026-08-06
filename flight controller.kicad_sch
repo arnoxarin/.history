@@ -8109,7 +8109,7 @@
 		(uuid "0bfbab33-ff02-4d1c-8dfc-7582b6da5cc3")
 	)
 	(label "pe6"
-		(at 120.65 82.55 180)
+		(at 120.65 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
