@@ -6859,6 +6859,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 25.4) (xy 134.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047e241c-a858-4a35-aee3-6fc3330b61dd")
+	)
+	(wire
+		(pts
 			(xy 91.44 50.8) (xy 96.52 50.8)
 		)
 		(stroke
@@ -7629,6 +7639,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 25.4) (xy 134.62 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b11c0bd-cff2-4ae6-b681-9dc27d3e8220")
+	)
+	(wire
+		(pts
 			(xy 85.09 35.56) (xy 95.25 35.56)
 		)
 		(stroke
@@ -7776,16 +7796,6 @@
 			(type default)
 		)
 		(uuid "b6afb201-2c3b-4ec4-ba49-f388945ae2b3")
-	)
-	(wire
-		(pts
-			(xy 134.62 26.67) (xy 134.62 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb10362f-1ef9-486f-88f5-a6ee1e70fd52")
 	)
 	(wire
 		(pts
@@ -8300,6 +8310,16 @@
 			(justify left bottom)
 		)
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
+	)
+	(label "3,3v"
+		(at 130.81 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b89894d-ce7a-4e67-88f5-ec68b3254efa")
 	)
 	(label "stlink3.3"
 		(at 204.47 100.33 0)
@@ -9439,84 +9459,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 134.62 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "336e0c1b-6d91-4bab-a645-8337ae62486e")
-		(property "Reference" "#PWR02"
-			(at 134.62 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 134.62 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 134.62 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16985df1-2970-4681-8455-f36406d1d6ac")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
