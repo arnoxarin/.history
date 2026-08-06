@@ -8232,6 +8232,18 @@
 		)
 		(uuid "4db1cb83-5073-42dc-ad6c-cdbca528cf54")
 	)
+	(label "pa3"
+		(at 166.37 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e6e62e7-1c0e-41e6-a890-db553fd7b8ad")
+	)
 	(label "5v"
 		(at 27.94 101.6 0)
 		(effects
