@@ -6026,16 +6026,6 @@
 		)
 		(uuid "1c303bc3-3aa3-43cc-97a0-d7b48b68a13f")
 	)
-	(label "9v"
-		(at 146.05 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2875d55b-0443-4196-ada9-829a9446c683")
-	)
 	(label "pe1"
 		(at 234.95 124.46 0)
 		(effects
