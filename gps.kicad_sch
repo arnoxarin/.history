@@ -4146,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 27.94) (xy 59.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbb0253-09ff-4d76-abdb-2dc99a1c5353")
+	)
+	(wire
+		(pts
 			(xy 115.57 153.67) (xy 147.32 153.67)
 		)
 		(stroke
@@ -4473,7 +4483,7 @@
 		(uuid "52f8a7d4-8fe0-4884-b9e2-3282ddc6fb2c")
 	)
 	(label "5v"
-		(at 59.69 30.48 180)
+		(at 59.69 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
