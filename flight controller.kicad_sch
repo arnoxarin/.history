@@ -8140,18 +8140,6 @@
 		)
 		(uuid "0fa1f669-ee60-4d98-803d-d52741150887")
 	)
-	(label "mcugnd"
-		(at 144.78 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d103a63-3116-42af-9057-d40b13cd7768")
-	)
 	(label "pb5"
 		(at 166.37 101.6 0)
 		(effects
