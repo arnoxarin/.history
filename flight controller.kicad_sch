@@ -7981,16 +7981,6 @@
 		)
 		(uuid "0fa1f669-ee60-4d98-803d-d52741150887")
 	)
-	(label "pb11(SDA)"
-		(at 27.94 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14a13edf-e4d3-4471-948e-1b44e5eed080")
-	)
 	(label "mcugnd"
 		(at 144.78 184.15 0)
 		(effects
@@ -8245,6 +8235,16 @@
 			(justify left bottom)
 		)
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
+	)
+	(label "i2c2 sda"
+		(at 27.94 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60c17c36-8f03-4208-87da-953e1b575a73")
 	)
 	(label "pd3"
 		(at 120.65 119.38 180)
