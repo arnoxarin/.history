@@ -8303,6 +8303,16 @@
 		)
 		(uuid "7b964ced-e9c7-489a-8883-d1ef671801a9")
 	)
+	(label "pa7"
+		(at 166.37 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "880d06a2-a43b-4489-b56d-6b6ca89658bf")
+	)
 	(label "pd8(usart3_tx)"
 		(at 31.75 76.2 0)
 		(effects
