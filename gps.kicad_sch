@@ -3105,12 +3105,6 @@
 		(uuid "41fda743-7ef0-4522-9dbe-0734629ff7de")
 	)
 	(junction
-		(at 214.63 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "423dbece-8d24-46f4-86ae-65e6ebfb0b48")
-	)
-	(junction
 		(at 30.48 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3163,6 +3157,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e9ce19a-5e17-4e57-a197-805c3ff972f3")
+	)
+	(junction
+		(at 214.63 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af339488-0597-4c4a-9287-a369d21d9ec4")
 	)
 	(junction
 		(at 226.06 34.29)
@@ -3236,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 59.69) (xy 224.79 59.69)
+			(xy 214.63 62.23) (xy 224.79 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3646,7 +3646,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 59.69) (xy 214.63 59.69)
+			(xy 205.74 62.23) (xy 214.63 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3935,7 +3935,7 @@
 		(uuid "16fef272-dae4-441c-a90a-816551a53380")
 	)
 	(label "pc8"
-		(at 205.74 59.69 0)
+		(at 205.74 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4013,7 +4013,7 @@
 		(uuid "52f8a7d4-8fe0-4884-b9e2-3282ddc6fb2c")
 	)
 	(label "3.3v"
-		(at 214.63 52.07 0)
+		(at 214.63 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8342,7 +8342,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 55.88 0)
+		(at 214.63 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8353,17 +8353,6 @@
 		(fields_autoplaced yes)
 		(uuid "95bea40e-1118-4003-a7be-370d18352ff8")
 		(property "Reference" "R10"
-			(at 217.17 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K"
 			(at 217.17 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8374,8 +8363,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "47K"
+			(at 217.17 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 212.852 55.88 90)
+			(at 212.852 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8386,7 +8386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 55.88 0)
+			(at 214.63 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8397,7 +8397,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 55.88 0)
+			(at 214.63 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9380,7 +9380,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7a075f5-7d10-4a26-9635-be56d024d257")
 		(property "Reference" "#PWR029"
 			(at 214.63 53.34 0)
@@ -9394,7 +9393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 52.07 0)
+			(at 209.804 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
