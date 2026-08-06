@@ -11,24 +11,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 16.51 0)
+			(property "Reference" "U12"
+				(at 2.1433 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "74AHCT244"
-				(at -7.62 -16.51 0)
+				(at 2.1433 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -117,7 +119,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -12.7 12.7 0)
 					(length 5.08)
 					(name "1A0"
@@ -153,7 +155,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -12.7 10.16 0)
 					(length 5.08)
 					(name "1A1"
@@ -189,7 +191,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -12.7 7.62 0)
 					(length 5.08)
 					(name "1A2"
@@ -225,7 +227,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -12.7 5.08 0)
 					(length 5.08)
 					(name "1A3"
@@ -279,7 +281,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -12.7 -5.08 0)
 					(length 5.08)
 					(name "2A3"
@@ -315,7 +317,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -12.7 -2.54 0)
 					(length 5.08)
 					(name "2A2"
@@ -351,7 +353,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -12.7 0 0)
 					(length 5.08)
 					(name "2A1"
@@ -387,7 +389,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "2A0"
