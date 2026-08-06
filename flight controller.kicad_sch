@@ -8451,6 +8451,16 @@
 		)
 		(uuid "af93cfe3-a778-445f-b99d-a2b950ffa5f1")
 	)
+	(label "pe5"
+		(at 120.65 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbf6a73f-05cd-4b39-a4c8-0b9598174dc2")
+	)
 	(label "3,3v"
 		(at 199.39 21.59 0)
 		(effects
