@@ -8248,6 +8248,16 @@
 		)
 		(uuid "677dacaf-e70e-403e-a9e8-30de8fe00f47")
 	)
+	(label "pc8"
+		(at 166.37 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69ed07d6-7bc0-4f9f-b2c3-4cfcb16ab75c")
+	)
 	(label "3,3v"
 		(at 130.81 25.4 180)
 		(effects
@@ -8461,6 +8471,16 @@
 			(justify left bottom)
 		)
 		(uuid "bd7cad6b-0e05-4422-bf7b-3cbed7e3af64")
+	)
+	(label "pc9"
+		(at 170.18 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c131e1cd-f6fb-4082-9aee-60dfbc3ac6ef")
 	)
 	(label "vbus"
 		(at 63.5 160.02 0)
