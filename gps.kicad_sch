@@ -481,8 +481,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -16.51 17.78 0)
+			(property "Reference" "J5"
+				(at 0.635 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -492,14 +492,13 @@
 				)
 			)
 			(property "Value" "Micro_SD_Card_Det_Hirose_DM3AT"
-				(at 16.51 17.78 0)
+				(at 0.635 19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -745,7 +744,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -22.86 0 0)
 					(length 3.81)
 					(name "CLK"
