@@ -8288,18 +8288,6 @@
 		)
 		(uuid "7b88deab-6282-4978-9934-3e5d6e3c33a2")
 	)
-	(label "stlink3.3"
-		(at 209.55 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b964ced-e9c7-489a-8883-d1ef671801a9")
-	)
 	(label "pa7"
 		(at 166.37 63.5 0)
 		(effects
@@ -8541,6 +8529,17 @@
 			(justify left bottom)
 		)
 		(uuid "c95851c6-e4bc-4d48-8819-52e072c64860")
+	)
+	(label "stlink3.3"
+		(at 209.55 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "cab8f33e-f463-4a22-90f9-b58cfa914a8f")
 	)
 	(label "pb0"
 		(at 166.37 88.9 0)
@@ -9668,84 +9667,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.8898 82.5594 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bac9cd1-774f-45db-95e7-de9d39e29d41")
-		(property "Reference" "#PWR074"
-			(at 222.8898 88.9094 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.8898 87.6394 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.8898 82.5594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.8898 82.5594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.8898 82.5594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed0f83ef-48a5-497f-ac25-751c8c4dbaf4")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
