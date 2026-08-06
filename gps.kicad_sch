@@ -3377,6 +3377,16 @@
 		)
 		(uuid "6c052615-2b96-4d65-bf23-f86300575a48")
 	)
+	(text "6s input"
+		(exclude_from_sim no)
+		(at 237.744 141.478 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a9bb9517-d8ce-42b9-b6a9-c74241ea5791")
+	)
 	(text "esc dshot\n"
 		(exclude_from_sim no)
 		(at 150.876 61.722 0)
