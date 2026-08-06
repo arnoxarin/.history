@@ -8271,6 +8271,16 @@
 		)
 		(uuid "5cf77829-c04e-49e0-a442-68cc3d418bc6")
 	)
+	(label "pe3"
+		(at 120.65 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "677dacaf-e70e-403e-a9e8-30de8fe00f47")
+	)
 	(label "3,3v"
 		(at 130.81 25.4 180)
 		(effects
@@ -8386,6 +8396,16 @@
 			(justify left bottom)
 		)
 		(uuid "a3e7d621-9343-4968-bfd7-3a9fe26d8722")
+	)
+	(label "pe4"
+		(at 120.65 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a560b582-d193-4d70-88bc-edfb87568c47")
 	)
 	(label "5v"
 		(at 31.75 68.58 0)
