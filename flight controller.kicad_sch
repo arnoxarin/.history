@@ -6642,6 +6642,12 @@
 		(uuid "23d1bd4a-547f-4939-9a97-ad07d53f054d")
 	)
 	(junction
+		(at 154.94 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "270d81bb-dec2-42a4-971a-77b054446665")
+	)
+	(junction
 		(at 111.76 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6706,6 +6712,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dc79588-5cb1-455e-8911-9216b2b40e09")
+	)
+	(junction
+		(at 121.92 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80bd4f18-2fbe-4cd8-9cde-5f5c106b55fc")
 	)
 	(junction
 		(at 67.31 35.56)
@@ -7271,7 +7283,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 27.94) (xy 134.62 27.94)
+			(xy 114.3 27.94) (xy 121.92 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7298,6 +7310,16 @@
 			(type default)
 		)
 		(uuid "5b5ddaad-a78b-4742-b8df-69f8bac93654")
+	)
+	(wire
+		(pts
+			(xy 154.94 25.4) (xy 163.83 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a239a7-a4d8-4216-8fb2-7e96a7962fdb")
 	)
 	(wire
 		(pts
@@ -7851,7 +7873,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 25.4) (xy 163.83 25.4)
+			(xy 151.13 25.4) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7978,6 +8000,16 @@
 			(type default)
 		)
 		(uuid "ea913af0-4ca9-40c7-bace-3ceb3e2aa820")
+	)
+	(wire
+		(pts
+			(xy 121.92 27.94) (xy 134.62 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed61cabe-5aa1-4642-9530-039f4c429058")
 	)
 	(wire
 		(pts
@@ -9504,6 +9536,84 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 154.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e4d0a22-0d43-4f8f-b2e6-b458bb9daffd")
+		(property "Reference" "#FLG09"
+			(at 154.94 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 154.94 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 154.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a09b2cd4-7edf-4dad-bfe1-b2f25dfc0798")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -11923,6 +12033,84 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 121.92 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94b1fbd5-deed-42c2-9499-05e34aff42cc")
+		(property "Reference" "#FLG08"
+			(at 121.92 26.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 121.92 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 121.92 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a09b2cd4-7edf-4dad-bfe1-b2f25dfc0798")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
