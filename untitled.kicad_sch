@@ -3130,26 +3130,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -20.32 16.002 0)
+			(property "Reference" "U7"
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "ICM-42688-P"
-				(at -20.32 -20.32 0)
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
@@ -3529,7 +3527,27 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
+					(at -25.4 -5.08 0)
+					(length 5.08)
+					(name "AP_SDA/AP_SDIO/AP_SDI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICM-42688-P_1_0"
+				(pin bidirectional line
 					(at -25.4 0 0)
 					(length 5.08)
 					(name "AP_CS"
@@ -3547,7 +3565,7 @@
 						)
 					)
 				)
-				(pin input clock
+				(pin bidirectional clock
 					(at -25.4 -2.54 0)
 					(length 5.08)
 					(name "AP_SCL/AP_SCLK"
@@ -3558,24 +3576,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -5.08 0)
-					(length 5.08)
-					(name "AP_SDA/AP_SDIO/AP_SDI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 1.016 1.016)
