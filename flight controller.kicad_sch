@@ -8583,18 +8583,6 @@
 		)
 		(uuid "d5f40242-9bfc-425b-9209-41563121675c")
 	)
-	(label "vbus"
-		(at 46.99 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0fe65b2-7808-4beb-aeb1-2428040d976b")
-	)
 	(label "pd5(RX)"
 		(at 120.65 124.46 180)
 		(effects
@@ -8635,6 +8623,18 @@
 			(justify right bottom)
 		)
 		(uuid "eb55699d-c16c-4ab1-91f0-e7778bc66f42")
+	)
+	(label "vbus"
+		(at 46.99 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f19075f2-d25d-4faa-86e6-fa730132d173")
 	)
 	(label "pd2"
 		(at 120.65 116.84 180)
