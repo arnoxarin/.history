@@ -6726,6 +6726,12 @@
 		(uuid "84d9dd3d-4eff-44b9-aa96-67b603d4e7e7")
 	)
 	(junction
+		(at 144.78 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "887f49b6-18fb-48cd-9a52-ed6bcc5ab313")
+	)
+	(junction
 		(at 46.99 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7673,6 +7679,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 181.61) (xy 144.78 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7188f44-54ff-4c6d-aecd-47414474b015")
+	)
+	(wire
+		(pts
 			(xy 73.66 35.56) (xy 85.09 35.56)
 		)
 		(stroke
@@ -8083,7 +8099,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 186.69) (xy 144.78 180.34)
+			(xy 144.78 186.69) (xy 144.78 181.61)
 		)
 		(stroke
 			(width 0)
@@ -11792,6 +11808,85 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 144.78 181.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85839e07-92e7-40ca-9ce2-08de96445a14")
+		(property "Reference" "#FLG010"
+			(at 142.875 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 140.97 181.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 144.78 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a09b2cd4-7edf-4dad-bfe1-b2f25dfc0798")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
