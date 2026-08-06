@@ -7110,16 +7110,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 48.26) (xy 260.35 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52db7e5d-93b7-4df0-8bdd-4189560be12c")
-	)
-	(wire
-		(pts
 			(xy 50.8 167.64) (xy 58.42 167.64)
 		)
 		(stroke
@@ -7487,16 +7477,6 @@
 			(type default)
 		)
 		(uuid "9e7e9fca-4f84-4041-88e6-e0dcb4b32001")
-	)
-	(wire
-		(pts
-			(xy 260.35 60.96) (xy 260.35 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b76eba-fa8e-4b4a-bc0b-3e5a496e1f27")
 	)
 	(wire
 		(pts
@@ -9221,7 +9201,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 260.35 49.53 0)
+		(at 260.35 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9232,7 +9212,7 @@
 		(fields_autoplaced yes)
 		(uuid "23530158-6953-43f4-bceb-e4dd9879af35")
 		(property "Reference" "#PWR014"
-			(at 260.35 55.88 0)
+			(at 260.35 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9243,7 +9223,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 260.35 53.975 0)
+			(at 260.35 52.705 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9253,7 +9233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 49.53 0)
+			(at 260.35 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9264,7 +9244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 49.53 0)
+			(at 260.35 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9275,7 +9255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 49.53 0)
+			(at 260.35 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11244,7 +11224,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 260.35 62.23 0)
+		(at 260.35 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11255,7 +11235,7 @@
 		(fields_autoplaced yes)
 		(uuid "789d1ed1-3f1e-4a91-ac13-00325f7702b3")
 		(property "Reference" "#PWR015"
-			(at 260.35 68.58 0)
+			(at 260.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11266,7 +11246,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 260.35 66.675 0)
+			(at 260.35 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11276,7 +11256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 62.23 0)
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11287,7 +11267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 62.23 0)
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11298,7 +11278,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 62.23 0)
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
