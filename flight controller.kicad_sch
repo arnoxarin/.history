@@ -8581,6 +8581,16 @@
 		)
 		(uuid "f3a82d76-c619-4c26-b5f0-9972894dfeac")
 	)
+	(label "pc12"
+		(at 166.37 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7890aaa-e968-4e7d-b1a0-574fb25ee49c")
+	)
 	(label "pd5(RX)"
 		(at 27.94 106.68 0)
 		(effects
