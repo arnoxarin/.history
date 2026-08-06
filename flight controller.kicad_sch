@@ -8170,7 +8170,7 @@
 		(uuid "4db1cb83-5073-42dc-ad6c-cdbca528cf54")
 	)
 	(label "pd13"
-		(at 219.71 153.67 180)
+		(at 120.65 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8404,7 +8404,7 @@
 		(uuid "8d613aea-aa9d-431b-90b4-6b813e3a1f91")
 	)
 	(label "pd15"
-		(at 219.71 158.75 180)
+		(at 120.65 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8513,7 +8513,7 @@
 		(uuid "a7e6dda3-d94b-48b9-bfef-1d16a061bcca")
 	)
 	(label "pd14"
-		(at 219.71 156.21 180)
+		(at 120.65 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
