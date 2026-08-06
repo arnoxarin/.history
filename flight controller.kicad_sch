@@ -8571,6 +8571,16 @@
 		)
 		(uuid "eb55699d-c16c-4ab1-91f0-e7778bc66f42")
 	)
+	(label "pd2"
+		(at 120.65 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3a82d76-c619-4c26-b5f0-9972894dfeac")
+	)
 	(label "pd5(RX)"
 		(at 27.94 106.68 0)
 		(effects
